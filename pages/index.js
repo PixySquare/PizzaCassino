@@ -6,6 +6,8 @@ import Menu from '../components/Menu'
 import AboutUs from '../components/AboutUs'
 import Footer from '../components/Footer'
 import FindUs from '../components/FindUs'
+import Testimony from '../components/Testimony'
+
 
 
 export default function Home() {
@@ -20,6 +22,7 @@ export default function Home() {
       <Carousel/>
       <Menu/>
       <AboutUs/>
+      <Testimony/>
       <FindUs/>
       <Footer/>
     </div>
