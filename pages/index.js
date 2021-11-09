@@ -7,7 +7,6 @@ import AboutUs from '../components/AboutUs'
 import Footer from '../components/Footer'
 import FindUs from '../components/FindUs'
 import MenuComponent from '../components/MenuComponent'
-import Testimony from '../components/Testimony'
 
 export default function Home() {
   return (
@@ -19,9 +18,7 @@ export default function Home() {
       </Head>
       <Header/>
       <Carousel/>
-      <Menu/>
       <AboutUs/>
-      <Testimony/>
       <FindUs/>
       <MenuComponent/>
       <Footer/>
