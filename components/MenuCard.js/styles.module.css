@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    max-width:650px;
+    width:40vw;
+    margin-bottom:50px;
+    /* flex:0.3; */
+    /* max-width:400px; */
+}
+
+.wrapper h2{
+    margin-top:0px !important;
+}
+
+.image{
+    /* width:0px !important; */
+}
+
+.info{
+    padding:20px;
+    padding-top:0px;
+    width:100%;
+}

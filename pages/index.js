@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import AboutUs from '../components/AboutUs'
 import Footer from '../components/Footer'
 import FindUs from '../components/FindUs'
+import MenuComponent from '../components/MenuComponent'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Carousel/>
       <AboutUs/>
       <FindUs/>
+      <MenuComponent/>
       <Footer/>
     </div>
   )
