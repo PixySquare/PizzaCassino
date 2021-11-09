@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 function Menu() {
     return (
-        <div className={styles.menu}>
+        <div className={styles.menu} id="menu">
             <h1>MENU</h1>
             <hr style={{width: '30%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F2C94C",borderColor:"#F2C94C"}}/>
             <p style={{width:"70%",textAlign:"center",display:"block",marginLeft:"auto",marginRight:"auto"}}>

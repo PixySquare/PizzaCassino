@@ -34,32 +34,32 @@ function Header() {
 
             {open && (
                 <div className={styles.collapse}>
-                    <Link href='/'>
+                    <Link href='#home'>
                         <div className={styles.nav_item}>
                             HOME
                         </div>
                     </Link>
-                    <Link href='/'>
+                    <Link href='#aboutus'>
                         <div className={styles.nav_item}>
                             ABOUT US
                         </div>
                     </Link>
-                    <Link href='/'>
+                    <Link href='#menu'>
                         <div className={styles.nav_item}>
                             MENU
                         </div>
                     </Link>
-                    <Link href='/'>
+                    <Link href='#blogs'>
                         <div className={styles.nav_item}>
                             BLOGS
                         </div>
                     </Link>
-                    <Link href='/'>
+                    <Link href='#testimony'>
                         <div className={styles.nav_item}>
                             TESTIMONY
                         </div>
                     </Link>
-                    <Link href='/'>
+                    <Link href='#contact'>
                         <div className={styles.nav_item}>
                             CONTACT
                         </div>

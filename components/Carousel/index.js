@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 function Carousel() {
     return (
-        <div className={styles.wrapper}>
+        <div className={styles.wrapper} id="home">
             <div className={styles.leftContainer}>
                 <h1 style={{fontSize:"40px"}}>Craving for a cheesy pizza?</h1>
                 <hr style={{width: '60%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
