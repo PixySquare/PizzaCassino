@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './styles.module.css';
-import Image from 'next/Image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faInstagram,
