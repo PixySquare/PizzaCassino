@@ -1,11 +1,18 @@
 import Head from 'next/head'
+import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Carousel from '../components/Carousel'
-import styles from '../styles/Home.module.css'
+import Menu from '../components/Menu'
 import AboutUs from '../components/AboutUs'
 import Footer from '../components/Footer'
 import FindUs from '../components/FindUs'
+<<<<<<< HEAD
 import MenuComponent from '../components/MenuComponent'
+=======
+import Testimony from '../components/Testimony'
+
+
+>>>>>>> 52eff90710736b8c85d0583f9f1c33cf6e1a1502
 
 export default function Home() {
   return (
@@ -17,7 +24,9 @@ export default function Home() {
       </Head>
       <Header/>
       <Carousel/>
+      <Menu/>
       <AboutUs/>
+      <Testimony/>
       <FindUs/>
       <MenuComponent/>
       <Footer/>

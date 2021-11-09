@@ -7,7 +7,7 @@ function Header() {
 
     return (
         <div className={styles.header} >
-            <Link href='/'>
+            <Link href='/' passHref>
                 <div className={styles.brand}>
                     Pizza Cassino
                 </div>
@@ -34,32 +34,32 @@ function Header() {
 
             {open && (
                 <div className={styles.collapse}>
-                    <Link href='/'>
+                    <Link href='#home' passHref>
                         <div className={styles.nav_item}>
                             HOME
                         </div>
                     </Link>
-                    <Link href='/'>
+                    <Link href='#aboutus' passHref>
                         <div className={styles.nav_item}>
                             ABOUT US
                         </div>
                     </Link>
-                    <Link href='/'>
+                    <Link href='#menu' passHref>
                         <div className={styles.nav_item}>
                             MENU
                         </div>
                     </Link>
-                    <Link href='/'>
+                    <Link href='#blogs' passHref>
                         <div className={styles.nav_item}>
                             BLOGS
                         </div>
                     </Link>
-                    <Link href='/'>
+                    <Link href='#testimony' passHref>
                         <div className={styles.nav_item}>
                             TESTIMONY
                         </div>
                     </Link>
-                    <Link href='/'>
+                    <Link href='#contact' passHref>
                         <div className={styles.nav_item}>
                             CONTACT
                         </div>
