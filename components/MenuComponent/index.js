@@ -37,7 +37,17 @@ function MenuComponent() {
                 <div>
                     <MenuCard src={pizza} title={"Pizza"} price={"25"} info={"Loreum Ipsum text"}/>
                 </div>
+                <div>
+                    <MenuCard src={pizza} title={"Pizza"} price={"25"} info={"Loreum Ipsum text"}/>
+                </div>
+                <div>
+                    <MenuCard src={pizza} title={"Pizza"} price={"25"} info={"Loreum Ipsum text"}/>
+                </div>
+
+                
             </div>
+            <a href="/menu"><h1 style={{textAlign: "center", color:"#fff"}}>Visit Our Entire Menu</h1></a>
+            <hr style={{width: '10%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
         </div>
     )
 }
