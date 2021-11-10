@@ -2,6 +2,9 @@ import React from 'react'
 import MenuCard from '../MenuCard.js'
 import styles from './styles.module.css'
 import pizza from '../../public/assets/menu/pizza.jpeg'
+import Link from "next/link";
+
+
 function MenuComponent() {
 
     const specialMenu = 
@@ -46,7 +49,7 @@ function MenuComponent() {
 
                 
             </div>
-            <a href="/menu"><h1 style={{textAlign: "center", color:"#fff"}}>Visit Our Entire Menu</h1></a>
+            <Link href="/menu" passHref><h1 style={{textAlign: "center", color:"#fff"}}>Visit Our Entire Menu</h1></Link>
             <hr style={{width: '10%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
         </div>
     )

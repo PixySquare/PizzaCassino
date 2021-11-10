@@ -8,11 +8,11 @@ import styles from '../styles/menu.module.css'
 import Header from '../components/Header';
 import MenuComponent from '../components/MenuComponent'
 
-function menuPage() {
+function MenuPage() {
     const handleChange = (event, newValue) => {
         setValue(newValue);
       };
-    const [value, setValue] = React.useState('1');
+    const [value, setValue] = useState('1');
 
     return (
         <div>
@@ -73,4 +73,4 @@ function menuPage() {
     )
 }
 
-export default menuPage
+export default MenuPage;
