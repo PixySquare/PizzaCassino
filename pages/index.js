@@ -19,6 +19,8 @@ export default function Home() {
       <Carousel/>
       <AboutUs/>
       <FindUs/>
+      <h1 style={{textAlign: 'center'}}>MENU</h1>
+      <hr style={{width: '50%',display: 'block', marginRight:"auto",backgroundColor:"#F2C94C",borderColor:"#F2C94C"}} />
       <MenuComponent/>
       <Footer/>
     </div>

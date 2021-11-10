@@ -20,8 +20,8 @@ function MenuComponent() {
     })
     return (
         <div className={styles.wrapper}>
-            <h1>MENU</h1>
-            <hr style={{width: '50%',display: 'block', marginRight:"auto",backgroundColor:"#F2C94C",borderColor:"#F2C94C"}} />
+            {/* <h1>MENU</h1>
+            <hr style={{width: '50%',display: 'block', marginRight:"auto",backgroundColor:"#F2C94C",borderColor:"#F2C94C"}} /> */}
             <div className={styles.menuFlex}>
                
         
