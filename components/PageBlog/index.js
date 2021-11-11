@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/Image'
 import styles from './styles.module.css'
-import Link from 'next/Link'
+import Link from 'next/link'
 import food from '../../public/assets/blogs/food.png'
 function PageBlog(props) {
     var flex_direction = "row";

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles.module.css'
 import pizzaBlog from '../../public/assets/pizzaBlog.png'
-import Image from 'next/Image'
+import Image from 'next/image'
 
 function FeaturedBlog() {
     return (
