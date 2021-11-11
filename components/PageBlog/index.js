@@ -12,7 +12,7 @@ function PageBlog(props) {
     return (
         <div className={styles.container} style={{flexDirection:flex_direction}}>
             <div style={{width:"50%"}}>
-                <Image src={food}/>
+                <Image src={food} alt="image"/>
             </div>
             <div style={{padding:30,width:"50%"}}>
                 <p style={{fontSize:"20px",color:"#F2C94C"}}>Loreum Ipsum</p>

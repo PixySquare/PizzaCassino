@@ -6,7 +6,7 @@ import Image from 'next/Image'
 function FeaturedBlog() {
     return (
         <div className={styles.wrapper}>
-            <Image src={pizzaBlog} />
+            <Image src={pizzaBlog} alt="image" />
             <p style={{fontSize:25,color:"#F2C94C"}}>Loreum Ipsum</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
         </div>
