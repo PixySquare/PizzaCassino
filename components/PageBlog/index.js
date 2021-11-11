@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/Image'
+import Image from 'next/image'
 import styles from './styles.module.css'
 import Link from 'next/link'
 import food from '../../public/assets/blogs/food.png'
