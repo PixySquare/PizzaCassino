@@ -27,7 +27,7 @@ function MenuPage() {
             <TabContext value={value}>
                 <Box sx={{ borderBottom: 1, borderColor: 'divider',width:"100%",color:"#fff" }}>
                     <TabList variant="fullWidth" onChange={handleChange} aria-label="lab API tabs example">
-                    <Tab sx={{
+                    <Tab style={{color:"#fff"}} sx={{
                         color: 'rgba(255, 255, 255, 0.7)',
                         '& .Mui-selected': {
                         color: '#fff',
