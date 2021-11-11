@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import styles from '../styles/menu.module.css'
 import Header from '../components/Header';
 import MenuComponent from '../components/MenuComponent'
+import Footer from '../components/Footer';
 
 function MenuPage() {
     const handleChange = (event, newValue) => {
@@ -69,6 +70,8 @@ function MenuPage() {
                     <MenuComponent />   
                 </TabPanel>
                 </TabContext>
+
+                <Footer/>
         </div>
     )
 }

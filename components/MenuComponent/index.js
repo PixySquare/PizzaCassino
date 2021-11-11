@@ -49,8 +49,9 @@ function MenuComponent() {
 
                 
             </div>
-            <Link href="/menu" passHref><h1 style={{textAlign: "center", color:"#fff"}}>Visit Our Entire Menu</h1></Link>
-            <hr style={{width: '10%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
+            <div className="buttonYellow">
+                <Link href="/menu" passHref><p style={{textAlign: "center", color:"#F2C94C"}}>Read More</p></Link>
+            </div>
         </div>
     )
 }

@@ -7,6 +7,7 @@ import AboutUs from '../components/AboutUs'
 import Footer from '../components/Footer'
 import FindUs from '../components/FindUs'
 import MenuComponent from '../components/MenuComponent'
+import BlogsComponent from '../components/BlogsComponent'
 
 export default function Home() {
   return (
@@ -18,10 +19,11 @@ export default function Home() {
       <Header/>
       <Carousel/>
       <AboutUs/>
-      <FindUs/>
       <h1 style={{textAlign: 'center'}}>MENU</h1>
-      <hr style={{width: '50%',display: 'block', marginRight:"auto",backgroundColor:"#F2C94C",borderColor:"#F2C94C"}} />
+      <hr style={{width: '25%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
       <MenuComponent/>
+      <BlogsComponent/>
+      <FindUs/>
       <Footer/>
     </div>
   )
