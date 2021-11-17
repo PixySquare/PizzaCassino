@@ -34,7 +34,7 @@ function Header() {
 
             {open && (
                 <div className={styles.collapse}>
-                    <Link href='#home' passHref>
+                    <Link href='/' passHref>
                         <div className={styles.nav_item}>
                             HOME
                         </div>
@@ -44,12 +44,12 @@ function Header() {
                             ABOUT US
                         </div>
                     </Link>
-                    <Link href='#menu' passHref>
+                    <Link href='/menu' passHref>
                         <div className={styles.nav_item}>
                             MENU
                         </div>
                     </Link>
-                    <Link href='#blogs' passHref>
+                    <Link href='/blogs' passHref>
                         <div className={styles.nav_item}>
                             BLOGS
                         </div>

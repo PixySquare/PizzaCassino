@@ -9,6 +9,7 @@ import Header from '../components/Header';
 import MenuComponent from '../components/MenuComponent'
 import Footer from '../components/Footer';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import ZomatoComponent from '../components/ZomatoComponent';
 const theme = createTheme({
   palette: {
     primary: {
@@ -31,6 +32,7 @@ function MenuPage() {
             <Header/>
             <div className={styles.container}>
             </div>
+            <ZomatoComponent/>
             <h1 style={{textAlign: 'center'}}>Menu</h1>
             <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
             <br/>

@@ -8,6 +8,7 @@ import Footer from '../components/Footer'
 import FindUs from '../components/FindUs'
 import MenuComponent from '../components/MenuComponent'
 import BlogsComponent from '../components/BlogsComponent'
+import OurTeam from '../components/OurTeam'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <MenuComponent/>
       <BlogsComponent/>
       <FindUs/>
+      <OurTeam/>
       <Footer/>
     </div>
   )

@@ -1,0 +1,79 @@
+.wrapper{
+    display:flex;
+    padding:20px;
+    font-size: 150%;
+    width:90%;
+    margin-left:auto !important;
+    margin-right:auto;
+    justify-content: center;
+    text-align: right !important;
+    background-color:#000;
+    margin:20px;
+}
+
+.zomatoButton
+{
+    text-align: center;
+    display: flex !important;
+    border: 2px solid #cb202d !important;
+    text-decoration: none;
+    min-width:250px;
+    align-items: center ;
+    justify-content: center;
+    padding-left:15px;
+    padding-right:15px;
+    border:none;
+    border-radius:7px;
+    display: inline-block;
+    outline: none;
+    background-color: #cb202d;
+    color:#fff !important;
+    width: auto;
+    background: linear-gradient(to left, #cb202d 50%, #fff 50%) right!important;
+    background-size: 200%!important;
+    transition: .3s ease-out!important;
+    cursor:pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.zomatoButton:hover{
+    background-position: left!important;
+    color:#cb202d!important;
+    border-color: #cb202d !important;
+    background-color: #fff;
+}
+
+.swiggyButton{
+    margin-left: 10px;
+    margin-right: 10px;
+  /* background-color:#fff; */
+  text-align: center;
+  display: flex !important;
+  border: 2px solid #FC8019 !important;
+  text-decoration: none;
+  min-width:250px;
+  align-items: center ;
+  justify-content: center;
+  padding-left:15px;
+  padding-right:15px;
+  border:none;
+  border-radius:7px;
+  display: inline-block;
+  outline: none;
+  background-color: #FC8019;
+  color:#fff !important;
+  width: auto;
+  background: linear-gradient(to left, #FC8019 50%, #fff 50%) right!important;
+  background-size: 200%!important;
+  transition: .3s ease-out!important;
+  cursor:pointer;
+}
+
+.swiggyButton:hover{
+    background-position: left!important;
+    color:#FC8019!important;
+    border-color: #FC8019 !important;
+    background-color: #fff;
+}
+
