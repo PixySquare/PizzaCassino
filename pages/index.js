@@ -20,7 +20,7 @@ export default function Home() {
       <Header/>
       <Carousel/>
       <AboutUs/>
-      <Menu />
+      <Menu/>
       <BlogsComponent/>
       <FindUs/>
       <OurTeam/>

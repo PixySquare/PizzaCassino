@@ -37,31 +37,22 @@ export const MenuContent = {
 export const BlogContent = {
     heading:"CRAVING FOR MORE?",
     description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-    SpecialMenu: [
+    Blogs: [
         {
             "image"      : pizza,
             "name"       : "Pizza",
-            "ingredients": "Loreum, Loreum",
             "description": "Loreum Ipsum text"
         },
         {
             "image"      : pizza,
             "name"       : "Sandwich",
-            "ingredients": "Loreum, Loreum",
             "description": "Loreum Ipsum text"
         },
         {
             "image"      : pizza,
             "name"       : "Pasta",
-            "ingredients": "Loreum, Loreum",
             "description": "Loreum Ipsum text"
         },
-        {
-            "image"      : pizza,
-            "name"       : "Burger",
-            "ingredients": "Loreum, Loreum",
-            "description": "Loreum Ipsum text"
-        }
     ]
 };
 
