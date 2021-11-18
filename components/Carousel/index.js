@@ -9,14 +9,14 @@ export default class DemoCarousel extends Component {
     render() {
         return (
             <div>
-                <Carousel >
+                <Carousel autoplay >
                     <div>
                         <Image src={wood} style={{width: '20%'}} alt="legend 1"/>
                         <p className="legend">Legend 1</p>
                     </div>
                     <div>
                         <Image src={wood} style={{width: '20%'}} alt="legend 2"/>
-                        <p className="legend">Legend 2</p>
+                        <p className="legend">Legendvg 2</p>
                     </div>
                     <div>
                         <Image src={wood} style={{width: '20%'}} alt="legend 2"/>

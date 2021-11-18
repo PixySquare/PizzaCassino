@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Carousel from '../components/Carousel'
 // import Menu from '../components/Menu'
+import {SpecialMenu} from '../data'
 import AboutUs from '../components/AboutUs'
 import Footer from '../components/Footer'
 import FindUs from '../components/FindUs'
@@ -22,7 +23,7 @@ export default function Home() {
       <AboutUs/>
       <h1 style={{textAlign: 'center'}}>MENU</h1>
       <hr style={{width: '25%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
-      <MenuComponent/>
+      <MenuComponent data={SpecialMenu}/>
       <BlogsComponent/>
       <FindUs/>
       <OurTeam/>

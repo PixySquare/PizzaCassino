@@ -6,6 +6,7 @@ import TabPanel from '@mui/lab/TabPanel';
 import Box from '@mui/material/Box';
 import styles from '../styles/menu.module.css'
 import Header from '../components/Header';
+import { AllMenu, StartersMenu, MainMenu, DrinksMenu, PromotionsMenu } from '../data';
 import MenuComponent from '../components/MenuComponent'
 import Footer from '../components/Footer';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -51,29 +52,29 @@ function MenuPage() {
                     <TabPanel value="1">
                         <h1 style={{textAlign: 'left',marginLeft:"8%"}}>All</h1>
                         <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"8%",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
-                        <MenuComponent />
+                        <MenuComponent data={AllMenu} />
                     </TabPanel>
                     <TabPanel value="2">
                         <h1 style={{textAlign: 'left',marginLeft:"8%"}}>Starters</h1>
                         <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"8%",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
-                        <MenuComponent />
+                        <MenuComponent data={StartersMenu} />
 
                     </TabPanel>
                     <TabPanel value="3">
                         <h1 style={{textAlign: 'left',marginLeft:"8%"}}>Main</h1>
                         <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"8%",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
-                        <MenuComponent />
+                        <MenuComponent data={MainMenu} />
 
                     </TabPanel>
                     <TabPanel value="4">
                         <h1 style={{textAlign: 'left',marginLeft:"8%"}}>Drinks</h1>
                         <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"8%",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
-                        <MenuComponent />
+                        <MenuComponent data={DrinksMenu} />
                     </TabPanel>
                     <TabPanel value="5">
                         <h1 style={{textAlign: 'left',marginLeft:"8%"}}>Promotion</h1>
                         <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"8%",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
-                        <MenuComponent />   
+                        <MenuComponent data={PromotionsMenu}  />   
                     </TabPanel>
                     </TabContext>
                 </ThemeProvider>

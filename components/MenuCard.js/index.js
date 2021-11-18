@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './styles.module.css';
 import Image from 'next/image';
 
-function MenuCard({src,title,price,info}) {
+function MenuCard({src,title,info,ingredients,price}) {
     return (
         <div className={styles.wrapper}>
             <div className={styles.imageDiv} style={{width:"80%"}}>
@@ -11,10 +11,14 @@ function MenuCard({src,title,price,info}) {
             <div className={styles.info} style={{width:"100%"}}>
                 <div style={{display: 'flex',justifyContent: 'space-between',color:"#F2C94C",width:"100%"}}>
                     <h2>{title}</h2>
-                    <h2>${price}</h2>
+                    {price === undefined || price === null ? null : (<h2>{"$" + price}</h2>) }
+                    
                 </div>
+                
+                {ingredients === undefined || ingredients === null ? null : (<h2>{ingredients}</h2>) }
+
                 <div>
-                {info}
+                    {info}
                 </div>
 
             </div>
