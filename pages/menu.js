@@ -32,10 +32,12 @@ function MenuPage() {
         <div>
             <Header/>
             <div className={styles.container}>
+
+                <ZomatoComponent/>
+
             </div>
-            <ZomatoComponent/>
-            <h1 style={{textAlign: 'center'}}>Menu</h1>
-            <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
+            <h1 style={{textAlign: 'center'}}>OUR MENU</h1>
+            <hr style={{width: '70%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
             <br/>
             <br/>
             <ThemeProvider theme={theme}>
