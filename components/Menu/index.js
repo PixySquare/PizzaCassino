@@ -4,7 +4,6 @@ import MenuComponent from '../MenuComponent'
 import {MenuContent} from '../../data';
 
 
-
 function Menu() {
     return (
         <div className={styles.wrapper}>
