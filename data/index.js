@@ -32,7 +32,7 @@ export const AllMenu =
 [
     {
         "image"      : pizza,
-        "name"       : "Pizza",
+        "name"       : "Pizza1",
         "price": "3",
         "description": "Loreum Ipsum text"
     },
@@ -56,11 +56,11 @@ export const AllMenu =
     }
 ]
 
-export const Starters = 
+export const StartersMenu = 
 [
     {
         "image"      : pizza,
-        "name"       : "Pizza",
+        "name"       : "Pizza2",
         "price": "3",
         "description": "Loreum Ipsum text"
     },
@@ -84,11 +84,11 @@ export const Starters =
     }
 ]
 
-export const Main = 
+export const MainMenu = 
 [
     {
         "image"      : pizza,
-        "name"       : "Pizza",
+        "name"       : "Pizza3",
         "price": "3",
         "description": "Loreum Ipsum text"
     },
@@ -112,11 +112,11 @@ export const Main =
     }
 ]
 
-export const Drinks = 
+export const DrinksMenu = 
 [
     {
         "image"      : pizza,
-        "name"       : "Pizza",
+        "name"       : "Pizza4",
         "price": "3",
         "description": "Loreum Ipsum text"
     },
@@ -140,11 +140,11 @@ export const Drinks =
     }
 ]
 
-export const Promotions = 
+export const PromotionsMenu = 
 [
     {
         "image"      : pizza,
-        "name"       : "Pizza",
+        "name"       : "Pizza5",
         "price": "3",
         "description": "Loreum Ipsum text"
     },

@@ -3,13 +3,12 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/Header'
 import Carousel from '../components/Carousel'
 // import Menu from '../components/Menu'
-import {SpecialMenu} from '../data'
 import AboutUs from '../components/AboutUs'
 import Footer from '../components/Footer'
 import FindUs from '../components/FindUs'
-import MenuComponent from '../components/MenuComponent'
 import BlogsComponent from '../components/BlogsComponent'
 import OurTeam from '../components/OurTeam'
+import Menu from '../components/Menu'
 
 export default function Home() {
   return (
@@ -21,9 +20,7 @@ export default function Home() {
       <Header/>
       <Carousel/>
       <AboutUs/>
-      <h1 style={{textAlign: 'center'}}>MENU</h1>
-      <hr style={{width: '25%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
-      <MenuComponent data={SpecialMenu}/>
+      <Menu />
       <BlogsComponent/>
       <FindUs/>
       <OurTeam/>
