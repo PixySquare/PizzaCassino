@@ -2,8 +2,18 @@ import styles from './styles.module.css';
 import Link from 'next/link'
 import { useState } from 'react';
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faInstagram,
+    faTwitter,
+    faFacebook,
+    faWhatsapp
+  } from '@fortawesome/free-brands-svg-icons';
+
+
+
 function Header() {
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
 
     return (
         <div className={styles.header} >
@@ -62,6 +72,24 @@ function Header() {
                     <Link href='#contact' passHref>
                         <div className={styles.nav_item}>
                             CONTACT
+                        </div>
+                    </Link>
+
+                    <Link href='www.instagram.com' passHref>
+                        <div className={styles.nav_item}>
+                            <FontAwesomeIcon icon={faInstagram} size="lg"/>
+                        </div>
+                    </Link>
+
+                    <Link href='www.facebook.com' passHref>
+                        <div className={styles.nav_item}>
+                            <FontAwesomeIcon icon={faFacebook} size="lg"/>
+                        </div>
+                    </Link>
+
+                    <Link href='www.twitter.com' passHref>
+                        <div className={styles.nav_item}>
+                            <FontAwesomeIcon icon={faTwitter} size="lg"/> 
                         </div>
                     </Link>
 
