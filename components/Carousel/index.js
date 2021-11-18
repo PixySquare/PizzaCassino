@@ -3,6 +3,7 @@ import styles from './styles.module.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image'
+import wood from '../../public/assets/wood.png'
 
 export default class DemoCarousel extends Component {
     render() {
@@ -10,15 +11,15 @@ export default class DemoCarousel extends Component {
             <div>
                 <Carousel >
                     <div>
-                        <Image src="assets/wood.png" style={{width: '20%'}} alt={dough}/>
+                        <Image src={wood} style={{width: '20%'}} alt="legend 1"/>
                         <p className="legend">Legend 1</p>
                     </div>
                     <div>
-                        <Image src="assets/wood.png"style={{width: '20%'}} alt={dough}/>
+                        <Image src={wood} style={{width: '20%'}} alt="legend 2"/>
                         <p className="legend">Legend 2</p>
                     </div>
                     <div>
-                        <Image src="assets/wood.png"style={{width: '20%'}} alt={dough}/>
+                        <Image src={wood} style={{width: '20%'}} alt="legend 2"/>
                         <p className="legend">Legend 3</p>
                     </div>
                 </Carousel>
