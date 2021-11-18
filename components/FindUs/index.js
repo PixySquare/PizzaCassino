@@ -1,40 +1,45 @@
 import React from 'react'
 import styles from './styles.module.css';
+import  { FindUsContent } from "../../data";
 
 function FindUs() {
     return (
-        <div>
+            <div className={styles.mainwrapper} id="contact">
+                <h1 style={{textAlign: 'center'}}>{FindUsContent.heading}</h1>
+                <hr style={{width: '75%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
+                <div className={styles.wrapper}>
+                    <div className={styles.rightContainer}>
+                        {/* <h1>Find Us</h1>
+                        <hr style={{width: '60%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F2C94C",borderColor:"#F2C94C"}}/> */}
+                        <p>
+                            {FindUsContent.location1.description}
+                        </p>
+                        <h4>{FindUsContent.location1.locationtext}</h4>
+                        <h4>{FindUsContent.location1.contact}</h4>
 
-            <div className={styles.wrapper} id="contact">
-                <div className={styles.rightContainer}>
-                    <h1>Find Us</h1>
-                    <hr style={{width: '60%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F2C94C",borderColor:"#F2C94C"}}/>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
-                    </p>
+                    </div>
+
+                    <div className={styles.leftContainer}>
+                        <iframe src={FindUsContent.location1.location} width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
 
-                <div className={styles.leftContainer}>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.354723953281!2d77.02671531548701!3d28.619128891437434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05344857ab01%3A0xa2e7b93ec4f6f07a!2sPizza%20Cassino!5e0!3m2!1sen!2sin!4v1636439274578!5m2!1sen!2sin" width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
-                </div>
-            </div>
+                <div className={styles.wrapper} id="contact">
+                    <div className={styles.leftContainer}>
+                        <iframe src={FindUsContent.location1.location} width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
+                    </div>
 
-            <div className={styles.wrapper} id="contact">
-                <div className={styles.leftContainer}>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.354723953281!2d77.02671531548701!3d28.619128891437434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d05344857ab01%3A0xa2e7b93ec4f6f07a!2sPizza%20Cassino!5e0!3m2!1sen!2sin!4v1636439274578!5m2!1sen!2sin" width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
+                    <div className={styles.rightContainer}>
+                        {/* <h1>Find Us</h1>
+                        <hr style={{width: '60%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F2C94C",borderColor:"#F2C94C"}}/> */}
+                        <p>
+                            {FindUsContent.location1.description}
+                        </p>
+                        <h4>{FindUsContent.location1.locationtext}</h4>
+                        <h4>{FindUsContent.location1.contact}</h4>
+                    </div>
                 </div>
-
-                <div className={styles.rightContainer}>
-                    <h1>Find Us</h1>
-                    <hr style={{width: '60%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F2C94C",borderColor:"#F2C94C"}}/>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
-                    </p> 
-                </div>
-            </div>
-            
         </div>
-
     )
 }
 
