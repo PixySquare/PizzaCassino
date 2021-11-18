@@ -2,3 +2,17 @@
     text-align: center;
     padding:20px;
 }
+
+.teamFlex{
+    display: flex;
+    justify-content: center;
+    padding:20px;
+    margin-top:30px;
+}
+
+@media (max-width: 800px) {
+    .teamFlex{
+        flex-direction:column;
+        width: 100% !important;
+    }
+}

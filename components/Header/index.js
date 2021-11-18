@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useState } from 'react';
 
 function Header() {
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
 
     return (
         <div className={styles.header} >

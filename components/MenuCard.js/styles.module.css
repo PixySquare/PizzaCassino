@@ -20,3 +20,10 @@
     padding-top:0px;
     width:100%;
 }
+
+@media (max-width: 800px) {
+    .wrapper{
+        width:80vw !important;
+    }
+    
+}

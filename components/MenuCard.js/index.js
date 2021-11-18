@@ -5,7 +5,7 @@ import Image from 'next/image';
 function MenuCard({src,title,price,info}) {
     return (
         <div className={styles.wrapper}>
-            <div style={{width:"80%"}}>
+            <div className={styles.imageDiv} style={{width:"80%"}}>
             <Image className={styles.image} src={src} alt={title}/>
             </div>
             <div className={styles.info} style={{width:"100%"}}>

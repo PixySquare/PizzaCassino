@@ -11,16 +11,16 @@ function PageBlog(props) {
 
     return (
         <div className={styles.container} style={{flexDirection:flex_direction}}>
-            <div style={{width:"50%"}}>
+            <div className={styles.imgContainer} style={{width:"50%"}}>
                 <Image src={food} alt="image"/>
             </div>
-            <div style={{padding:30,width:"50%"}}>
+            <div className={styles.textContainer} style={{padding:30,width:"50%"}}>
                 <p style={{fontSize:"20px",color:"#F2C94C"}}>Loreum Ipsum</p>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                 </p>
                 <br/>
-                <div className="buttonYellow" style={{marginLeft:"0",marginTop:20}}>
+                <div className={styles.buttonYellow} style={{marginLeft:"0",marginTop:20}}>
                 <Link href="/menu" passHref><p style={{textAlign: "center", color:"#F2C94C"}}>Read More</p></Link>
             </div>
             </div>

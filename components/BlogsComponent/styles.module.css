@@ -14,3 +14,11 @@
     align-items: center;
 
 }
+
+@media (max-width: 800px) {
+    .featured{
+        flex-direction: column !important;
+        
+    }
+}
+

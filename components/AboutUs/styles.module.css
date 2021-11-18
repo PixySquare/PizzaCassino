@@ -40,3 +40,25 @@
     align-items: center;
     margin-right:auto; */
 }
+
+
+@media (max-width: 800px) {
+    .wrapper{
+        flex-direction: column-reverse;
+    }
+
+    .rightContainer{
+        width:90% !important;
+    }
+
+    .leftContainer{
+        width:100%;
+        text-align:center;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .leftContainer p{
+        width:100% !important;
+    }
+}

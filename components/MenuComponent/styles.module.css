@@ -21,3 +21,12 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 800px) {
+    .menuFlex{
+        width: 100vw!important;
+        display: flex;
+        flex-direction:column !important;
+        padding:0px;
+    }
+}
