@@ -30,6 +30,18 @@ export const MenuContent = {
             "name"       : "Burger",
             "ingredients": "Loreum, Loreum",
             "description": "Loreum Ipsum text"
+        },
+        {
+            "image"      : pizza,
+            "name"       : "Pasta",
+            "ingredients": "Loreum, Loreum",
+            "description": "Loreum Ipsum text"
+        },
+        {
+            "image"      : pizza,
+            "name"       : "Burger",
+            "ingredients": "Loreum, Loreum",
+            "description": "Loreum Ipsum text"
         }
     ]
 };

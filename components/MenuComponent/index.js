@@ -2,7 +2,6 @@ import React from 'react'
 import MenuCard from '../MenuCard.js'
 import styles from './styles.module.css'
 import pizza from '../../public/assets/menu/pizza.jpeg'
-import Link from "next/link";
 import PropTypes from "prop-types";
 
 
@@ -24,9 +23,6 @@ function MenuComponent(props) {
                     })
                 }
                            
-            </div>
-            <div className="buttonYellow">
-                <Link href="/menu" passHref><p style={{textAlign: "center", color:"#F2C94C"}}>Read More</p></Link>
             </div>
         </div>
     )

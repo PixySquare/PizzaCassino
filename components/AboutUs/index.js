@@ -9,7 +9,9 @@ function AboutUs() {
         <div className={styles.wrapper} id="aboutus">
             <div className={styles.leftContainer}>
                 <hr style={{width: '70%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
-                <p style={{width:"80%",marginLeft:"auto"}}>{AboutUsContent}</p>
+                <br />
+                <p style={{width:"70%",textAlign: 'center'}}>{AboutUsContent}</p>
+                <br />
                 <hr style={{width: '70%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
             </div>
             <div className={styles.rightContainer}>

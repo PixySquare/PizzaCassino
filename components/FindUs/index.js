@@ -6,14 +6,10 @@ function FindUs() {
     return (
             <div className={styles.mainwrapper} id="contact">
                 <h1 style={{textAlign: 'center'}}>{FindUsContent.heading}</h1>
-                <hr style={{width: '75%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
+                <hr style={{width: '35%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
                 <div className={styles.wrapper}>
                     <div className={styles.rightContainer}>
-                        {/* <h1>Find Us</h1>
-                        <hr style={{width: '60%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F2C94C",borderColor:"#F2C94C"}}/> */}
-                        <p>
-                            {FindUsContent.location1.description}
-                        </p>
+                        <p>{FindUsContent.location1.description}</p>
                         <h4>{FindUsContent.location1.locationtext}</h4>
                         <h4>{FindUsContent.location1.contact}</h4>
 
@@ -30,13 +26,9 @@ function FindUs() {
                     </div>
 
                     <div className={styles.rightContainer}>
-                        {/* <h1>Find Us</h1>
-                        <hr style={{width: '60%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F2C94C",borderColor:"#F2C94C"}}/> */}
-                        <p>
-                            {FindUsContent.location1.description}
-                        </p>
-                        <h4>{FindUsContent.location1.locationtext}</h4>
-                        <h4>{FindUsContent.location1.contact}</h4>
+                        <p>{FindUsContent.location2.description}</p>
+                        <h4>{FindUsContent.location2.locationtext}</h4>
+                        <h4>{FindUsContent.location2.contact}</h4>
                     </div>
                 </div>
         </div>

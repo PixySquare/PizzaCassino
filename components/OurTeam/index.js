@@ -5,7 +5,7 @@ function OurTeam() {
     return (
         <div className={styles.wrapper}>
             <h1>OUR TEAM</h1>
-            <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
+            <hr style={{width: '30%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
             
             <div className={styles.teamFlex} >
             <TeamComponent img={img} title="MyName" position="CEO,CFO" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui."/>
