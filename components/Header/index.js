@@ -18,7 +18,7 @@ function Header() {
         <div className={styles.header} >
             <Link href='/' passHref>
                 <div className={styles.brand}>
-                    Pizza Cassino
+                    PizzaCassino
                 </div>
             </Link>
 
@@ -73,7 +73,7 @@ function Header() {
                             OUR TEAM
                         </div>
                     </Link>
-                    
+
                     <div style={{display: 'flex',justifyContent: 'center',width: '120px',alignItems:"center",marginLeft:'auto',marginRight:"auto"}}>
                         <Link href='www.instagram.com' passHref>
                             <div className={styles.nav_item}>
