@@ -43,22 +43,17 @@ function Header() {
 
             {open && (
                 <div className={styles.collapse}>
-                    <Link href='/' passHref>
-                        <div className={styles.nav_item}>
-                            HOME
-                        </div>
-                    </Link>
                     <Link href='#aboutus' passHref>
                         <div className={styles.nav_item}>
-                            ABOUT
+                            ABOUT US
                         </div>
                     </Link>
-                    <Link href='/menu' passHref>
+                    <Link href='#menu' passHref>
                         <div className={styles.nav_item}>
                             MENU
                         </div>
                     </Link>
-                    <Link href='/blogs' passHref>
+                    <Link href='#blogs' passHref>
                         <div className={styles.nav_item}>
                             BLOGS
                         </div>
@@ -68,11 +63,17 @@ function Header() {
                             TESTIMONY
                         </div>
                     </Link>
-                    <Link href='#contact' passHref>
+                    <Link href='#findus' passHref>
                         <div className={styles.nav_item}>
-                            CONTACT
+                            FIND US
                         </div>
                     </Link>
+                    <Link href='#team' passHref>
+                        <div className={styles.nav_item}>
+                            OUR TEAM
+                        </div>
+                    </Link>
+                    
                     <div style={{display: 'flex',justifyContent: 'center',width: '120px',alignItems:"center",marginLeft:'auto',marginRight:"auto"}}>
                         <Link href='www.instagram.com' passHref>
                             <div className={styles.nav_item}>
