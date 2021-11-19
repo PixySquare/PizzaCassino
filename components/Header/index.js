@@ -1,7 +1,8 @@
 import styles from './styles.module.css';
 import Link from 'next/link'
 import { useState } from 'react';
-
+import Image from '../../common/Image';
+import Icon from "../../public/assets/Header_Icon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faInstagram,
@@ -16,11 +17,12 @@ function Header() {
 
     return (
         <div className={styles.header} >
-            <Link href='/' passHref>
-                <div className={styles.brand}>
-                    PizzaCassino
-                </div>
-            </Link>
+                <Image className={styles.image} src={Icon} alt={"title"} width={40} height={40}/>
+                <Link href='/' passHref>
+                    <div className={styles.brand}>
+                        PizzaCassino
+                    </div>
+                </Link>
 
             <div 
                 className={styles.menu}
@@ -87,7 +89,7 @@ function Header() {
                             </div>
                         </Link>
 
-                        <Link href='www.twitter.com' passHref>
+                        <Link href='www.whatsapp.com' passHref>
                             <div className={styles.nav_item}>
                                 <FontAwesomeIcon icon={faWhatsapp} size="lg"/> 
                             </div>
