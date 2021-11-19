@@ -20,8 +20,9 @@ function Footer() {
             <a href="#" style={{marginRight:20}}><FontAwesomeIcon icon={faTwitter} size="lg"/></a>
             <a href="#" style={{marginRight:20}}><FontAwesomeIcon icon={faWhatsapp} size="lg" /></a>
             </div>
+            
             <div style={{position: 'fixed',bottom:0,width:"100vw",backgroundColor:"#000",display:"flex",justifyContent:"center",alignItems:"center",height:40,padding:10}}>
-            TODOS LOS DERECHOS RESERVADOS © LA CARAVANA 2021 | DESIGN: MEZORA
+                Designed and Developed by PixySquare   ||   Made with love for PizzaCassino
             </div>
         </div>
     )
