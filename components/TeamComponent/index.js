@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from '../../common/Image';
 import styles from './styles.module.css'
 function TeamComponent({img,title,position,description}) {
     return (

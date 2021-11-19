@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './styles.module.css';
-import Image from 'next/image';
+import Image from '../../common/Image';
 
 function MenuCard({src,title,info,ingredients,price}) {
     return (

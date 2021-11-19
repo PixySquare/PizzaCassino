@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './styles.module.css';
 import dough from '../../public/assets/dough.png'
-import Image from 'next/image'
+import Image from '../../common/Image';
 import {AboutUsContent} from '../../data';
 
 function AboutUs() {

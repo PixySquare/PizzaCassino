@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 // import styles from './styles.module.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import Image from 'next/image'
+import Image from '../../common/Image';
 import wood from '../../public/assets/wood.png'
 
 export default class DemoCarousel extends Component {
