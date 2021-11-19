@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import styles from './styles.module.css';
+// import styles from './styles.module.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image'
@@ -8,19 +8,19 @@ import wood from '../../public/assets/wood.png'
 export default class DemoCarousel extends Component {
     render() {
         return (
-            <div>
-                <Carousel autoplay >
+            <div className="carousel-wrapper" >
+                <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} stopOnHover={true} centerMode={true} >
                     <div>
                         <Image src={wood} style={{width: '20%'}} alt="legend 1"/>
-                        <p className="legend">Legend 1</p>
+                        {/* <p className="legend">Legend 56</p> */}
                     </div>
                     <div>
                         <Image src={wood} style={{width: '20%'}} alt="legend 2"/>
-                        <p className="legend">Legendvg 2</p>
+                        {/* <p className="legend">Legendvg 2</p> */}
                     </div>
                     <div>
                         <Image src={wood} style={{width: '20%'}} alt="legend 2"/>
-                        <p className="legend">Legend 3</p>
+                        {/* <p className="legend">Legend 3</p> */}
                     </div>
                 </Carousel>
             </div>
