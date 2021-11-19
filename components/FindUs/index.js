@@ -6,7 +6,7 @@ function FindUs() {
     return (
             <div className={styles.mainwrapper} id="contact">
                 <h1 style={{textAlign: 'center'}}>{FindUsContent.heading}</h1>
-                <hr style={{width: '75%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
+                <hr style={{width: '75%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
                 <div className={styles.wrapper}>
                     <div className={styles.rightContainer}>
                         {/* <h1>Find Us</h1>
@@ -20,13 +20,13 @@ function FindUs() {
                     </div>
 
                     <div className={styles.leftContainer}>
-                        <iframe src={FindUsContent.location1.location} width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
+                        <iframe src={FindUsContent.location1.location} width="100%" height="450" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
                     </div>
                 </div>
 
                 <div className={styles.wrapper} id="contact">
                     <div className={styles.leftContainer}>
-                        <iframe src={FindUsContent.location1.location} width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
+                        <iframe src={FindUsContent.location1.location} width="100%" height="450" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
                     </div>
 
                     <div className={styles.rightContainer}>

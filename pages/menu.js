@@ -29,7 +29,7 @@ function MenuPage() {
     const [value, setValue] = useState('1');
 
     return (
-        <div>
+        <div className="woodBackground">
             <Header/>
             <div className={styles.container}>
 
@@ -54,29 +54,37 @@ function MenuPage() {
                     <TabPanel value="1">
                         <h1 style={{textAlign: 'left',marginLeft:"8%"}}>All</h1>
                         <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"8%",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
-                        <MenuComponent data={AllMenu} />
+                        <div style={{width:"90%",display: 'block', marginRight:"auto",marginLeft:"auto",padding:30}}>
+                            <MenuComponent data={AllMenu} />
+                        </div>
                     </TabPanel>
                     <TabPanel value="2">
                         <h1 style={{textAlign: 'left',marginLeft:"8%"}}>Starters</h1>
                         <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"8%",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
-                        <MenuComponent data={StartersMenu} />
-
+                        <div style={{width:"90%",display: 'block', marginRight:"auto",marginLeft:"auto",padding:30}}>
+                            <MenuComponent data={StartersMenu} />
+                        </div>
                     </TabPanel>
                     <TabPanel value="3">
                         <h1 style={{textAlign: 'left',marginLeft:"8%"}}>Main</h1>
                         <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"8%",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
+                        <div style={{width:"90%",display: 'block', marginRight:"auto",marginLeft:"auto",padding:30}}>
                         <MenuComponent data={MainMenu} />
-
+                        </div>
                     </TabPanel>
                     <TabPanel value="4">
                         <h1 style={{textAlign: 'left',marginLeft:"8%"}}>Drinks</h1>
                         <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"8%",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
+                        <div style={{width:"90%",display: 'block', marginRight:"auto",marginLeft:"auto",padding:30}}>
                         <MenuComponent data={DrinksMenu} />
+                        </div>
                     </TabPanel>
                     <TabPanel value="5">
                         <h1 style={{textAlign: 'left',marginLeft:"8%"}}>Promotion</h1>
                         <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"8%",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
-                        <MenuComponent data={PromotionsMenu}  />   
+                        <div style={{width:"90%",display: 'block', marginRight:"auto",marginLeft:"auto",padding:30}}>
+                            <MenuComponent data={PromotionsMenu}  />   
+                        </div>
                     </TabPanel>
                     </TabContext>
                 </ThemeProvider>

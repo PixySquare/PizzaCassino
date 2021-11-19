@@ -51,7 +51,7 @@ function Header() {
                     </Link>
                     <Link href='#aboutus' passHref>
                         <div className={styles.nav_item}>
-                            ABOUT US
+                            ABOUT
                         </div>
                     </Link>
                     <Link href='/menu' passHref>
@@ -74,7 +74,7 @@ function Header() {
                             CONTACT
                         </div>
                     </Link>
-
+                    <div style={{display: 'flex',justifyContent: 'center',width: '120px',alignItems:"center",marginLeft:'auto',marginRight:"auto"}}>
                     <Link href='www.instagram.com' passHref>
                         <div className={styles.nav_item}>
                             <FontAwesomeIcon icon={faInstagram} size="lg"/>
@@ -92,7 +92,7 @@ function Header() {
                             <FontAwesomeIcon icon={faTwitter} size="lg"/> 
                         </div>
                     </Link>
-
+                    </div>
                 </div>
             )}
         </div>
