@@ -27,6 +27,9 @@ export default class Home extends Component {
         <BlogsComponent/>
         <FindUs/>
         <OurTeam/>
+        <br />
+        <br />
+        <br />
         <Testimonials/>
         <Footer/>
         </div>
