@@ -2,6 +2,32 @@ import styles from './styles.module.css'
 import img from '../../public/assets/teampic.png'
 import TeamComponent from '../TeamComponent'
 import TeamMembers from '../TeamMembers'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import  { Testimonials } from "../../data";
+
+const responsive = {
+    superLargeDesktop: {
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1
+    }
+  };
+  
+
+
+
 function OurTeam() {
     return (
         <div className={styles.wrapper} id="team">
@@ -12,12 +38,19 @@ function OurTeam() {
             <TeamComponent img={img} title="MyName" position="CEO,CFO" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui."/>
             <TeamComponent img={img} title="MyName2" position="CEO2,CFO2" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui."/>
             </div>
-            <div className={styles.teamMembers} >
-            <TeamMembers/>
-            <TeamMembers/>
-            <TeamMembers/>
-            <TeamMembers/>
-            </div>
+            {/* <div className={styles.teamMembers} > */}
+
+                <Carousel responsive={responsive}>
+                    {Testimonials.map(item => {
+                        return (
+                            // eslint-disable-next-line react/jsx-key
+                            <TeamMembers/>
+                            );
+                        })
+                    }
+                </Carousel>
+
+            {/* </div> */}
         </div>
     )
 }
