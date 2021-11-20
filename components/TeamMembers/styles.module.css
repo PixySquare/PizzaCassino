@@ -1,0 +1,15 @@
+.wrapper{
+    width:20%;
+    margin:20px;
+    padding:10px;
+}
+
+@media (max-width: 800px) {
+    .wrapper{
+        width:90% !important;
+        margin-left:auto !important;
+        margin-right: auto !important;
+        display:block !important;
+    }
+
+}

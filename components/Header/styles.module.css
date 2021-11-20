@@ -16,10 +16,12 @@
   color:#fff;
   margin-bottom: 100px;
   font-weight: lighter !important;
+  align-items: center;
 }
 
+
 .brand {
-  flex: 0.4;
+  flex: 0.3;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -31,8 +33,18 @@
 .collapse {
   flex: 1;
   display: flex;
-  justify-content: flex-end;
+  justify-content:space-between;
   /* margin-right: 0px !important; */
+}
+
+.socials{
+  flex:0.33 !important;
+  /* width:auto !important; */
+  display: flex !important;
+  justify-content: center;
+  min-width: 120px;
+  align-items:center;
+  margin-left:auto;
 }
 
 .nav_item {
@@ -136,5 +148,11 @@
     display: block;
     left: 80%;
     top: 0%;
+  }
+
+  .socials{
+    margin-right: auto !important;
+    margin-left:auto !important ;
+    /* width:120px; */
   }
 }

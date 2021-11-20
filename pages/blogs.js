@@ -7,7 +7,7 @@ import ZomatoComponent from '../components/ZomatoComponent';
 
 function BlogsPage() {
     return (
-        <div>
+        <div className="woodBackground">
             <Header/>
             <div className={styles.container}>
             </div>

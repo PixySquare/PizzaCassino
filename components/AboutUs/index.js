@@ -10,6 +10,7 @@ function AboutUs() {
             <div className={styles.leftContainer}>
                 <hr style={{width: '70%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
                 <br />
+                <h1 style={{textAlign:"center"}}>ABOUT US</h1>
                 <p style={{width:"70%",textAlign: 'center'}}>{AboutUsContent}</p>
                 <br />
                 <hr style={{width: '70%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>

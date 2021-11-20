@@ -1,6 +1,7 @@
 import styles from './styles.module.css'
 import img from '../../public/assets/teampic.png'
 import TeamComponent from '../TeamComponent'
+import TeamMembers from '../TeamMembers'
 function OurTeam() {
     return (
         <div className={styles.wrapper} id="team">
@@ -10,6 +11,12 @@ function OurTeam() {
             <div className={styles.teamFlex} >
             <TeamComponent img={img} title="MyName" position="CEO,CFO" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui."/>
             <TeamComponent img={img} title="MyName2" position="CEO2,CFO2" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui."/>
+            </div>
+            <div className={styles.teamMembers} >
+            <TeamMembers/>
+            <TeamMembers/>
+            <TeamMembers/>
+            <TeamMembers/>
             </div>
         </div>
     )

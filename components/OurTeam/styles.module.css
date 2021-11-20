@@ -10,9 +10,28 @@
     margin-top:30px;
 }
 
+.teamMembers{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 800px) {
     .teamFlex{
         flex-direction:column;
         width: 100% !important;
+    }
+
+    .teamMembers{
+        flex-direction:column !important;
+        width: 90% !important;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
     }
 }

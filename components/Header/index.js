@@ -19,7 +19,7 @@ function Header() {
         <div className={styles.header} >
                 <Image className={styles.image} src={Icon} alt={"title"} width={40} height={40}/>
                 <Link href='/' passHref>
-                    <div className={styles.brand}>
+                    <div className={styles.brand} style={{marginLeft:10}}>
                         PizzaCassino
                     </div>
                 </Link>
@@ -76,7 +76,7 @@ function Header() {
                         </div>
                     </Link>
 
-                    <div style={{display: 'flex',justifyContent: 'center',width: '120px',alignItems:"center",marginLeft:'auto',marginRight:"auto"}}>
+                    <div className={styles.socials}>
                         <Link href='www.instagram.com' passHref>
                             <div className={styles.nav_item}>
                                 <FontAwesomeIcon icon={faInstagram} size="lg"/>

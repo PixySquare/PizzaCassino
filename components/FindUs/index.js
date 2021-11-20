@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './styles.module.css';
+import PhoneIcon from '@mui/icons-material/Phone';
+import RoomIcon from '@mui/icons-material/Room';
 import  { FindUsContent } from "../../data";
 
 function FindUs() {
@@ -10,8 +12,8 @@ function FindUs() {
                 <div className={styles.wrapper}>
                     <div className={styles.rightContainer}>
                         <p>{FindUsContent.location1.description}</p>
-                        <h4>{FindUsContent.location1.locationtext}</h4>
-                        <h4>{FindUsContent.location1.contact}</h4>
+                        <span style={{display:"flex",alignItems: 'center',justifyContent: 'center'}}><RoomIcon style={{marginRight:10}}/><h4>{FindUsContent.location1.locationtext}</h4></span>
+                        <span style={{display:"flex",alignItems: 'center',justifyContent: 'center'}}><PhoneIcon style={{marginRight:10}}/><h4>{FindUsContent.location1.contact}</h4></span>
 
                     </div>
 
@@ -27,8 +29,8 @@ function FindUs() {
 
                     <div className={styles.rightContainer}>
                         <p>{FindUsContent.location2.description}</p>
-                        <h4>{FindUsContent.location2.locationtext}</h4>
-                        <h4>{FindUsContent.location2.contact}</h4>
+                        <span style={{display:"flex",alignItems: 'center',justifyContent: 'center'}}><RoomIcon style={{marginRight:10}}/><h4>{FindUsContent.location2.locationtext}</h4></span>
+                        <span style={{display:"flex",alignItems: 'center',justifyContent: 'center'}}><PhoneIcon style={{marginRight:10}}/><h4>{FindUsContent.location2.contact}</h4></span>
                     </div>
                 </div>
         </div>

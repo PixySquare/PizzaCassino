@@ -16,7 +16,7 @@ export default class Home extends Component {
 
   render(){
     return (
-      <div>
+      <div className='woodBackground'>
         <Head>
           <title>PizzaCassino</title>
           <meta name="PizzaCassino" content="lorem" />
