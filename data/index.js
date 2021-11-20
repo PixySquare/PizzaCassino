@@ -226,7 +226,44 @@ export const PromotionsMenu =
     }
 ]
 
-
 export const Testimonials = [
-    "lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol"
+    {
+        Rating: 1,
+        Comment: "Loreum Ipsum text",
+        Writer: "Loreum Ipsum"
+
+    },
+    {
+        Rating: 2,
+        Comment: "Loreum Ipsum text",
+        Writer: "Loreum Ipsum"
+
+    },{
+        Rating: 3,
+        Comment: "Loreum Ipsum text",
+        Writer: "Loreum Ipsum"
+
+    },{
+        Rating: 4,
+        Comment: "Loreum Ipsum text",
+        Writer: "Loreum Ipsum"
+
+    },{
+        Rating: 5,
+        Comment: "Loreum Ipsum text",
+        Writer: "Loreum Ipsum"
+
+    },{
+        Rating: 6,
+        Comment: "Loreum Ipsum text",
+        Writer: "Loreum Ipsum"
+
+    },{
+        Rating: 7,
+        Comment: "Loreum Ipsum text",
+        Writer: "Loreum Ipsum"
+
+    },
 ]
+
+export const TeamList = [ "lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol"]

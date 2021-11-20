@@ -4,7 +4,7 @@ import TeamComponent from '../TeamComponent'
 import TeamMembers from '../TeamMembers'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import  { Testimonials } from "../../data";
+import  { TeamList } from "../../data";
 
 const responsive = {
     superLargeDesktop: {
@@ -57,7 +57,7 @@ function OurTeam() {
                         dotListClass="custom-dot-list-style"
                         itemClass="carousel-item-padding-40-px"
             >
-                    {Testimonials.map(item => {
+                    {TeamList.map(item => {
                         return (
                             // eslint-disable-next-line react/jsx-key
                             <TeamMembers/>

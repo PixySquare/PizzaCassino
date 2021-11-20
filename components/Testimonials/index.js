@@ -52,7 +52,16 @@ export default class index extends Component {
                 {Testimonials.map(item => {
                     return (
                             // eslint-disable-next-line react/jsx-key
-                            <div> helllo </div>
+                            <div>
+                              <div>
+                                <span>{item.Rating}</span>
+                                <br />
+                                <span>{item.Comment}</span>
+                                <br />
+                                <span>{item.Writer}</span>
+
+                              </div>
+                            </div>
                         );
                     })
                 }
