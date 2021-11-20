@@ -9,6 +9,8 @@ import FindUs from '../components/FindUs'
 import BlogsComponent from '../components/BlogsComponent'
 import OurTeam from '../components/OurTeam'
 import Menu from '../components/Menu'
+import Testimonials from "../components/Testimonials";
+
 export default class Home extends Component {
 
   render(){
@@ -25,8 +27,9 @@ export default class Home extends Component {
         <BlogsComponent/>
         <FindUs/>
         <OurTeam/>
+        <Testimonials/>
         <Footer/>
-      </div>
+        </div>
     )
   }
 }

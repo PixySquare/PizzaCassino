@@ -226,3 +226,7 @@ export const PromotionsMenu =
     }
 ]
 
+
+export const Testimonials = [
+    "lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol"
+]
