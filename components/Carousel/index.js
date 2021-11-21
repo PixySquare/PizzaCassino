@@ -3,24 +3,21 @@ import React, { Component } from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import Image from '../../common/Image';
-import wood from '../../public/assets/wood.png'
+import { B1, B2, B3 } from "../../data";
 
 export default class DemoCarousel extends Component {
     render() {
         return (
             <div className="carousel-wrapper" >
-                <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} stopOnHover={true} centerMode={true} >
+                <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}  stopOnHover={true} centerMode={true} showArrows={true} >
                     <div>
-                        <Image src={wood} style={{width: '20%'}} alt="legend 1"/>
-                        {/* <p className="legend">Legend 56</p> */}
+                        <Image src={B1} style={{width: '20%'}} alt="legend 1"/>
                     </div>
                     <div>
-                        <Image src={wood} style={{width: '20%'}} alt="legend 2"/>
-                        {/* <p className="legend">Legendvg 2</p> */}
+                        <Image src={B2} style={{width: '20%'}} alt="legend 2"/>
                     </div>
                     <div>
-                        <Image src={wood} style={{width: '20%'}} alt="legend 2"/>
-                        {/* <p className="legend">Legend 3</p> */}
+                        <Image src={B3} style={{width: '20%'}} alt="legend 2"/>
                     </div>
                 </Carousel>
             </div>

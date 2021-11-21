@@ -1,10 +1,44 @@
 import pizza from '../public/assets/pizza.png';
 
-export const AboutUsContent = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.";
+import Banner1 from '../public/assets/banners/1.jpeg';
+import Banner2 from '../public/assets/banners/2.jpeg';
+import Banner3 from '../public/assets/banners/3.jpeg';
+export const B1 = Banner1;
+export const B2 = Banner2;
+export const B3 = Banner3;
+
+import Menu1 from '../public/assets/menu/1.jpeg';
+import Menu2 from '../public/assets/menu/2.jpeg';
+import Menu3 from '../public/assets/menu/3.jpeg';
+import Menu4 from '../public/assets/menu/4.jpeg';
+import Menu5 from '../public/assets/menu/5.jpeg';
+import Menu6 from '../public/assets/menu/6.jpeg';
+import Menu7 from '../public/assets/menu/7.jpeg';
+import Menu8 from '../public/assets/menu/8.jpeg';
+import Menu9 from '../public/assets/menu/9.jpeg';
+import Menu10 from '../public/assets/menu/10.jpeg';
+import Menu11 from '../public/assets/menu/11.jpeg';
+import Menu12 from '../public/assets/menu/12.jpeg';
+export const M1 = Menu1;
+export const M2 = Menu2;
+export const M3 = Menu3;
+export const M4 = Menu4;
+export const M5 = Menu5;
+export const M6 = Menu6;
+export const M7 = Menu7;
+export const M8 = Menu8;
+export const M9 = Menu9;
+export const M10 = Menu10;
+export const M11 = Menu11;
+export const M12 = Menu12;
+
+
+
+export const AboutUsContent = "As our tagline says 'Get closer to what you love' here at Pizza cassino we promise to savour your soul. We take you one step closer to the phrase 'heaven in the mouth'. We deliver theawesomeness of food on your plates with a delicate touch of love. We are not only a place to drop inand get your morning cup of coffee but also to sit down and enjoy the mouth-watering dishes. We offer a delicious variety of everything spicy and sweet. We look forward to serving you our best menu in town! Pizza Cassino also takes great care of hygiene.";
 
 export const MenuContent = {
     heading:"OUR SPECIALITIES",
-    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    description:"Explore the wide range of pizza baked in fresh dough and vegetables. Our pizza will tempt all your excitement and senses. Made with a delicate balance of everything cheesy and spicy, you will get to savour the best pizza in town.",
     SpecialMenu: [
         {
             "image"      : pizza,
