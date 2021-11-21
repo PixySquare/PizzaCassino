@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
+import styles from './styles.module.css';
 import  { Testimonials } from "../../data";
 
 const responsive = {
@@ -32,6 +32,9 @@ export default class index extends Component {
 
     render() {
         return (
+          <div style={{marginBottom:"30"}}>
+            <h1 style={{textAlign:"center"}}>TESTIMONIALS</h1>
+            <hr style={{width: '35%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
             <Carousel   responsive={responsive}
                         swipeable={false}
                         draggable={false}
@@ -52,20 +55,20 @@ export default class index extends Component {
                 {Testimonials.map(item => {
                     return (
                             // eslint-disable-next-line react/jsx-key
-                            <div>
-                              <div>
-                                <span>{item.Rating}</span>
-                                <br />
+                              <div className={styles.testimonialWrapper}>
+                                {/* <span>{item.Rating}</span>
+                                <br /> */}
                                 <span>{item.Comment}</span>
                                 <br />
-                                <span>{item.Writer}</span>
+                                <br/>
+                                <span style={{fontSize:"80%",opacity:0.8,float:"left",textAlign:"right",width:"90%"}}>~ {item.Writer}</span>
 
                               </div>
-                            </div>
                         );
                     })
                 }
             </Carousel>
+            </div>
         )
     }
 }

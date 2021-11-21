@@ -1,6 +1,6 @@
 import styles from './styles.module.css';
 import Link from 'next/link'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from '../../common/Image';
 import Icon from "../../public/assets/Header_Icon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,16 +13,36 @@ import {
 
 
 function Header() {
+
     const [open, setOpen] = useState(true);
+    useEffect(()=> {
+        if(process.browser) {
+            if(window.innerWidth < 1055) {
+                setOpen(false)
+            }
+        }
+    }, [])
+
+    if(process.browser) {
+        window.addEventListener('resize', ()=> {
+            if(window.innerWidth < 1055) {
+                setOpen(false)
+            } else {
+                setOpen(true);
+            }
+        })
+    }
 
     return (
         <div className={styles.header} >
+            <div className={styles.logoDiv} style={{display: 'flex', flexDirection: 'row',alignItems: 'center',flex:0.3}}>
                 <Image className={styles.image} src={Icon} alt={"title"} width={40} height={40}/>
                 <Link href='/' passHref>
                     <div className={styles.brand} style={{marginLeft:10}}>
                         PizzaCassino
                     </div>
                 </Link>
+            </div>
 
             <div 
                 className={styles.menu}

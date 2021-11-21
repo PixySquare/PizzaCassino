@@ -1,11 +1,17 @@
-.wrapper{
-    width:100%;
+.testimonialWrapper{
+    width:90%;
     margin:20px;
     padding:10px;
+    /* text-align:center; */
+    height:400px;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media (max-width: 800px) {
-    .wrapper{
+    .testimonialWrapper{
         width:90% !important;
         margin-left:auto !important;
         margin-right: auto !important;
