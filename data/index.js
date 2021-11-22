@@ -27,7 +27,6 @@ import Espresso from '../public/assets/menu/espresso.jpg';
 
 
 
-
 import White_Sauce_Pasta_Vertical from '../public/assets/menu/white_sauce_pasta_vertical.jpg';
 import Peppy_Paneer_Blog from '../public/assets/menu/peppy_paneer_crop.jpg';
 
