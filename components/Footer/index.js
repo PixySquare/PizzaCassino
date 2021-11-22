@@ -17,7 +17,7 @@ function Footer() {
         <div className={styles.footer}>
             <div className={styles.upperFooter}>
                 <div className={styles.logoDiv}>
-                    <Image src={Icon} height="100" width="100"/>
+                    <Image src={Icon} height="100" width="100" alt={"Image"}/>
                     <h1 style={{marginLeft:30}}>Pizza Cassino</h1>
                 </div>
                 <div className={styles.info} style={{display: 'flex',flexDirection: 'column',alignItems: 'center',padding:20,marginLeft:"auto",textAlign: 'left'}}>

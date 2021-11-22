@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import styles from './styles.module.css';
 import Link from 'next/link'
 import { useEffect, useState } from 'react';
