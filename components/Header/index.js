@@ -79,7 +79,7 @@ function Header() {
                         let about = document.getElementById("aboutus");
                         e.preventDefault();
                         about && about.scrollIntoView({ behavior: "smooth", block: "start" });
-                        window.history.pushState("aboutus", "aboutus", "/aboutus");
+                        // window.history.pushState("/aboutus");
                       }}
                     >
                         <div className={styles.nav_item}>
@@ -91,7 +91,7 @@ function Header() {
                         let menu = document.getElementById("menu");
                         e.preventDefault();
                         menu && menu.scrollIntoView({ behavior: "smooth", block: "start" });
-                        window.history.pushState("menu", "menu", "/menu");
+                        // window.history.pushState("menu", "menu", "/menu");
                       }}
                       >
                         <div className={styles.nav_item}>
@@ -103,7 +103,7 @@ function Header() {
                         let blogs = document.getElementById("blogs");
                         e.preventDefault();
                         blogs && blogs.scrollIntoView({ behavior: "smooth", block: "start" });
-                        window.history.pushState("blogs", "blogs", "/blogs");
+                        // window.history.pushState("blogs", "blogs", "/blogs");
                       }}
                       >
                         <div className={styles.nav_item}>
@@ -115,7 +115,7 @@ function Header() {
                         let testimony = document.getElementById("testimony");
                         e.preventDefault();
                         testimony && testimony.scrollIntoView({ behavior: "smooth", block: "start" });
-                        window.history.pushState("testimony", "testimony", "/testimony");
+                        // window.history.pushState("testimony", "testimony", "/testimony");
                       }}
                       >
                         <div className={styles.nav_item}>
@@ -127,7 +127,7 @@ function Header() {
                         let findus = document.getElementById("findus");
                         e.preventDefault();
                         findus && findus.scrollIntoView({ behavior: "smooth", block: "start" });
-                        window.history.pushState("findus", "findus", "/findus");
+                        // window.history.pushState("findus", "findus", "/findus");
                       }}
                       >
                         <div className={styles.nav_item}>
@@ -139,7 +139,7 @@ function Header() {
                         let team = document.getElementById("team");
                         e.preventDefault();
                         team && team.scrollIntoView({ behavior: "smooth", block: "start" });
-                        window.history.pushState("team", "team", "/team");
+                        // window.history.pushState("team", "team", "/team");
                       }}
                       >
                         <div className={styles.nav_item}>
