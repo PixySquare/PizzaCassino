@@ -9,7 +9,7 @@ function Menu() {
     return (
         <div className={styles.wrapper} id="menu">
             <h1 style={{textAlign: 'center'}}>{MenuContent.heading}</h1>
-            <hr style={{width: '35%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
+            <hr style={{width: '55%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
             <p  style={{width: '80%', textAlign: 'center',marginLeft:"auto", marginRight:"auto"}}>{MenuContent.description}</p>
             <br />
             <MenuComponent data={MenuContent.SpecialMenu}/>

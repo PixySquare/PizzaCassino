@@ -7,7 +7,7 @@ export default class index extends Component {
         return (
 
             <div onContextMenu={(e)=>{e.preventDefault()}}>
-                <Image src={this.props.src} style={this.props.style} alt={this.props.alt} width={this.props.width} height={this.props.height} />
+                <Image src={this.props.src} style={this.props.style} alt={this.props.alt} width={this.props.width} height={this.props.height} className={this.props.className} />
             </div>
         )
     }
