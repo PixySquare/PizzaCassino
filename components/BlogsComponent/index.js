@@ -7,7 +7,7 @@ import  { BlogContent } from "../../data";
 
 function BlogsComponent() {
     return (
-        <div className={styles.wrapper} id="blogs">
+        <div className={styles.wrapper} id="blogs" style={{scrollMarginTop: 80}}>
             <Link href="/blogs" passHref>
                 <div>
                 <h1 style={{textAlign: 'center'}}>{BlogContent.heading}</h1>

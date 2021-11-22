@@ -23,6 +23,13 @@ function Header() {
         }
     }, [])
 
+    useEffect(() => {
+        let url = window.location.href.split("/");
+        let target = url[url.length - 1].toLowerCase();
+        let element = document.getElementById(target);
+        element && element.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, []);
+
     if(process.browser) {
         window.addEventListener('resize', ()=> {
             if(window.innerWidth < 1055) {
@@ -66,36 +73,78 @@ function Header() {
             {open && (
                 <div className={styles.collapse}>
                     {/* #TODO: #4 fix padding issue while going to sections from links */}
-                    <Link href='/#aboutus' passHref>
+                    <a href='/' 
+                    onClick={e => {
+                        let about = document.getElementById("aboutus");
+                        e.preventDefault();
+                        about && about.scrollIntoView({ behavior: "smooth", block: "start" });
+                        window.history.pushState("aboutus", "aboutus", "/aboutus");
+                      }}
+                    >
                         <div className={styles.nav_item}>
                             ABOUT US
                         </div>
-                    </Link>
-                    <Link href='/#menu' passHref>
+                    </a>
+                    <a href='/'
+                    onClick={e => {
+                        let menu = document.getElementById("menu");
+                        e.preventDefault();
+                        menu && menu.scrollIntoView({ behavior: "smooth", block: "start" });
+                        window.history.pushState("menu", "menu", "/menu");
+                      }}
+                      >
                         <div className={styles.nav_item}>
                             MENU
                         </div>
-                    </Link>
-                    <Link href='/#blogs' passHref>
+                    </a>
+                    <a href='/'
+                    onClick={e => {
+                        let blogs = document.getElementById("blogs");
+                        e.preventDefault();
+                        blogs && blogs.scrollIntoView({ behavior: "smooth", block: "start" });
+                        window.history.pushState("blogs", "blogs", "/blogs");
+                      }}
+                      >
                         <div className={styles.nav_item}>
                             BLOGS
                         </div>
-                    </Link>
-                    <Link href='/#testimony' passHref>
+                    </a>
+                    <a href='/'
+                    onClick={e => {
+                        let testimony = document.getElementById("testimony");
+                        e.preventDefault();
+                        testimony && testimony.scrollIntoView({ behavior: "smooth", block: "start" });
+                        window.history.pushState("testimony", "testimony", "/testimony");
+                      }}
+                      >
                         <div className={styles.nav_item}>
                             TESTIMONY
                         </div>
-                    </Link>
-                    <Link href='/#findus' passHref>
+                    </a>
+                    <a href='/'
+                    onClick={e => {
+                        let findus = document.getElementById("findus");
+                        e.preventDefault();
+                        findus && findus.scrollIntoView({ behavior: "smooth", block: "start" });
+                        window.history.pushState("findus", "findus", "/findus");
+                      }}
+                      >
                         <div className={styles.nav_item}>
                             FIND US
                         </div>
-                    </Link>
-                    <Link href='/#team' passHref>
+                    </a>
+                    <a href='/'
+                    onClick={e => {
+                        let team = document.getElementById("team");
+                        e.preventDefault();
+                        team && team.scrollIntoView({ behavior: "smooth", block: "start" });
+                        window.history.pushState("team", "team", "/team");
+                      }}
+                      >
                         <div className={styles.nav_item}>
                             OUR TEAM
                         </div>
-                    </Link>
+                    </a>
 
                     <div className={styles.socials}>
                         <Link href='www.instagram.com' passHref>

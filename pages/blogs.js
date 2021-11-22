@@ -11,26 +11,27 @@ function BlogsPage() {
         <div className="woodBackground">
             <Header/>
             <div className={styles.container}>
+                <ZomatoComponent/>
             </div>
-            <ZomatoComponent/>
-            <h1 style={{textAlign: 'center'}}>Blogs</h1>
-            <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
-            <br/>
-            <br/>
+            <div className={styles.mainContent}>
+                <h1 style={{textAlign: 'center'}}>Blogs</h1>
+                <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
+                <br/>
+                <br/>
 
-            {/* {BlogContent.Blogs.map(item => {
-                return (
-                        // eslint-disable-next-line react/jsx-key
-                        <FeaturedBlog data={item} />
-                    );
-                })
-            } */}
+                {/* {BlogContent.Blogs.map(item => {
+                    return (
+                            // eslint-disable-next-line react/jsx-key
+                            <FeaturedBlog data={item} />
+                        );
+                    })
+                } */}
 
-            {/* TODO: #3 Fix image sizes, reduce them */}
-            <PageBlog inverse={false} data={Blogs[0]}/>
-            <PageBlog inverse={true}  data={Blogs[1]}/>
-            <PageBlog inverse={false} data={Blogs[2]}/>
-
+                {/* TODO: #3 Fix image sizes, reduce them */}
+                <PageBlog inverse={false} data={Blogs[0]}/>
+                <PageBlog inverse={true}  data={Blogs[1]}/>
+                <PageBlog inverse={false} data={Blogs[2]}/>
+            </div>
             <Footer/>
         </div>
     )

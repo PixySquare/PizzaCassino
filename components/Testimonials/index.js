@@ -32,7 +32,7 @@ export default class index extends Component {
 
     render() {
         return (
-          <div style={{marginBottom:"30"}} id="testimony">
+          <div style={{marginBottom:"30",scrollMarginTop: 100}} id="testimony">
             <h1 style={{textAlign:"center"}}>TESTIMONIALS</h1>
             <hr style={{width: '35%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
             <br/>

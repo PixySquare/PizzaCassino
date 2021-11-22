@@ -30,7 +30,7 @@ const responsive = {
 
 function OurTeam() {
     return (
-        <div className={styles.wrapper} id="team">
+        <div className={styles.wrapper} style={{scrollMarginTop: 80}} id="team">
             <h1>OUR TEAM</h1>
             <hr style={{width: '30%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
             

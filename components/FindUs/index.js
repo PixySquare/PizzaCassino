@@ -6,7 +6,7 @@ import  { FindUsContent } from "../../data";
 
 function FindUs() {
     return (
-            <div className={styles.mainwrapper} id="findus">
+            <div className={styles.mainwrapper} style={{scrollMarginTop: 80}} id="findus">
                 <h1 style={{textAlign: 'center'}}>{FindUsContent.heading}</h1>
                 <hr style={{width: '35%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
                 <div className={styles.wrapper}>
