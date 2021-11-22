@@ -33,8 +33,9 @@ function MenuPage() {
             <Header/>
 
             <div className={styles.container}>
+                {/* #TODO: #5 fix zomato swiggy component on top */}
                     <ZomatoComponent/>
-                </div>
+            </div>
             <h1 style={{textAlign: 'center'}}>OUR MENU</h1>
             <hr style={{width: '30%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
             <br/>
