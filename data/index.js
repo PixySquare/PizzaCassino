@@ -7,30 +7,30 @@ export const B1 = Banner1;
 export const B2 = Banner2;
 export const B3 = Banner3;
 
-import Menu1 from '../public/assets/menu/1.jpeg';
-import Menu2 from '../public/assets/menu/2.jpeg';
-import Menu3 from '../public/assets/menu/3.jpeg';
-import Menu4 from '../public/assets/menu/4.jpeg';
-import Menu5 from '../public/assets/menu/5.jpeg';
-import Menu6 from '../public/assets/menu/6.jpeg';
-import Menu7 from '../public/assets/menu/7.jpeg';
-import Menu8 from '../public/assets/menu/8.jpeg';
-import Menu9 from '../public/assets/menu/9.jpeg';
-import Menu10 from '../public/assets/menu/10.jpeg';
-import Menu11 from '../public/assets/menu/11.jpeg';
-import Menu12 from '../public/assets/menu/12.jpeg';
-export const M1 = Menu1;
-export const M2 = Menu2;
-export const M3 = Menu3;
-export const M4 = Menu4;
-export const M5 = Menu5;
-export const M6 = Menu6;
-export const M7 = Menu7;
-export const M8 = Menu8;
-export const M9 = Menu9;
-export const M10 = Menu10;
-export const M11 = Menu11;
-export const M12 = Menu12;
+import Menu1 from '../public/assets/menu/1.jpg';
+import Menu2 from '../public/assets/menu/2.jpg';
+import Menu3 from '../public/assets/menu/3.jpg';
+import Menu4 from '../public/assets/menu/4.jpg';
+import Menu5 from '../public/assets/menu/5.jpg';
+import Menu6 from '../public/assets/menu/6.jpg';
+import Menu7 from '../public/assets/menu/7.jpg';
+import Menu8 from '../public/assets/menu/8.jpg';
+import Menu9 from '../public/assets/menu/9.jpg';
+import Menu10 from '../public/assets/menu/10.jpg';
+import Menu11 from '../public/assets/menu/11.jpg';
+import Menu12 from '../public/assets/menu/12.jpg';
+// export const M1 = Menu1;
+// export const M2 = Menu2;
+// export const M3 = Menu3;
+// export const M4 = Menu4;
+// export const M5 = Menu5;
+// export const M6 = Menu6;
+// export const M7 = Menu7;
+// export const M8 = Menu8;
+// export const M9 = Menu9;
+// export const M10 = Menu10;
+// export const M11 = Menu11;
+// export const M12 = Menu12;
 
 
 
@@ -49,18 +49,6 @@ export const MenuContent = {
         {
             "image"      : pizza,
             "name"       : "Sandwich",
-            "ingredients": "Loreum, Loreum",
-            "description": "Loreum Ipsum text"
-        },
-        {
-            "image"      : pizza,
-            "name"       : "Pasta",
-            "ingredients": "Loreum, Loreum",
-            "description": "Loreum Ipsum text"
-        },
-        {
-            "image"      : pizza,
-            "name"       : "Burger",
             "ingredients": "Loreum, Loreum",
             "description": "Loreum Ipsum text"
         },
@@ -263,39 +251,87 @@ export const PromotionsMenu =
 export const Testimonials = [
     {
         Rating: 1,
-        Comment: "Loreum Ipsum text",
-        Writer: "Loreum Ipsum"
+        Comment: "There's no way to go wrong with this location.Pizza that is consistently good, with a wide variety of toppings and flavours. The service is also quick.",
+        Writer: "Abhimanyu Rai"
 
     },
     {
         Rating: 2,
-        Comment: "Loreum Ipsum text",
-        Writer: "Loreum Ipsum"
+        Comment: "They have a fantastic selection of fresh pizzas. I enjoyed my meal here. ",
+        Writer: "Shivani Das"
 
     },{
         Rating: 3,
-        Comment: "Loreum Ipsum text",
-        Writer: "Loreum Ipsum"
+        Comment: "The staff is always courteous, the rates are decent, and the location is always maintained clean.",
+        Writer: "Jagjeet Singh"
 
     },{
         Rating: 4,
-        Comment: "Loreum Ipsum text",
-        Writer: "Loreum Ipsum"
+        Comment: "The pizza here is fantastic, and I highly recommend that you give them a try. They have a wonderful choice of toppings. ",
+        Writer: "Manpreet"
 
     },{
         Rating: 5,
-        Comment: "Loreum Ipsum text",
-        Writer: "Loreum Ipsum"
+        Comment: "Truly pleased with the service. Will visit again. ",
+        Writer: "Pallavi kaushik"
 
     },{
         Rating: 6,
-        Comment: "Loreum Ipsum text",
-        Writer: "Loreum Ipsum"
+        Comment: "I loved their Double cheese margherita. As a cheese fan it was truly a delight. They maintain hygiene and the staff are very polite. ",
+        Writer: "Sanjna Khosla"
 
     },{
         Rating: 7,
-        Comment: "Loreum Ipsum text",
+        Comment: "Loved the chicken dominatore. Never tasted a pizza so good. ",
+        Writer: "Harshal Kumar"
+
+    },
+    {
+        Rating: 8,
+        Comment: "I didn't believe at first that the pizza will be good but it was worth it. Tasted heavenly it was loaded with cheese melting in my mouth.",
+        Writer: "Ashish kamathi"
+
+    },
+    {
+        Rating: 9,
+        Comment: "White sauce pasta never tasted this good. They give adequate quantity of white sauce and cheese. It was creamy not dry at all. You could feel the spiciness. ",
+        Writer: "Naman Jain"
+
+    },
+    {
+        Rating: 10,
+        Comment: "The veggie assortment and tomatoe fillet in the red sauce pasta is to vouch for. Very good. ",
         Writer: "Loreum Ipsum"
+
+    },
+    {
+        Rating: 11,
+        Comment: "The veggie assortment and tomatoe fillet in the red sauce pasta is to vouch for. Very good. ",
+        Writer: "Kunal Tomar"
+
+    },
+    {
+        Rating: 12,
+        Comment: "I give the great staff & great pizza five stars!!! They work so hard & they cook lovely food. ",
+        Writer: "Srishti Jain"
+
+    },
+    {
+        Rating: 13,
+        Comment: "There's so many 'meh' quality pizza places around that it can be difficult to weed out the good from the bad. If you're looking for great pizza look no further than Costy  casino they've got the best pizza in the town. ",
+        Writer: "Jasmine Kaur"
+
+    },
+    {
+        Rating: 14,
+        Comment: "Best pizza and pasta around. Fresh vegetables are fabulous and staff is always friendly. ",
+        Writer: "Drishti Jain"
+
+    },
+    {
+        Rating: 15,
+        Comment: "Awesome pizza crust with fresh ingredients I had the farm house pizza was amazing for my taste buds.",
+        Writer: "Devi Sri Charan"
 
     },
 ]

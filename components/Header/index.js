@@ -39,7 +39,7 @@ function Header() {
                 <Image className={styles.image} src={Icon} alt={"title"} width={40} height={40}/>
                 <Link href='/' passHref>
                     <div className={styles.brand} style={{marginLeft:10}}>
-                        PizzaCassino
+                        PizzaCassino 
                     </div>
                 </Link>
             </div>
@@ -65,32 +65,32 @@ function Header() {
 
             {open && (
                 <div className={styles.collapse}>
-                    <Link href='#aboutus' passHref>
+                    <Link href='/#aboutus' passHref>
                         <div className={styles.nav_item}>
                             ABOUT US
                         </div>
                     </Link>
-                    <Link href='#menu' passHref>
+                    <Link href='/#menu' passHref>
                         <div className={styles.nav_item}>
                             MENU
                         </div>
                     </Link>
-                    <Link href='#blogs' passHref>
+                    <Link href='/#blogs' passHref>
                         <div className={styles.nav_item}>
                             BLOGS
                         </div>
                     </Link>
-                    <Link href='#testimony' passHref>
+                    <Link href='/#testimony' passHref>
                         <div className={styles.nav_item}>
                             TESTIMONY
                         </div>
                     </Link>
-                    <Link href='#findus' passHref>
+                    <Link href='/#findus' passHref>
                         <div className={styles.nav_item}>
                             FIND US
                         </div>
                     </Link>
-                    <Link href='#team' passHref>
+                    <Link href='/#team' passHref>
                         <div className={styles.nav_item}>
                             OUR TEAM
                         </div>

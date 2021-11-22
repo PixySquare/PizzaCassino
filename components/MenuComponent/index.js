@@ -1,7 +1,6 @@
 import React from 'react'
 import MenuCard from '../MenuCard.js'
 import styles from './styles.module.css'
-import pizza from '../../public/assets/menu/pizza.jpeg'
 import PropTypes from "prop-types";
 
 

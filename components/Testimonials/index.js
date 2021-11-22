@@ -46,7 +46,7 @@ export default class index extends Component {
                         keyBoardControl={true}
                         customTransition="all .5"
                         transitionDuration={500}
-                        containerClass="carousel-container"
+                        // containerClass="carousel-container"
                         removeArrowOnDeviceType={["tablet", "mobile"]}
                         // deviceType={this.props.deviceType}
                         dotListClass="custom-dot-list-style"

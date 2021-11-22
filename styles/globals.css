@@ -39,10 +39,10 @@ a {
   color: 'orange !important';
   } */
 
-  .woodBackground{
-    /* background-size: repeat; */
-    /* width:100vw; */
-    /* background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../public/assets/background.png") !important;
-    background-repeat: repeat; */
-    /* background-repeat: repeat-y; */
-  }
+/* .woodBackground{
+  background-size: repeat;
+  width:100vw;
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../public/assets/background.png") !important;
+  background-repeat: repeat;
+  background-repeat: repeat-y;
+} */
