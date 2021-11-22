@@ -20,7 +20,7 @@
     align-items: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1055px) {
     .teamFlex{
         flex-direction:column;
         width: 100% !important;

@@ -12,7 +12,6 @@ function MenuCard({src,title,info,price}) {
                 <div style={{display: 'flex',justifyContent: 'space-between',color:"#F2C94C",width:"100%"}}>
                     <h2>{title}</h2>
                     {price === undefined || price === null ? null : (<h2>{"$" + price}</h2>) }
-                    
                 </div>
                 
                 {/* TODO: #2 Text side dec and img size inc */}

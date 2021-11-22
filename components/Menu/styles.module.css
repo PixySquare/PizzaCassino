@@ -15,7 +15,7 @@
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1055px) {
     .featured{
         flex-direction: column !important;
         

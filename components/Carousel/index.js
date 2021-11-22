@@ -8,7 +8,7 @@ import { B1, B2, B3 } from "../../data";
 export default class DemoCarousel extends Component {
     render() {
         return (
-            <div className="carousel-wrapper" >
+            <div className="carousel-wrapper" style={{marginTop:50}}>
                 <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}  stopOnHover={true} centerMode={true} showArrows={true} >
                     <div>
                         <Image src={B1} style={{width: '20%'}} alt="legend 1"/>

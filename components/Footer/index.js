@@ -19,8 +19,8 @@ function Footer() {
             <Image src={Icon} height="100" width="100"/>
             <h1 style={{marginLeft:30}}>Pizza Cassino</h1>
             </div>
-            <div style={{display: 'flex',flexDirection: 'column',alignItems: 'center',padding:20,marginLeft:"auto",textAlign: 'left'}}>
-                <div style={{display:"flex",alignItems:"center",justifyContent: 'center',fontSize:"120%",marginRight:"auto"}}>
+            <div className={styles.info} style={{display: 'flex',flexDirection: 'column',alignItems: 'center',padding:20,marginLeft:"auto",textAlign: 'left'}}>
+                <div className={styles.phoneInfo} style={{display:"flex",alignItems:"center",justifyContent: 'center',fontSize:"120%",marginRight:"auto"}}>
                     <PhoneIcon fontSize="large"/>
                     <div style={{padding:20}}>
                         +91 123-345-678
@@ -36,7 +36,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div style={{position: 'fixed',bottom:0,width:"100vw",backgroundColor:"#000",display:"flex",justifyContent:"center",alignItems:"center",height:40,padding:10}}>
+            <div className={styles.bottom} style={{position: 'fixed',bottom:0,width:"100vw",backgroundColor:"#000",display:"flex",justifyContent:"center",alignItems:"center",height:40,padding:10}}>
                 Designed and Developed by PixySquare   ||   Made with love for PizzaCassino
             </div>
         </div>
