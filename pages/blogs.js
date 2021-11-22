@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import PageBlog from '../components/PageBlog';
 import Footer from '../components/Footer';
 import ZomatoComponent from '../components/ZomatoComponent';
+import { Blogs } from "../data";
 
 function BlogsPage() {
     return (
@@ -16,9 +17,20 @@ function BlogsPage() {
             <hr style={{width: '10%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
             <br/>
             <br/>
-            <PageBlog inverse={false}/>
-            <PageBlog inverse={true}/>
-            <PageBlog inverse={false}/>
+
+            {/* {BlogContent.Blogs.map(item => {
+                return (
+                        // eslint-disable-next-line react/jsx-key
+                        <FeaturedBlog data={item} />
+                    );
+                })
+            } */}
+
+            {/* TODO: #3 Fix image sizes, reduce them */}
+            <PageBlog inverse={false} data={Blogs[0]}/>
+            <PageBlog inverse={true}  data={Blogs[1]}/>
+            <PageBlog inverse={false} data={Blogs[2]}/>
+
             <Footer/>
         </div>
     )

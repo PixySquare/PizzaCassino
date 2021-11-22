@@ -59,12 +59,11 @@ export const BlogContent = {
     Blogs: [
         {
             "image"      : Peppy_Paneer_Blog,
-            "name"       : "Pizza",
-            "description": "Loreum Ipsum text"
+            "name"       : "Who doesn't love cheddar...",
         },
         {
             "image"      : White_Sauce_Pasta,
-            "name"       : "An assortment of veggies and...",
+            "name"       : "Penne pasta loaded with...",
             "description": ""
         },
         {
@@ -323,3 +322,22 @@ export const Testimonials = [
 ]
 
 export const TeamList = [ "lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol"]
+
+
+export const Blogs = [
+    {
+        "image":  White_Sauce_Pasta ,
+        "heading" : "",
+        "text":  "lol",
+    },
+    {
+        "image": White_Sauce_Pasta  ,
+        "heading" : "Penne pasta loaded with mozzarella cheese, cheddar cheese and white sauce with a dash of black olive is a delicate starter, to begin with. The rich creamy sauce is mouth-watering at its best. The creaminess of the pasta will fill your mouth in one bite that you will crave for more. ",
+        "text": "lol",
+    },
+    {
+        "image": Banana_Smoothie  ,
+        "heading" : "",
+        "text": "A healthy replacement of beverage for you. It nourishes you with fresh ingredients to energise your body. Banana smoothie has everything organic and rich in protein for you to get your boost of energy. " ,
+    }
+]
