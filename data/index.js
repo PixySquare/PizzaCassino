@@ -10,20 +10,15 @@ export const B3 = Banner3;
 import Farm_House_Pizza from '../public/assets/menu/farm_house_pizza.jpg';
 import Peppy_Paneer_Pizza from '../public/assets/menu/peppy_paneer_pizza.jpg';
 import Chicken_Dominator_Pizza from '../public/assets/menu/chicken_dominator_pizza.jpg';
-import Costy_Cassino_Pizza from '../public/assets/menu/costy_cassino_pizza.jpg.';
+// import Costy_Cassino_Pizza from '../public/assets/menu/costy_cassino_pizza.jpg.';
 
 import Red_Sauce_Pasta from '../public/assets/menu/red_sauce_pasta.jpg';
 import White_Sauce_Pasta from '../public/assets/menu/white_sauce_pasta.jpg';
-import Costy_Cassino_Pizza from '../public/assets/menu/costy_cassino_pizza.jpg.';
-
+// import Costy_Cassino_Pizza from '../public/assets/menu/costy_cassino_pizza.jpg.';
 import Jalapeno_Garlic_Bread from '../public/assets/menu/jalapeno_garlic_bread.jpg';
-import Cheese_Stuff_bread from '../public/assets/menu/cheese_stuff_bread.jpg';
-
+import Cheese_Stuff from '../public/assets/menu/cheese_stuff_bread.jpg';
 import Great_Salad from '../public/assets/menu/great_salad.jpg';
-
 import Banana_Smoothie from '../public/assets/menu/banana_smoothie.jpg';
-
-
 import White_Sauce_Pasta_Vertical from '../public/assets/menu/white_sauce_pasta_vertical.jpg';
 import Peppy_Paneer_Blog from '../public/assets/menu/peppy_paneer_crop.jpg';
 
