@@ -38,10 +38,9 @@ function MenuPage() {
             <div className={styles.mainContent}>
                 <h1 style={{textAlign: 'center'}}>OUR MENU</h1>
                 <hr style={{width: '30%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
-                <br/>
-                <br/>
                 <ThemeProvider theme={theme}>
-                    <TabContext value={value}>
+                    <MenuComponent data={AllMenu} />
+                    {/* <TabContext value={value}>
                         <Box sx={{ borderBottom: 1, borderColor: 'divider',width:"50%",color:"#fff", marginLeft:"auto",marginRight:"auto" }}>
                             <TabList textColor="inherit" indicatorColor="primary" variant="fullWidth" onChange={handleChange} aria-label="lab API tabs example">
                             <Tab   label="All" value="1" />
@@ -86,11 +85,10 @@ function MenuPage() {
                                 <MenuComponent data={PromotionsMenu}  />   
                             </div>
                         </TabPanel>
-                        </TabContext>
-                    </ThemeProvider>
+                        </TabContext> */}
+                </ThemeProvider>
 
             </div> 
-
                 <Footer/>
         </div>
     )

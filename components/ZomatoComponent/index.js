@@ -5,10 +5,11 @@ function ZomatoComponent() {
             <p style={{textAlign: 'left',width: '60%',marginRight:20}}>We Are Available At</p>
             <div style={{display: 'flex', flexDirection: 'row'}}>
                 <div className={styles.zomatoButton}>
-                    ZOMATO
+                    <a href={'http://zomato.com'}>ZOMATO</a>
+                    
                 </div>
                 <div className={styles.swiggyButton}>
-                    SWIGGY
+                    <a href={'http://swiggy.com'}>SWIGGY</a>
                 </div>
             </div>
         </div>
