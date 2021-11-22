@@ -23,7 +23,7 @@ import Great_Salad from '../public/assets/menu/great_salad.jpg';
 import Banana_Smoothie from '../public/assets/menu/banana_smoothie.jpg';
 
 import Masala_Chai from '../public/assets/menu/masala_chai.jpg';
-import Espresso from '../public/assets/menu/espresso.jpg';
+import Espresso from '../public/assets/espresso.jpg';
 
 
 
