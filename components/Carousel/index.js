@@ -9,7 +9,7 @@ export default class DemoCarousel extends Component {
     render() {
         return (
             <div className="carousel-wrapper" style={{marginTop:50}}>
-                <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}  stopOnHover={true} centerMode={true} showArrows={true} >
+                <Carousel infiniteLoop={true} interval={3000}  useKeyboardArrows autoPlay showThumbs={false}  stopOnHover={true} centerMode={true} showArrows={true} emulateTouch={true} swipable={true} >
                     <div>
                         <Image src={B1} style={{width: '20%'}} alt="legend 1"/>
                     </div>
