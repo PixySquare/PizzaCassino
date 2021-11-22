@@ -8,13 +8,12 @@ function PageBlog(props) {
     if(props.inverse){
         flex_direction = "row-reverse";
     }
-
     return (
         <div className={styles.container} style={{flexDirection:flex_direction}}>
-            <div className={styles.imgContainer} style={{width:"50%", height:"50%"}}>
+            <div className={styles.imgContainer} style={{width:"30%", height:"50%"}}>
                 <Image src={props.data.image} alt="image"/>
             </div>
-            <div className={styles.textContainer} style={{padding:30,width:"50%"}}>
+            <div className={styles.textContainer} style={{padding:30,width:"70%"}}>
                 <p style={{fontSize:"20px",color:"#F2C94C"}}>{props.data.heading}</p>
                 <p>
                 {props.data.text}
