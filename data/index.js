@@ -24,7 +24,9 @@ import Great_Salad from '../public/assets/menu/great_salad.jpg';
 
 import Banana_Smoothie from '../public/assets/menu/banana_smoothie.jpg';
 
-import Masala_Tea from '../public/assets/menu/masala_tea.jpg';
+import Masala_Chai from '../public/assets/menu/masala_chai.jpg';
+import Espresso from '../public/assets/menu/espresso.jpg';
+
 
 
 
@@ -164,8 +166,8 @@ export const AllMenu =
         "description": "Loreum Ipsum text"
     },
     {
-        "image"      : Masala_Tea,
-        "name"       : "Masala Tea",
+        "image"      : Espresso,
+        "name"       : "Espresso",
         "price"      : "3",
         "description": "Loreum Ipsum text"
     },
@@ -176,11 +178,11 @@ export const AllMenu =
         "description": "Loreum Ipsum text"
     },
     {
-        "image"      : pizza,
-        "name"       : "Burger",
-        "price"      : "3",
+        "image"      : Masala_Chai,
+        "name"       : "Masala Chai",
+        "price": "3",
         "description": "Loreum Ipsum text"
-    }
+    },
 ]
 
 export const StartersMenu = 
