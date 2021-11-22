@@ -16,7 +16,7 @@ function AboutUs() {
                 <hr style={{width: '70%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
             </div>
             <div className={styles.rightContainer}>
-                <Image src={dough} style={{width: '20%'}} alt={dough}/>
+                <Image src={dough} alt={dough} width={325} height={275}/>
             </div>
         </div>
     )
