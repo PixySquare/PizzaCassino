@@ -22,7 +22,7 @@
 
 .bottom{
 
-    position: fixed;
+    /* position: fixed; */
     bottom:0;
     width: 100vw !important;;
     background-color:#000;
