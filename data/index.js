@@ -9,12 +9,17 @@ export const B3 = Banner3;
 
 import Farm_House_Pizza from '../public/assets/menu/farm_house_pizza.jpg';
 import Peppy_Paneer_Pizza from '../public/assets/menu/peppy_paneer_pizza.jpg';
+import Costy_Cassino_Pizza from '../public/assets/menu/costy_cassino_pizza.jpg';
 import Chicken_Dominator_Pizza from '../public/assets/menu/chicken_dominator_pizza.jpg';
+
 import Red_Sauce_Pasta from '../public/assets/menu/red_sauce_pasta.jpg';
 import White_Sauce_Pasta from '../public/assets/menu/white_sauce_pasta.jpg';
+
 import Jalapeno_Garlic_Bread from '../public/assets/menu/jalapeno_garlic_bread.jpg';
-import Cheese_Stuff_bread from '../public/assets/menu/cheese_stuff_bread.jpg';
+import Cheese_Stuff_Bread from '../public/assets/menu/cheese_stuff_bread.jpg';
+
 import Great_Salad from '../public/assets/menu/great_salad.jpg';
+
 import Banana_Smoothie from '../public/assets/menu/banana_smoothie.jpg';
 
 import Masala_Chai from '../public/assets/menu/masala_chai.jpg';
@@ -50,7 +55,7 @@ export const MenuContent = {
             "description": "Loaded with a remarkable combination of veggies, fresh tomatoes, enormous mushrooms, chopped onion and crispy capsicum. Farm house pizza will leave your mouth with a taste of the organic farm. "
         },
         {
-            "image"      : Cheese_Stuff_bread,
+            "image"      : Cheese_Stuff_Bread,
             "name"       : "Cheese Stuff",
             "description": "The name itself is bait for all the cheese lovers in the town. This cheese stick is a cheesy assortment of mozzarella cheese, cheddar cheese loaded with a combination of minced fresh veggies."
         },
@@ -108,73 +113,73 @@ export const AllMenu =
         "image"      : Farm_House_Pizza,
         "name"       : "Farm House Pizza",
         "price": "3",
-        "description": "Loreum Ipsum text"
+        "description": "Loaded with a remarkable combination of veggies, fresh tomatoes, enormous mushrooms, chopped onion and crispy capsicum. Farm house pizza will leave your mouth with a taste of the organic farm. "
     },
     {
         "image"      : Peppy_Paneer_Pizza,
         "name"       : "Peppy Paneer Pizza",
         "price": "3",
-        "description": "Loreum Ipsum text"
+        "description": "Peppy paneer is a spicy assortment of red paprika, crispy capsicum mingled with the soft and fresh paneer. The tandoori sauce in the base and loaded with cheese makes it a favourite of everyone."
     },
     {
         "image"      : Costy_Cassino_Pizza,
         "name"       : "Costy Cassino Pizza",
         "price"      : "3",
-        "description": "Loreum Ipsum text"
+        "description": "A spicy delight topped with golden corn, raw tomatoes, lustrous mushrooms, black olive and silvery chopped tomatoes. Costy casino is one of the special on the menu. It is a garden of the feast! "
     },
     {
         "image"      : Chicken_Dominator_Pizza,
         "name"       : "Chicken Dominator Pizza",
         "price"      : "3",
-        "description": "Loreum Ipsum text"
+        "description": "The crusty pizza is loaded with tomatoes fillet fresh out of the farm, flaky capsicum and who doesn't love barbecue chicken. Chicken Dominatore really dominates your taste buds with the first bite. "
     },
     {
         "image"      : Jalapeno_Garlic_Bread,
         "name"       : "Jalapeno Garlic Bread",
         "price"      : "3",
-        "description": "Loreum Ipsum text"
+        "description": "There is no other stunning way to start your meal than garlic bread topped with grated cheese. The filling is done with garlic stick mixed with jalapeno, sweet corn and mozzarella cheese.  "
     },
     {
-        "image"      : Cheese_Stuff_bread,
+        "image"      : Cheese_Stuff_Bread,
         "name"       : "Cheese Stuff bread",
         "price"      : "3",
-        "description": "Loreum Ipsum text"
+        "description": "The name itself is bait for all the cheese lovers in the town. This cheese stick is a cheesy assortment of mozzarella cheese, cheddar cheese loaded with a combination of minced fresh veggies. "
     },
     {
         "image"      : Red_Sauce_Pasta,
         "name"       : "Red Sauce Pasta",
         "price": "3",
-        "description": "Loreum Ipsum text"
+        "description": "Delicious, steaming hot penne pasta in spicy red sauce. You might just come back for more! To make your taste buds brim with joy it has freshly chopped tomatoes and golden corn. It is perfectly fitted for starters. "
     },
     {
         "image"      : White_Sauce_Pasta,
         "name"       : "White Sauce Pasta",
         "price": "3",
-        "description": "Loreum Ipsum text"
+        "description": "Penne pasta loaded with mozzarella cheese, cheddar cheese and white sauce with a dash of black olive is a delicate starter, to begin with. The rich creamy sauce is mouth-watering at its best. "
     },
     {
         "image"      : Great_Salad,
         "name"       : "Great Salad",
         "price": "3",
-        "description": "Loreum Ipsum text"
+        "description": "A satisfying side dish that can be enjoyed or a delicious snack. Filled with soft paneer mixed with herbs and spices, crispy lettuce, fresh tomatoes, black olive and what not to give a crunch in every bite. "
     },
     {
         "image"      : Espresso,
         "name"       : "Espresso",
         "price"      : "3",
-        "description": "Loreum Ipsum text"
+        "description": "Ground French roasted coffee beans are used induced in milk and a sugar for how much you would like it. Let’s dig deeper into the world of espresso!"
     },
     {
         "image"      : Banana_Smoothie,
         "name"       : "Banana Smoothie",
         "price": "3",
-        "description": "Loreum Ipsum text"
+        "description": "It is healthy and a flavourful  beverage option. sliced bananas, cinnamon powder, walnuts, curd and jaggery is grounded together and nourishes you with fresh ingredients to energise your body."
     },
     {
         "image"      : Masala_Chai,
         "name"       : "Masala Chai",
         "price": "3",
-        "description": "Loreum Ipsum text"
+        "description": "Comes fresh from the hills to satisfy your tea bud. Masala chai is made with saunf, ginger powder, cinnamon, nutmeg, clove, black pepper, cardamom, pinch of salt, sugar, tea leaf and fresh milk. A cup of it will freshen your soul. "
     },
 ]
 
