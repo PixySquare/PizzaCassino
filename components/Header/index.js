@@ -70,7 +70,7 @@ function Header() {
                     </>
                 }
             </div>
-
+            <div style={{display: 'block',marginLeft:"auto"}}>
             {open && (
                 <div className={styles.collapse}>
                     {/* #TODO: #4 fix padding issue while going to sections from links */}
@@ -168,6 +168,7 @@ function Header() {
                     </div>
                 </div>
             )}
+            </div>
         </div>
     )
 }

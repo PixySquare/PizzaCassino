@@ -27,7 +27,7 @@ function BlogsPage() {
                     })
                 } */}
 
-                {/* TODO: #3 Fix image sizes, reduce them */}
+                {/* TODO: #3 Fix Image style={{borderRadius:20}} sizes, reduce them */}
                 <PageBlog inverse={false} data={Blogs[0]}/>
                 <PageBlog inverse={true}  data={Blogs[1]}/>
                 <PageBlog inverse={false} data={Blogs[2]}/>

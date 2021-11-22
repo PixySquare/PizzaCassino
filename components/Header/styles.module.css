@@ -21,7 +21,7 @@
 
 
 .brand {
-  flex: 0.3;
+  flex: 0.33;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -34,6 +34,7 @@
   flex: 1;
   display: flex;
   justify-content:space-between;
+  /* align-items: center; */
   /* margin-right: 0px !important; */
 }
 
