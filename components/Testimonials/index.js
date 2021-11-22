@@ -58,7 +58,7 @@ export default class index extends Component {
                               <div className={styles.testimonialWrapper}>
                                 {/* <span>{item.Rating}</span>
                                 <br /> */}
-                                <span style={{fontSize:"135%",opacity:1.0,float:"left",textAlign:"right",width:"100%"}}>{item.Comment}</span>
+                                <span style={{fontSize:"135%",opacity:1.0,textAlign:"center",width:"100%"}}>{item.Comment}</span>
                                 <br />
                                 <br/>
                                 <span style={{fontSize:"100%",opacity:0.8,float:"left",textAlign:"right",width:"90%"}}> ~ {item.Writer}</span>
