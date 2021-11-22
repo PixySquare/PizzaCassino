@@ -65,6 +65,7 @@ function Header() {
 
             {open && (
                 <div className={styles.collapse}>
+                    {/* #TODO: #4 fix padding issue while going to sections from links */}
                     <Link href='/#aboutus' passHref>
                         <div className={styles.nav_item}>
                             ABOUT US
