@@ -15,7 +15,7 @@ import {
 function Footer() {
     return (
         <div className={styles.footer}>
-            <div class={styles.logoDiv}>
+            <div className={styles.logoDiv}>
             <Image src={Icon} height="100" width="100"/>
             <h1 style={{marginLeft:30}}>Pizza Cassino</h1>
             </div>
