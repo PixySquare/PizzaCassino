@@ -4,7 +4,7 @@ function TeamComponent({img,title,position,description}) {
     return (
         <div className = {styles.wrapper} style={{display:'flex',width:"40%"}}>
             <div className = {styles.imgWrapper} style={{width:'40%'}}>
-                <Image src={img}/>
+                <Image src={img} alt={"hello"}/>
             </div>
             <div className={styles.text} style={{display:'flex',width:"70%",flexDirection:'column',paddingLeft:15,textAlign:"left"}}>
             <p style={{color:"#F2C94C",fontSize:"24px",marginBottom:0}}>{title}</p>

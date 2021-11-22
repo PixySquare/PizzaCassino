@@ -1,10 +1,10 @@
 import styles from './styles.module.css'
-import img from '../../public/assets/teampic.png'
 import TeamComponent from '../TeamComponent'
 import TeamMembers from '../TeamMembers'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import  { TeamList } from "../../data";
+import  { TeamHead, TeamList } from "../../data";
+
 
 const responsive = {
     superLargeDesktop: {
@@ -25,9 +25,6 @@ const responsive = {
     }
   };
   
-
-
-
 function OurTeam() {
     return (
         <div className={styles.wrapper} style={{scrollMarginTop: 80}} id="team">
@@ -35,8 +32,8 @@ function OurTeam() {
             <hr style={{width: '30%',display: 'block', marginRight:"auto",marginLeft:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
             
             <div className={styles.teamFlex} >
-            <TeamComponent img={img} title="MyName" position="CEO,CFO" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui."/>
-            <TeamComponent img={img} title="MyName2" position="CEO2,CFO2" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui."/>
+            <TeamComponent img={TeamHead[0].image} title={TeamHead[0].name} position={TeamHead[0].post} description={TeamHead[0].text}/>
+            <TeamComponent img={TeamHead[1].image} title={TeamHead[1].name} position={TeamHead[1].post} description={TeamHead[1].text}/>
             </div>
             {/* <div className={styles.teamMembers} > */}
 
@@ -60,7 +57,7 @@ function OurTeam() {
                     {TeamList.map(item => {
                         return (
                             // eslint-disable-next-line react/jsx-key
-                            <TeamMembers/>
+                            <TeamMembers data={item}/>
                             );
                         })
                     }

@@ -25,17 +25,12 @@ import Banana_Smoothie from '../public/assets/menu/banana_smoothie.jpg';
 import Masala_Chai from '../public/assets/menu/masala_chai.jpg';
 import Espresso from '../public/assets/espresso.jpg';
 
+import P1 from '../public/assets/teampic.png';
 
 
 import White_Sauce_Pasta_Vertical from '../public/assets/menu/white_sauce_pasta_vertical.jpg';
 import Peppy_Paneer_Blog from '../public/assets/menu/peppy_paneer_crop.jpg';
 
-// import Menu7 from '../public/assets/menu/7.jpg';
-// import Menu8 from '../public/assets/menu/8.jpg';
-// import Menu9 from '../public/assets/menu/9.jpg';
-// import Menu10 from '../public/assets/menu/10.jpg';
-// import Menu11 from '../public/assets/menu/11.jpg';
-// import Menu12 from '../public/assets/menu/12.jpg';
 
 export const AboutUsContent = "As our tagline says 'Get closer to what you love' here at Pizza cassino we promise to savour your soul. We take you one step closer to the phrase 'heaven in the mouth'. We deliver theawesomeness of food on your plates with a delicate touch of love. We are not only a place to drop inand get your morning cup of coffee but also to sit down and enjoy the mouth-watering dishes. We offer a delicious variety of everything spicy and sweet. We look forward to serving you our best menu in town! Pizza Cassino also takes great care of hygiene.";
 
@@ -382,7 +377,64 @@ export const Testimonials = [
     },
 ]
 
-export const TeamList = [ "lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol","lol"]
+export const TeamHead = [
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+        "post":"Lorem",
+        "text":"lorem Ipsum is simply dummy text of the printing"
+    },
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+        "post":"Lorem",
+        "text":"lorem Ipsum is simply dummy text of the printing"
+    },
+]
+
+export const TeamList = [
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+    },
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+    },
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+    },
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+    },
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+    },
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+    },
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+    },
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+    },
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+    },
+    {
+        "image": P1,
+        "name":"Lorem Ipsum",
+    },
+    
+]
 
 
 export const Blogs = [
