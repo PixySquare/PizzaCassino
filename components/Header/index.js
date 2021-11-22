@@ -79,7 +79,10 @@ function Header() {
                         let about = document.getElementById("aboutus");
                         e.preventDefault();
                         about && about.scrollIntoView({ behavior: "smooth", block: "start" });
-                        // window.history.pushState("/aboutus");
+
+                        if(window.location.href!="http://localhost:3000/"){
+                        location.href = "/#aboutus";
+                        }
                       }}
                     >
                         <div className={styles.nav_item}>
@@ -91,7 +94,9 @@ function Header() {
                         let menu = document.getElementById("menu");
                         e.preventDefault();
                         menu && menu.scrollIntoView({ behavior: "smooth", block: "start" });
-                        // window.history.pushState("menu", "menu", "/menu");
+                        if(window.location.href!="http://localhost:3000/"){
+                        location.href = "/#menu";
+                        }
                       }}
                       >
                         <div className={styles.nav_item}>
@@ -104,6 +109,9 @@ function Header() {
                         e.preventDefault();
                         blogs && blogs.scrollIntoView({ behavior: "smooth", block: "start" });
                         // window.history.pushState("blogs", "blogs", "/blogs");
+                        if(window.location.href!="http://localhost:3000/"){
+                        location.href = "/#blogs";
+                        }
                       }}
                       >
                         <div className={styles.nav_item}>
@@ -116,6 +124,9 @@ function Header() {
                         e.preventDefault();
                         testimony && testimony.scrollIntoView({ behavior: "smooth", block: "start" });
                         // window.history.pushState("testimony", "testimony", "/testimony");
+                        if(window.location.href!="http://localhost:3000/"){
+                        location.href = "/#testimony";
+                        }
                       }}
                       >
                         <div className={styles.nav_item}>
@@ -128,6 +139,9 @@ function Header() {
                         e.preventDefault();
                         findus && findus.scrollIntoView({ behavior: "smooth", block: "start" });
                         // window.history.pushState("findus", "findus", "/findus");
+                        if(window.location.href!="http://localhost:3000/"){
+                            location.href = "/#findus";
+                            }
                       }}
                       >
                         <div className={styles.nav_item}>
@@ -140,6 +154,9 @@ function Header() {
                         e.preventDefault();
                         team && team.scrollIntoView({ behavior: "smooth", block: "start" });
                         // window.history.pushState("team", "team", "/team");
+                        if(window.location.href!="http://localhost:3000/"){
+                            location.href = "/#team";
+                            }
                       }}
                       >
                         <div className={styles.nav_item}>
