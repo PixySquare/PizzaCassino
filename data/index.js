@@ -9,12 +9,11 @@ export const B3 = Banner3;
 
 import Farm_House_Pizza from '../public/assets/menu/farm_house_pizza.jpg';
 import Peppy_Paneer_Pizza from '../public/assets/menu/peppy_paneer_pizza.jpg';
+import Costy_Cassino_Pizza from '../public/assets/menu/costy_cassino_pizza.jpg';
 import Chicken_Dominator_Pizza from '../public/assets/menu/chicken_dominator_pizza.jpg';
-import Costy_Cassino_Pizza from '../public/assets/menu/costy_cassino_pizza.jpg.';
 
 import Red_Sauce_Pasta from '../public/assets/menu/red_sauce_pasta.jpg';
 import White_Sauce_Pasta from '../public/assets/menu/white_sauce_pasta.jpg';
-import Costy_Cassino_Pizza from '../public/assets/menu/costy_cassino_pizza.jpg.';
 
 import Jalapeno_Garlic_Bread from '../public/assets/menu/jalapeno_garlic_bread.jpg';
 import Cheese_Stuff_bread from '../public/assets/menu/cheese_stuff_bread.jpg';
@@ -22,6 +21,9 @@ import Cheese_Stuff_bread from '../public/assets/menu/cheese_stuff_bread.jpg';
 import Great_Salad from '../public/assets/menu/great_salad.jpg';
 
 import Banana_Smoothie from '../public/assets/menu/banana_smoothie.jpg';
+
+import Masala_Tea from '../public/assets/menu/masala_tea.jpg';
+
 
 
 import White_Sauce_Pasta_Vertical from '../public/assets/menu/white_sauce_pasta_vertical.jpg';
@@ -51,7 +53,7 @@ export const MenuContent = {
             "description": "Loaded with a remarkable combination of veggies, fresh tomatoes, enormous mushrooms, chopped onion and crispy capsicum. Farm house pizza will leave your mouth with a taste of the organic farm. "
         },
         {
-            "image"      : Cheese_Stuff,
+            "image"      : Cheese_Stuff_bread,
             "name"       : "Cheese Stuff",
             "description": "The name itself is bait for all the cheese lovers in the town. This cheese stick is a cheesy assortment of mozzarella cheese, cheddar cheese loaded with a combination of minced fresh veggies."
         },
@@ -106,21 +108,69 @@ export const FindUsContent = {
 export const AllMenu = 
 [
     {
-        "image"      : pizza,
-        "name"       : "Pizza1",
+        "image"      : Farm_House_Pizza,
+        "name"       : "Farm House Pizza",
         "price": "3",
         "description": "Loreum Ipsum text"
     },
     {
-        "image"      : pizza,
-        "name"       : "Sandwich",
+        "image"      : Peppy_Paneer_Pizza,
+        "name"       : "Peppy Paneer Pizza",
         "price": "3",
         "description": "Loreum Ipsum text"
     },
     {
-        "image"      : pizza,
-        "name"       : "Pasta",
+        "image"      : Costy_Cassino_Pizza,
+        "name"       : "Costy Cassino Pizza",
         "price"      : "3",
+        "description": "Loreum Ipsum text"
+    },
+    {
+        "image"      : Chicken_Dominator_Pizza,
+        "name"       : "Chicken Dominator Pizza",
+        "price"      : "3",
+        "description": "Loreum Ipsum text"
+    },
+    {
+        "image"      : Jalapeno_Garlic_Bread,
+        "name"       : "Jalapeno Garlic Bread",
+        "price"      : "3",
+        "description": "Loreum Ipsum text"
+    },
+    {
+        "image"      : Cheese_Stuff_bread,
+        "name"       : "Cheese Stuff bread",
+        "price"      : "3",
+        "description": "Loreum Ipsum text"
+    },
+    {
+        "image"      : Red_Sauce_Pasta,
+        "name"       : "Red Sauce Pasta",
+        "price": "3",
+        "description": "Loreum Ipsum text"
+    },
+    {
+        "image"      : White_Sauce_Pasta,
+        "name"       : "White Sauce Pasta",
+        "price": "3",
+        "description": "Loreum Ipsum text"
+    },
+    {
+        "image"      : Great_Salad,
+        "name"       : "Great Salad",
+        "price": "3",
+        "description": "Loreum Ipsum text"
+    },
+    {
+        "image"      : Masala_Tea,
+        "name"       : "Masala Tea",
+        "price"      : "3",
+        "description": "Loreum Ipsum text"
+    },
+    {
+        "image"      : Banana_Smoothie,
+        "name"       : "Banana Smoothie",
+        "price": "3",
         "description": "Loreum Ipsum text"
     },
     {
