@@ -38,7 +38,7 @@ function Footer() {
                 </div>
             </div>
             <div className={styles.bottom} >
-                Designed and Developed by PixySquare   ||   Made with love for PizzaCassino
+                  PizzaCassino © 2021 || Designed and Developed by PixySquare
             </div>
         </div>
     )

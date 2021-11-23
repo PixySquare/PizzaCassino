@@ -10,7 +10,6 @@ import BlogsComponent from '../components/BlogsComponent'
 import OurTeam from '../components/OurTeam'
 import Menu from '../components/Menu'
 import Testimonials from "../components/Testimonials";
-// import Header from '../components/headerrrr/header/header'
 export default class Home extends Component {
 
   render(){
@@ -21,7 +20,6 @@ export default class Home extends Component {
           <meta name="PizzaCassino" content="lorem" />
         </Head>
         <Header/>
-        {/* <Header/> */}
         <Carousel/>
         <AboutUs/>
         <Menu/>
