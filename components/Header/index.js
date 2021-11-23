@@ -44,9 +44,9 @@ function Header() {
     return (
         <div className={styles.header} >
             <div className={styles.logoDiv} style={{display: 'flex', flexDirection: 'row',alignItems: 'center',flex:0.3}}>
-                <Image className={styles.image} src={Icon} alt={"title"} width={40} height={40}/>
+                <Image className={styles.image} src={Icon} alt={"title"} />
                 <Link href='/' passHref>
-                    <div className={styles.brand} style={{marginLeft:10}}>
+                    <div className={styles.brand} >
                         PizzaCassino 
                     </div>
                 </Link>
@@ -165,22 +165,20 @@ function Header() {
                     </a>
 
                     <div className={styles.socials}>
-                        <Link href='www.instagram.com' passHref>
-                            <div className={styles.nav_item}>
+                        <Link href={'https://www.instagram.com'}>
+                            <a target="_blank" className={styles.nav_item}>
                                 <FontAwesomeIcon icon={faInstagram} size="lg"/>
-                            </div>
+                            </a>
                         </Link>
-
-                        <Link href='www.facebook.com' passHref>
-                            <div className={styles.nav_item}>
+                        <Link href={'https://www.facebook.com'}>
+                            <a target="_blank" >
                                 <FontAwesomeIcon icon={faFacebook} size="lg"/>
-                            </div>
+                            </a>
                         </Link>
-
-                        <Link href='www.whatsapp.com' passHref>
-                            <div className={styles.nav_item}>
-                                <FontAwesomeIcon icon={faWhatsapp} size="lg"/> 
-                            </div>
+                        <Link href={'https://www.whatsapp.com'}>
+                            <a target="_blank" className={styles.nav_item}>
+                                <FontAwesomeIcon icon={faWhatsapp} size="lg"/>
+                            </a>
                         </Link>
                     </div>
                 </div>

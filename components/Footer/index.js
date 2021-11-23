@@ -32,7 +32,7 @@ function Footer() {
                     <div style={{display:"flex",alignItems:"center",justifyContent: 'center',fontSize:"120%"}}>
                         <MailIcon fontSize="large"/>
                         <div style={{padding:20}}>
-                            mail@pizzacassino.com
+                            mail@gmail.com
                         </div>
                     </div>
                 </div>

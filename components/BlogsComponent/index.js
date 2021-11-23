@@ -8,7 +8,7 @@ import  { BlogContent } from "../../data";
 function BlogsComponent() {
     return (
         <div className={styles.wrapper} id="blogs" style={{scrollMarginTop: 80}}>
-            <Link href="/blogs" passHref>
+            
                 <div>
                 <h1 style={{textAlign: 'center'}}>{BlogContent.heading}</h1>
                 <hr style={{width: '45%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}} />
@@ -28,7 +28,6 @@ function BlogsComponent() {
                 </div>
                 <br />
             </div>
-            </Link>
         </div>
     )
 }

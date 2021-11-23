@@ -6,7 +6,7 @@ function TeamMembers(props) {
     return (
         <div className={styles.wrapper}>
             <div className={styles.image}>
-                <Image src={props.data.image} alt={"team"}/>
+                <Image src={props.data.image} alt={"team"} height={170} width={170}/>
             </div>
             <div className={styles.text}>
                 <p style={{color:"#F2C94C",fontSize:"150%"}}>{props.data.name}</p>

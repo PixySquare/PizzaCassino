@@ -10,10 +10,10 @@ function PageBlog(props) {
     }
     return (
         <div className={styles.container} style={{flexDirection:flex_direction}}>
-            <div className={styles.imgContainer} style={{width:"30%", height:"50%"}}>
+            <div className={styles.imgContainer} style={{width:"20%", height:"40%"}}>
                 <Image src={props.data.image} alt="image"/>
             </div>
-            <div className={styles.textContainer} style={{padding:30,width:"70%"}}>
+            <div className={styles.textContainer} style={{padding:30,width:"40%"}}>
                 <p style={{fontSize:"20px",color:"#F2C94C"}}>{props.data.heading}</p>
                 <p>
                 {props.data.text}

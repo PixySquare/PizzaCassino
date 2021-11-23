@@ -7,6 +7,7 @@ import {AboutUsContent} from '../../data';
 function AboutUs() {
     return (
         <div className={styles.wrapper} id="aboutus">
+
             <div className={styles.leftContainer}>
                 <hr style={{width: '70%',display: 'block', marginRight:"auto",backgroundColor:"#F24C4C",borderColor:"#F24C4C"}}/>
                 <br />

@@ -6,7 +6,7 @@ function MenuCard({src,title,info,price}) {
     return (
         <div className={styles.wrapper}>
             <div className={styles.imageDiv} style={{width:"80%"}}>
-            <Image className={styles.image} src={src} alt={title}/>
+            <Image className={styles.image} src={src} alt={title} />
             </div>
             <div className={styles.info} style={{width:"100%"}}>
                 <div style={{display: 'flex',justifyContent: 'space-between',color:"#F2C94C",width:"100%"}}>

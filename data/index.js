@@ -63,7 +63,7 @@ export const MenuContent = {
 
 export const BlogContent = {
     heading:"CRAVING FOR MORE?",
-    description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    description:"Everyone craves for more when they love it, read more about your favourite Pizza place and feel delighted if not already to be a part of our valued customer community.",
     Blogs: [
         {
             "image"      : Peppy_Paneer_Blog,
@@ -439,11 +439,11 @@ export const TeamList = [
 
 export const Blogs = [
     {
-        "image":  Banana_Smoothie ,
-        "heading" : "A healthy replacement of beverage for you. It nourishes you with fresh ingredients to energise your body. Banana smoothie has everything organic and rich in protein for you to get your boost of energy. ",
+        "image":  Peppy_Paneer_Blog ,
+        "heading" : "Completely brings you the organic farm on your plate loaded with cheese to quench your appetite. The fresh crispy vegetables will be a delight for everyone who are eyeing for a veg pizza. With the toppings at its best you will definitely fall in love with the farmhouse pizza. The succulent mushrooms and crispy capsicum are definitely an eye candy. ",
     },
     {
-        "image": Banana_Smoothie  ,
+        "image": White_Sauce_Pasta_Vertical  ,
         "heading" : "Penne pasta loaded with mozzarella cheese, cheddar cheese and white sauce with a dash of black olive is a delicate starter, to begin with. The rich creamy sauce is mouth-watering at its best. The creaminess of the pasta will fill your mouth in one bite that you will crave for more. ",
     },
     {
