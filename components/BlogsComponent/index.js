@@ -24,7 +24,7 @@ function BlogsComponent() {
                     }
                 </div>
                 <div className="buttonYellow" >
-                    <p style={{textAlign: "center", color:"#F2C94C"}}>Read More</p>
+                    <p style={{textAlign: "center"}}>Read More</p>
                 </div>
                 <br />
             </div>

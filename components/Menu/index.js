@@ -15,7 +15,7 @@ function Menu() {
             <MenuComponent data={MenuContent.SpecialMenu}/>
 
             <div className="buttonYellow">
-                <Link href="/menu" passHref><p style={{textAlign: "center", color:"#F2C94C"}}>View More</p></Link>
+                <Link href="/menu" passHref><p style={{textAlign: "center"}}>View More</p></Link>
             </div>
         </div>
     )
