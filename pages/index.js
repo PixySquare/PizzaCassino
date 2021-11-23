@@ -21,8 +21,8 @@ export default class Home extends Component {
         </Head>
         <Header/>
         <Carousel/>
-        <AboutUs/>
         <Menu/>
+        <AboutUs/>
         <BlogsComponent/>
         <FindUs/>
         <OurTeam/>
