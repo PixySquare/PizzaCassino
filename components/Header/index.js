@@ -80,7 +80,7 @@ function Header() {
                         e.preventDefault();
                         about && about.scrollIntoView({ behavior: "smooth", block: "start" });
 
-                        if(window.location.href!="http://localhost:3000/" || window.location.href!="https://pizzacassino.vercel.app/"){
+                        if(window.location.href!="http://localhost:3000/" && window.location.href!="https://pizzacassino.vercel.app/"){
                         location.href = "/#aboutus";
                         }
                       }}
@@ -94,7 +94,7 @@ function Header() {
                         let menu = document.getElementById("menu");
                         e.preventDefault();
                         menu && menu.scrollIntoView({ behavior: "smooth", block: "start" });
-                        if(window.location.href!="http://localhost:3000/" || window.location.href!="https://pizzacassino.vercel.app/"){
+                        if(window.location.href!="http://localhost:3000/" && window.location.href!="https://pizzacassino.vercel.app/"){
                         location.href = "/#menu";
                         }
                       }}
@@ -109,7 +109,7 @@ function Header() {
                         e.preventDefault();
                         blogs && blogs.scrollIntoView({ behavior: "smooth", block: "start" });
                         // window.history.pushState("blogs", "blogs", "/blogs");
-                        if(window.location.href!="http://localhost:3000/" || window.location.href!="https://pizzacassino.vercel.app/"){
+                        if(window.location.href!="http://localhost:3000/" && window.location.href!="https://pizzacassino.vercel.app/"){
                         location.href = "/#blogs";
                         }
                       }}
@@ -124,7 +124,7 @@ function Header() {
                         e.preventDefault();
                         testimony && testimony.scrollIntoView({ behavior: "smooth", block: "start" });
                         // window.history.pushState("testimony", "testimony", "/testimony");
-                        if(window.location.href!="http://localhost:3000/" || window.location.href!="https://pizzacassino.vercel.app/"){
+                        if(window.location.href!="http://localhost:3000/" && window.location.href!="https://pizzacassino.vercel.app/"){
                         location.href = "/#testimony";
                         }
                       }}
@@ -139,7 +139,7 @@ function Header() {
                         e.preventDefault();
                         findus && findus.scrollIntoView({ behavior: "smooth", block: "start" });
                         // window.history.pushState("findus", "findus", "/findus");
-                        if(window.location.href!="http://localhost:3000/" || window.location.href!="https://pizzacassino.vercel.app/"){
+                        if(window.location.href!="http://localhost:3000/" && window.location.href!="https://pizzacassino.vercel.app/"){
                             location.href = "/#findus";
                             }
                       }}
@@ -154,7 +154,7 @@ function Header() {
                         e.preventDefault();
                         team && team.scrollIntoView({ behavior: "smooth", block: "start" });
                         // window.history.pushState("team", "team", "/team");
-                        if(window.location.href!="http://localhost:3000/" || window.location.href!="https://pizzacassino.vercel.app/"){
+                        if(window.location.href!="http://localhost:3000/" && window.location.href!="https://pizzacassino.vercel.app/"){
                             location.href = "/#team";
                             }
                       }}
