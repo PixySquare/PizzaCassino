@@ -52,6 +52,7 @@
         justify-content: space-between!important;
     }
     .bottom{
+        margin-top: 200px !important;
         padding-left:15px !important;
         padding-right:15px !important;
         margin-left: 20px !important;

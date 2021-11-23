@@ -21,5 +21,9 @@
         flex-direction: column !important;
         
     }
+
+    .wrapper p{
+        width:100% !important;
+    }
 }
 
