@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './styles.module.css';
 import TeamComponent from '../TeamComponent';
 import TeamMembers from '../TeamMembers';
@@ -29,12 +30,17 @@ function OurTeam() {
   return (
     <div className={styles.wrapper} style={{scrollMarginTop: 80}} id="team">
       <h1>OUR TEAM</h1>
-      <hr style={{width: '30%', display: 'block', marginRight: 'auto', marginLeft: 'auto', backgroundColor: '#F24C4C', borderColor: '#F24C4C'}}/>
+      <hr style={{width: '30%', display: 'block', marginRight: 'auto',
+        marginLeft: 'auto', backgroundColor: '#F24C4C',
+        borderColor: '#F24C4C'}}/>
 
       <div className={styles.teamFlex} >
-        <TeamComponent img={TeamHead[0].image} title={TeamHead[0].name} position={TeamHead[0].post} description={TeamHead[0].text}/>
-        <TeamComponent img={TeamHead[1].image} title={TeamHead[1].name} position={TeamHead[1].post} description={TeamHead[1].text}/>
+        <TeamComponent img={TeamHead[0].image} title={TeamHead[0].name}
+          position={TeamHead[0].post} description={TeamHead[0].text}/>
+        <TeamComponent img={TeamHead[1].image} title={TeamHead[1].name}
+          position={TeamHead[1].post} description={TeamHead[1].text}/>
       </div>
+
       {/* <div className={styles.teamMembers} > */}
 
       <Carousel responsive={responsive}
