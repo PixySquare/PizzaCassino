@@ -15,8 +15,8 @@ jobs:
       - name: Installing CI dependencies
         run: npm ci
 
-      - name: ESLint Fixing 
+      - name: ESLint Detecting 
         run: npx eslint . --ext .js,.jsx
       
       - name: ESLint Fixing 
-        run: npx eslint . --ext .js,.jsx
+        run: npx eslint . --ext .js,.jsx --fix
