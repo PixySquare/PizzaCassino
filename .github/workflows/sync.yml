@@ -10,7 +10,7 @@ jobs:
       - name: git-sync
         uses: wei/git-sync@v3
         with:
-          source_repo: "https://heemankv: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@github.com//PixySquare/PizzaCassino.git"
+          source_repo: "https://heemankv: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@github.com/PixySquare/PizzaCassino.git"
           source_branch: "main"
           destination_repo: "https://heemankv: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@github.com/pixysq/PizzaCassino.git"
           destination_branch: "master"
