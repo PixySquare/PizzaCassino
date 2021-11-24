@@ -53,6 +53,4 @@ jobs:
         uses: wei/git-sync@v3
         with:
           source_repo: "PixySquare/PizzaCassino"
-          source_branch: "main"
           destination_repo: "heemankv/lil"
-          destination_branch: "main"
