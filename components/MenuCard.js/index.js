@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 import Image from '../../common/Image';
+import PropTypes from 'prop-types';
 
 function MenuCard({src, title, info, price}) {
   return (
@@ -19,9 +20,7 @@ function MenuCard({src, title, info, price}) {
         <div>
           {info}
         </div>
-
       </div>
-
     </div>
   );
 }

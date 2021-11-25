@@ -1,9 +1,11 @@
 import React from 'react';
-import { Box, Text, Heading } from 'theme-ui';
+import {Box, Text, Heading} from 'theme-ui';
+import PropTypes from 'prop-types';
 
-export default function SectionHeader({ title, slogan, isWhite }) {
+
+export default function SectionHeader({title, slogan, isWhite}) {
   return (
-    <Box sx={{ variant: 'sectionHeader' }}>
+    <Box sx={{variant: 'sectionHeader'}}>
       <Text
         as="p"
         sx={{
@@ -26,3 +28,10 @@ export default function SectionHeader({ title, slogan, isWhite }) {
     </Box>
   );
 }
+
+
+SectionHeader.propTypes = {
+  slogan: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  isWhite: PropTypes.bool.isRequired,
+};
