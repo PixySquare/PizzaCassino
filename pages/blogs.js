@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from '../styles/blogs.module.css';
 import Header from '../components/Header';
-// import PageBlog from '../components/PageBlog';
+import PageBlog from '../components/PageBlog';
 import Footer from '../components/Footer';
 import ZomatoComponent from '../components/ZomatoComponent';
-// import {Blogs} from '../data';
+import {Blogs} from '../data';
 
 function BlogsPage() {
   return (
@@ -20,9 +20,9 @@ function BlogsPage() {
           marginLeft: 'auto', backgroundColor: '#F24C4C',
           borderColor: '#F24C4C'}}/>
 
-        {/* <PageBlog inverse={false} data={Blogs[0]}/>
+        <PageBlog inverse={false} data={Blogs[0]}/>
         <PageBlog inverse={true} data={Blogs[1]}/>
-        <PageBlog inverse={false} data={Blogs[2]}/> */}
+        <PageBlog inverse={false} data={Blogs[2]}/>
       </div>
       <Footer/>
     </div>
