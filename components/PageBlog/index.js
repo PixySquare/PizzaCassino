@@ -4,10 +4,7 @@ import styles from './styles.module.css';
 import PropTypes from 'prop-types';
 
 export default function PageBlog(props) {
-  const flexDirection = 'row';
-  if (props.inverse) {
-    flexDirection = 'row-reverse';
-  }
+  const flexDirection = ( props.inverse ? 'row' : 'row-reverse');
   return (
     <div className={styles.container} style={{flexDirection: flexDirection}}>
       <div className={styles.imgContainer}
