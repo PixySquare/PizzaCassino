@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.css';
 import dough from '../../public/assets/dough.png';
 import Image from '../../common/Image';
-import {AboutUsContent} from '../../data';
+import {aboutusContent} from '../../data';
 
 
 function AboutUs() {
@@ -14,7 +14,7 @@ function AboutUs() {
           backgroundColor: '#F24C4C', borderColor: '#F24C4C'}}/>
         <br />
         <h1 style={{textAlign: 'center'}}>ABOUT US</h1>
-        <p style={{width: '70%', textAlign: 'center'}}>{AboutUsContent}</p>
+        <p style={{width: '70%', textAlign: 'center'}}>{aboutusContent}</p>
         <br />
         <hr style={{width: '70%', display: 'block', marginRight: 'auto',
           backgroundColor: '#F24C4C', borderColor: '#F24C4C'}}/>
