@@ -10,6 +10,7 @@ function BlogsPage() {
   return (
     <div className="woodBackground">
       <Header/>
+
       <div className={styles.container}>
         <ZomatoComponent/>
       </div>
@@ -18,16 +19,6 @@ function BlogsPage() {
         <hr style={{width: '10%', display: 'block', marginRight: 'auto',
           marginLeft: 'auto', backgroundColor: '#F24C4C',
           borderColor: '#F24C4C'}}/>
-        <br/>
-        <br/>
-
-        {/* {BlogContent.Blogs.map(item => {
-                    return (
-                            // eslint-disable-next-line react/jsx-key
-                            <FeaturedBlog data={item} />
-                        );
-                    })
-                } */}
 
         <PageBlog inverse={false} data={Blogs[0]}/>
         <PageBlog inverse={true} data={Blogs[1]}/>
