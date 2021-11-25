@@ -2,6 +2,7 @@ import React from 'react';
 import FeaturedBlog from '../FeaturedBlog';
 import styles from './styles.module.css';
 import {BlogContent} from '../../data';
+import Link from 'next/link';
 
 
 function BlogsComponent() {
@@ -24,8 +25,9 @@ function BlogsComponent() {
           })
           }
         </div>
-        <div className="buttonYellow" >
-          <p style={{textAlign: 'center'}}>Read More</p>
+        <div className="buttonYellow">
+          <Link href="/blogs" passHref><p style={{textAlign: 'center'}}>
+            View More</p></Link>
         </div>
         <br />
       </div>

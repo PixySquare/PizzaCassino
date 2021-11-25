@@ -20,6 +20,7 @@ function MenuCard({src, title, info, price}) {
         <div>
           {info}
         </div>
+
       </div>
     </div>
   );
