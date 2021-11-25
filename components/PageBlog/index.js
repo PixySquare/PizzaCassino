@@ -3,7 +3,7 @@ import Image from '../../common/Image';
 import styles from './styles.module.css';
 import PropTypes from 'prop-types';
 
-function PageBlog(props) {
+function PageBlog(heading, text, image) {
   const flexDirection = 'row';
   if (props.inverse) {
     flexDirection = 'row-reverse';
@@ -12,12 +12,12 @@ function PageBlog(props) {
     <div className={styles.container} style={{flexDirection: flexDirection}}>
       <div className={styles.imgContainer}
         style={{width: '20%', height: '40%'}}>
-        <Image src={props.data.image} alt="image"/>
+        <Image src={image} alt="image"/>
       </div>
       <div className={styles.textContainer} style={{padding: 30, width: '40%'}}>
-        <p style={{fontSize: '20px', color: '#F2C94C'}}>{props.data.heading}</p>
+        <p style={{fontSize: '20px', color: '#F2C94C'}}>{heading}</p>
         <p>
-          {props.data.text}
+          {text}
         </p>
         <br/>
         <div className={styles.buttonYellow}
@@ -29,8 +29,10 @@ function PageBlog(props) {
 }
 
 PageBlog.propTypes = {
+  image: PropTypes.string.isRequired,
   inverse: PropTypes.bool.isRequired,
-  data: PropTypes.objectOf(PropTypes.string).isRequired,
+  heading: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 export default PageBlog;
