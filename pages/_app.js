@@ -1,8 +1,10 @@
-import '../styles/globals.css'
+/* eslint-disable react/prop-types */
+import '../styles/globals.css';
 import React from 'react';
-import LoadingScreen from "../components/loadingScreen";
+import LoadingScreen from '../components/loadingScreen';
 
-function MyApp({ Component, pageProps }) {
+
+function MyApp({Component, pageProps}) {
   const [loading, setLoading] = React.useState(false);
 
   React.useEffect(() => {
@@ -22,5 +24,4 @@ function MyApp({ Component, pageProps }) {
     </>
   );
 }
-
-export default MyApp
+export default MyApp;
