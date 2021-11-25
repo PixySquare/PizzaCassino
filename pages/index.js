@@ -16,7 +16,8 @@ export default class Home extends Component {
       <div className='woodBackground'>
         <Head>
           <title>PizzaCassino</title>
-          <meta name="PizzaCassino" content="lorem" />
+          <meta name="PizzaCassino" content="PizzaCassino is a restaurant
+           located in Dwarka Mor, Delhi" />
         </Head>
         <Header/>
         <Carousel/>
