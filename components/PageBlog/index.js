@@ -3,7 +3,6 @@ import Image from '../../common/Image';
 import styles from './styles.module.css';
 import PropTypes from 'prop-types';
 
-
 function PageBlog(props) {
   const flexDirection = 'row';
   if (props.inverse) {
@@ -31,7 +30,7 @@ function PageBlog(props) {
 
 PageBlog.propTypes = {
   inverse: PropTypes.bool.isRequired,
-  data: PropTypes.element.isRequired,
+  data: PropTypes.objectOf(PropTypes.string).isRequired,
 };
 
 export default PageBlog;
