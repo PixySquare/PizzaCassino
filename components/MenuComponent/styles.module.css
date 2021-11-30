@@ -31,7 +31,9 @@
     }
 
     .wrapper{
-        width:100% !important;
+        width:70% !important;
         padding: 0px !important;
+        margin-right:auto !important;
+        margin-left:auto;
     }
 }

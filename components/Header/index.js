@@ -41,10 +41,11 @@ function Header() {
 
   return (
     <div className={styles.header} >
-      <div className={styles.logoDiv}
-        style={{display: 'flex', flexDirection: 'row',
-          alignItems: 'center', flex: 0.3}}>
-        <Image className={styles.image} src={Icon} alt={'title'} />
+      <div className={styles.logoDiv} style={{display: 'flex',
+        flexDirection: 'row', alignItems: 'center', flex: 0.3}}>
+        <div style={{minWidth: 40}}>
+          <Image className={styles.image} src={Icon} alt={'title'} />
+        </div>
         <Link href='/' passHref>
           <div className={styles.brand} >
                         PizzaCassino
