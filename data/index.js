@@ -1,9 +1,9 @@
 /* eslint-disable max-len */
 import pizza from '../public/assets/pizza.png';
 
-import Banner1 from '../public/assets/banners/11.jpeg';
-import Banner2 from '../public/assets/banners/11.jpeg';
-import Banner3 from '../public/assets/banners/11.jpeg';
+import Banner1 from '../public/assets/banners/1.jpg';
+import Banner2 from '../public/assets/banners/2.jpg';
+import Banner3 from '../public/assets/banners/wood.png';
 export const B1 = Banner1;
 export const B2 = Banner2;
 export const B3 = Banner3;
