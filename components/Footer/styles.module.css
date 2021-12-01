@@ -31,6 +31,7 @@
     align-items:center;
     height:40px;
     padding:10px;
+    text-align:center !important;
 }
 
 @media (max-width: 1055px) {
@@ -55,8 +56,9 @@
         margin-top: 200px !important;
         padding-left:15px !important;
         padding-right:15px !important;
-        margin-left: 20px !important;
-        margin-right: 20px !important;
+        display:flex !important;
+        justify-content: center;
+        align-items: center;
     }
 }
 

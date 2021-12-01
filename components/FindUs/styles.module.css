@@ -70,6 +70,10 @@
         padding-right:0px;
     }
 
+    .leftContainer iframe{
+        height: 300px;
+    }
+
     .rightContainer{
         display:block;
         margin-left: auto;

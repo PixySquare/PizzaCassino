@@ -1,13 +1,20 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect, useState} from 'react';
 // import styles from './styles.module.css'
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import {Carousel} from 'react-responsive-carousel';
 import Image from '../../common/Image';
 import {B1, B2, B3} from '../../data';
+import PropTypes from 'prop-types';
+
 
 export default class DemoCarousel extends Component {
+
+  static propTypes = {
+    height: PropTypes.number.isRequired,
+  }
+
   render() {
-    const height = 400;
+    const height = this.props.height;
     const width = 1050;
     return (
       <div className="carousel-wrapper" style={{marginTop: 80}}>

@@ -45,6 +45,7 @@
 @media (max-width: 800px) {
     .wrapper{
         flex-direction: column-reverse;
+        margin-bottom:50px;
     }
 
     .rightContainer{

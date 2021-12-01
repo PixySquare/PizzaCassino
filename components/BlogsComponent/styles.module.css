@@ -22,6 +22,10 @@
         
     }
 
+    .wrapper{
+        margin-bottom:50px;
+    }
+
     .wrapper p{
         width:100% !important;
     }

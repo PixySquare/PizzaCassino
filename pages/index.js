@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React, {Component} from 'react';
 // import styles from '../styles/Home.module.css';
 import Header from '../components/Header';
-import Carousel from '../components/Carousel';
+import CarouselCover from '../components/CarouselCover';
 import AboutUs from '../components/AboutUs';
 import Footer from '../components/Footer';
 import FindUs from '../components/FindUs';
@@ -20,7 +20,7 @@ export default class Home extends Component {
            located in Dwarka Mor, Delhi" />
         </Head>
         <Header/>
-        <Carousel/>
+        <CarouselCover/>
         <Menu/>
         <AboutUs/>
         <BlogsComponent/>

@@ -11,7 +11,7 @@ function MenuCard({src, title, info, price}) {
       </div>
       <div className={styles.info} style={{width: '100%'}}>
         <div style={{display: 'flex',
-          justifyContent: 'space-between', color: '#F2C94C', width: '100%'}}>
+          justifyContent: 'center', color: '#F2C94C', width: '100%'}}>
           <h2>{title}</h2>
           {price === undefined || price === null ?
            null : (<h2>{'$' + price}</h2>) }

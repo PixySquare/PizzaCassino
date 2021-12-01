@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import styles from './styles.module.css';
 import PhoneIcon from '@mui/icons-material/Phone';
 import MailIcon from '@mui/icons-material/Mail';
@@ -6,6 +6,17 @@ import MailIcon from '@mui/icons-material/Mail';
 import Icon from '../../public/assets/Header_Icon.png';
 import Image from 'next/image';
 function Footer() {
+  const [text, setText] =
+  useState('PizzaCassino © 2021 || Designed and Developed by PixySquare');
+  const [text2, setText2] = useState('');
+  useEffect(()=> {
+    if (process.browser) {
+      if (window.innerWidth < 800) {
+        setText('PizzaCassino © 2021');
+        setText2('Designed and Developed by PixySquare');
+      }
+    }
+  }, [text]);
   return (
     <div className={styles.footer}>
       <div className={styles.upperFooter}>
@@ -36,7 +47,10 @@ function Footer() {
         </div>
       </div>
       <div className={styles.bottom} >
-                  PizzaCassino © 2021 || Designed and Developed by PixySquare
+        {text}
+        <br/>
+        <br/>
+        {text2}
       </div>
     </div>
   );
