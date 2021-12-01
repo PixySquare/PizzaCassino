@@ -4,6 +4,9 @@
     margin-left: auto;
     margin-right: auto;
     padding:10px;
+    padding-top:0px !important;
+    margin-top: 0px !important;
+
 }
 
 .wrapper{
@@ -20,6 +23,8 @@
     width: 50%;
     height:100%;
     /* padding:30px; */
+    padding-top:0px !important;
+    margin-top: 0px !important;
     text-align: left;
     color:#fff;
     display: flex;
@@ -32,23 +37,14 @@
 .rightContainer{
     text-align: center;
     width: 50%;
+    padding-top:0px !important;
+    margin-top: 0px !important;
     height:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding:30px;
-    /* 
-    height:100%;
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.10)),url("../../public/assets/dough.png");
-    padding:30px;
-    text-align: center;
-    color:#fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right:auto; */
 }
 
 
@@ -80,6 +76,14 @@
         margin-right: auto;
         width: 100%;
         margin: 10px;
+    }
+
+    .h1{
+        font-size:22px
+    }
+
+    .hr{
+        width: 80% !important;
     }
 
 
