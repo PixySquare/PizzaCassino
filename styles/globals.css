@@ -67,3 +67,30 @@ a {
   background-repeat: repeat;
   background-repeat: repeat-y;
 } */
+
+
+@media (max-width: 1055px) {
+  .buttonYellow{
+    border:2px solid #F2C94C;
+    color:#F2C94C;
+    width:max-content;
+    min-width:175px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color:#fff; */
+    text-align: center;
+    display: flex !important;
+    border: 2px solid #F2C94C !important;
+    text-decoration: none;
+    align-items: center ;
+    justify-content: center;
+    display: inline-block;
+    outline: none;
+    color:#F2C94C !important;
+    background: linear-gradient(to left, #000 50%, #F2C94C 50%) right!important;
+    background-size: 200%!important;
+    transition: .3s ease-out!important;
+    cursor:pointer;
+  }
+}
