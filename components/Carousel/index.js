@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 
 function index(props) {
   const height = props.height;
-  const width = 1050;
+  const width = props.width;
   return (
     <div className="carousel-wrapper" style={{marginTop: 80}}>
       <Carousel infiniteLoop={true} interval={3000} useKeyboardArrows autoPlay
@@ -33,6 +33,7 @@ function index(props) {
 
 index.propTypes = {
   height: PropTypes.number.isRequired,
+  width: PropTypes.number.isRequired,
 
 };
 
