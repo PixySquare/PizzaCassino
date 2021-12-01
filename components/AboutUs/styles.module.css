@@ -45,7 +45,8 @@
 @media (max-width: 800px) {
     .wrapper{
         flex-direction: column-reverse;
-        margin-bottom:50px;
+        margin-bottom:10px;
+        padding-bottom: 3px;
     }
 
     .rightContainer{
@@ -55,11 +56,26 @@
     .leftContainer{
         width:100%;
         text-align:center;
-        margin-top: 50px;
+        margin-top: 30px;
         padding: 0;
     }
 
     .leftContainer p{
         width:100% !important;
+    }
+
+    .h1{
+        margin-top: 0px;
+        font-size:22px
+    }
+
+    .text{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size:13px
+    }
+
+    .hr2{
+        width:30% !important;
     }
 }

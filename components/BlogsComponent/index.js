@@ -10,11 +10,14 @@ function BlogsComponent() {
     <div className={styles.wrapper} id="blogs" style={{scrollMarginTop: 80}}>
 
       <div>
-        <h1 style={{textAlign: 'center'}}>{BlogContent.heading}</h1>
-        <hr style={{width: '45%', display: 'block', marginRight: 'auto',
+        <h1 className={styles.h1} style={{textAlign: 'center'}}>
+          {BlogContent.heading}</h1>
+        <hr className={styles.hr} style={{width: '65%', display: 'block',
+          marginRight: 'auto',
           backgroundColor: '#F24C4C', borderColor: '#F24C4C'}} />
-        <p style={{width: '80%', textAlign: 'center', marginLeft: 'auto',
-          marginRight: 'auto'}}>{BlogContent.description}</p>
+        <p className={styles.text}
+          style={{width: '80%', textAlign: 'center', marginLeft: 'auto',
+            marginRight: 'auto'}}>{BlogContent.description}</p>
         <br />
         <div className={styles.featured}>
           {BlogContent.Blogs.map((item) => {

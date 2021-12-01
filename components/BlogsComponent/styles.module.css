@@ -29,5 +29,17 @@
     .wrapper p{
         width:100% !important;
     }
+
+    .h1{
+        font-size:22px
+    }
+
+    .hr{
+        width: 100% !important;
+    }
+
+    .text{
+        font-size:13px;
+    }
 }
 

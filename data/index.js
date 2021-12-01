@@ -36,7 +36,7 @@ import whitesaucepastaVertical
 import peppypaneerBlog from '../public/assets/menu/peppy_paneer_crop.jpg';
 
 
-export const aboutusContent = 'As our tagline says \'Get closer to what you love\' here at Pizza cassino we promise to savour your soul. We take you one step closer to the phrase \'heaven in the mouth\'. We deliver theawesomeness of food on your plates with a delicate touch of love. We are not only a place to drop inand get your morning cup of coffee but also to sit down and enjoy the mouth-watering dishes. We offer a delicious variety of everything spicy and sweet. We look forward to serving you our best menu in town! Pizza Cassino also takes great care of hygiene.';
+export const aboutusContent = ' As our tagline says \' Get closer to what you love \' here at Pizza cassino we promise to savour your soul. We take you one step closer to the phrase \'heaven in the mouth\'. We deliver the awesomeness of food on your plates with a delicate touch of love. We are not only a place to drop inand get your morning cup of coffee but also to sit down and enjoy the mouth-watering dishes. We offer a delicious variety of everything spicy and sweet. We look forward to serving you our best menu in town! Pizza Cassino also takes great care of hygiene.';
 
 export const MenuContent = {
   heading: 'OUR SPECIALITIES',
