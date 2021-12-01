@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import '../styles/globals.css';
 import React from 'react';
-import LoadingScreen from '../components/loadingScreen';
+import LoadingScreen from '../common/Loading';
 
 
 function MyApp({Component, pageProps}) {
