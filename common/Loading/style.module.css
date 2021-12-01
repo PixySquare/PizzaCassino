@@ -8,6 +8,19 @@
     /* margin: -25px 0 0 -25px; */
 }
 
+
+
+@media (max-width: 1055px) {
+    .parent {
+        height: 70%;
+        width: 70%;
+        position: absolute;
+        top: 30%;
+        left: 17%;
+        /* margin: -25px 0 0 -25px; */
+    }
+}
+
 .wave {
     animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
     animation-duration: 2.5s; /* Change to speed up or slow down */
@@ -51,7 +64,6 @@
     animation-iteration-count: infinite;
     transform-origin: 325.4px calc(159.8px - 105px);
     display: block;
-    fill:brown
 }
 
 @keyframes pizza_translate_animation {
