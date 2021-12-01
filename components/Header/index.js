@@ -43,7 +43,7 @@ function Header() {
     <div className={styles.header} >
       <div className={styles.logoDiv} style={{display: 'flex',
         flexDirection: 'row', alignItems: 'center', flex: 0.3}}>
-        <div style={{minWidth: 40}}>
+        <div style={{minWidth: 20}}>
           <Image className={styles.image} src={Icon} alt={'title'} />
         </div>
         <Link href='/' passHref onClick={(e) => {

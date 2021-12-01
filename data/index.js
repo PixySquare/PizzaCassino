@@ -31,10 +31,8 @@ import Espresso from '../public/assets/espresso.jpg';
 import P1 from '../public/assets/teampic.png';
 
 
-import whitesaucepastaVertical
-  from '../public/assets/menu/white_sauce_pasta_vertical.jpg';
-import peppypaneerBlog from '../public/assets/menu/peppy_paneer_crop.jpg';
-
+import peppypaneerBlog from '../public/assets/blogs/peppyPaneer.jpg';
+import costycassinoBlog from '../public/assets/blogs/costyCassino.jpg';
 
 export const aboutusContent = ' As our tagline says \' Get closer to what you love \' here at Pizza cassino we promise to savour your soul. We take you one step closer to the phrase \'heaven in the mouth\'. We deliver the awesomeness of food on your plates with a delicate touch of love. We are not only a place to drop inand get your morning cup of coffee but also to sit down and enjoy the mouth-watering dishes. We offer a delicious variety of everything spicy and sweet. We look forward to serving you our best menu in town! Pizza Cassino also takes great care of hygiene.';
 
@@ -74,12 +72,12 @@ export const BlogContent = {
       'name': 'Who doesn\'t love cheddar...',
     },
     {
-      'image': whitesaucepastaVertical,
+      'image': greatSalad,
       'name': 'Penne pasta loaded with...',
       'description': '',
     },
     {
-      'image': bananaSmoothie,
+      'image': costycassinoBlog,
       'name': 'A healthy replacement of beverage...',
       'description': '',
     },
@@ -447,7 +445,7 @@ export const Blogs = [
     'heading': 'Completely brings you the organic farm on your plate loaded with cheese to quench your appetite. The fresh crispy vegetables will be a delight for everyone who are eyeing for a veg pizza. With the toppings at its best you will definitely fall in love with the farmhouse pizza. The succulent mushrooms and crispy capsicum are definitely an eye candy. ',
   },
   {
-    'image': whitesaucepastaVertical,
+    'image': greatSalad,
     'heading': 'Penne pasta loaded with mozzarella cheese, cheddar cheese and white sauce with a dash of black olive is a delicate starter, to begin with. The rich creamy sauce is mouth-watering at its best. The creaminess of the pasta will fill your mouth in one bite that you will crave for more. ',
   },
   {

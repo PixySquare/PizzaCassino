@@ -11,8 +11,9 @@ function FeaturedBlog(props) {
     <Link href="/blogs" passHref >
       <div className={styles.wrapper} style={{scrollMarginTop: 100}}>
         <Image src={props.data.image} alt="image" />
-        <p style={{fontSize: 25, color: '#F2C94C'}}>{props.data.name}</p>
-        <p>{props.data.description}</p>
+        <p className={styles.text}
+          style={{fontSize: 25, color: '#F2C94C'}}>{props.data.name}</p>
+        <p >{props.data.description}</p>
       </div>
     </Link>
   );

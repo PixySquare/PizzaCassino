@@ -3,7 +3,9 @@
     display:block;
     margin-left: auto;
     margin-right: auto;
-    padding:30px;
+    padding:10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 .featured
 {
@@ -19,11 +21,13 @@
 @media (max-width: 800px) {
     .featured{
         flex-direction: column !important;
+        margin: 0px !important;
+        padding: 0px !important;
         
     }
 
     .wrapper{
-        margin-bottom:50px;
+        margin-bottom:20px;
     }
 
     .wrapper p{
