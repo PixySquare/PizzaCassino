@@ -12,7 +12,7 @@ function Footer() {
   useEffect(()=> {
     if (process.browser) {
       if (window.innerWidth < 800) {
-        setText('PizzaCassino © 2021');
+        setText('PizzaCassino © 2021 || ');
         setText2('Designed and Developed by PixySquare');
       }
     }
@@ -48,8 +48,6 @@ function Footer() {
       </div>
       <div className={styles.bottom} >
         {text}
-        <br/>
-        <br/>
         {text2}
       </div>
     </div>

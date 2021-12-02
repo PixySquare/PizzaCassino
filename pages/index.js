@@ -7,7 +7,7 @@ import AboutUs from '../components/AboutUs';
 import Footer from '../components/Footer';
 import FindUs from '../components/FindUs';
 import BlogsComponent from '../components/BlogsComponent';
-import OurTeam from '../components/OurTeam';
+// import OurTeam from '../components/OurTeam';
 import Menu from '../components/Menu';
 import Testimonials from '../components/Testimonials';
 export default class Home extends Component {
@@ -25,9 +25,7 @@ export default class Home extends Component {
         <AboutUs/>
         <BlogsComponent/>
         <FindUs/>
-        <OurTeam/>
-        <br />
-        <br />
+        {/* <OurTeam/> */}
         <br />
         <Testimonials/>
         <Footer/>

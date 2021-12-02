@@ -14,17 +14,14 @@ function FindUs() {
         style={{width: '45%', display: 'block', marginRight: 'auto',
           marginLeft: 'auto', backgroundColor: '#F24C4C',
           borderColor: '#F24C4C'}} />
+      <p className={styles.text}
+        style={{width: '80%', textAlign: 'center', marginLeft: 'auto',
+          marginRight: 'auto'}}>{FindUsContent.text}</p>
       <div className={styles.wrapper}>
-        <div className={styles.rightContainer}>
-          <span style={{display: 'flex', alignItems: 'center',
-            justifyContent: 'center'}}>
-            <RoomIcon fontSize="large" style={{marginRight: 10}}/>
-            <h4>{FindUsContent.location1.locationtext}</h4></span>
-          <span style={{display: 'flex', alignItems: 'center',
-            justifyContent: 'center'}}>
-            <PhoneIcon fontSize="large" style={{marginRight: 10}}/>
-            <h4>{FindUsContent.location1.contact}</h4></span>
-
+        <div className={styles.leftContainer}>
+          <iframe src={FindUsContent.location1.location} width="100%"
+            height="450" style={{border: 0}} allowFullScreen=""
+            loading="lazy"></iframe>
         </div>
 
         <div className={styles.leftContainer}>
@@ -34,7 +31,7 @@ function FindUs() {
         </div>
       </div>
 
-      <div className={styles.wrapper} id="contact">
+      {/* <div className={styles.wrapper} id="contact">
         <div className={styles.leftContainer}>
           <iframe src={FindUsContent.location1.location} width="100%"
             height="450" style={{border: 0}} allowFullScreen=""
@@ -52,7 +49,7 @@ function FindUs() {
               style={{marginRight: 10}}/>
             <h4>{FindUsContent.location2.contact}</h4></span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

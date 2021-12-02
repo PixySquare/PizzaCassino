@@ -86,6 +86,7 @@ export const BlogContent = {
 
 export const FindUsContent = {
   heading: 'FIND US HERE',
+  text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
   location1: {
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     locationtext: 'lorem Ipsum',
@@ -359,20 +360,20 @@ export const Testimonials = [
     Writer: 'Srishti Jain',
 
   },
+  // {
+  //   Rating: 13,
+  //   Comment: 'There\'s so many \'meh\' quality pizza places around that it can be difficult to weed out the good from the bad. If you\'re looking for great pizza look no further than Costy  casino they\'ve got the best pizza in the town. ',
+  //   Writer: 'Jasmine Kaur',
+
+  // },
   {
     Rating: 13,
-    Comment: 'There\'s so many \'meh\' quality pizza places around that it can be difficult to weed out the good from the bad. If you\'re looking for great pizza look no further than Costy  casino they\'ve got the best pizza in the town. ',
-    Writer: 'Jasmine Kaur',
-
-  },
-  {
-    Rating: 14,
     Comment: 'Best pizza and pasta around. Fresh vegetables are fabulous and staff is always friendly. ',
     Writer: 'Drishti Jain',
 
   },
   {
-    Rating: 15,
+    Rating: 14,
     Comment: 'Awesome pizza crust with fresh ingredients I had the farm house pizza was amazing for my taste buds.',
     Writer: 'Devi Sri Charan',
 

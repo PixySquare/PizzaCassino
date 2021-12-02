@@ -1,7 +1,7 @@
 .wrapper{
     display:flex;
-    padding:20px;
-    padding-top:100px;
+    /* padding:20px; */
+    padding-top:60px;
     font-size: 150%;
     width:90%;
     margin-left:auto !important;
@@ -94,6 +94,7 @@
 
     .wrapper{
         font-size: 120%;
+        width:100%;
     }
 }
 

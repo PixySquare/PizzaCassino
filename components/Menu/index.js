@@ -15,8 +15,8 @@ function Menu() {
         style={{width: '80%', textAlign: 'center', marginLeft: 'auto',
           marginRight: 'auto'}}>{MenuContent.description}</p>
       <br />
-      <MenuComponent data={MenuContent.SpecialMenu}/>
-
+      <MenuComponent data={MenuContent.SpecialMenu}
+        className={styles.wrapper2}/>
       <div className="buttonYellow">
         <Link href="/menu" passHref><p style={{textAlign: 'center'}}>
             View More</p></Link>

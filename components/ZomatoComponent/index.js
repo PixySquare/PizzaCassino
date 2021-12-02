@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 function ZomatoComponent() {
   return (
     <div className={styles.wrapper}>
-      <p style={{textAlign: 'left', width: '60%', marginRight: 20}}>
+      <p style={{textAlign: 'left', width: '70%', marginRight: 20}}>
           We Are Available At</p>
       <div style={{display: 'flex', flexDirection: 'row'}}>
         <div className={styles.zomatoButton}>

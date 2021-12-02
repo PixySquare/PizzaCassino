@@ -15,9 +15,9 @@ function BlogsPage() {
         <ZomatoComponent/>
       </div>
       <div className={styles.mainContent}>
-        <h1 style={{textAlign: 'center'}}>Blogs</h1>
-        <hr style={{width: '10%', display: 'block', marginRight: 'auto',
-          marginLeft: 'auto', backgroundColor: '#F24C4C',
+        <h1 className={styles.h1} style={{textAlign: 'center'}}>Blogs</h1>
+        <hr style={{width: '30%', display: 'block', marginRight: 'auto',
+          marginLeft: 'auto', marginBottom: '20px', backgroundColor: '#F24C4C',
           borderColor: '#F24C4C'}}/>
 
         <PageBlog inverse={false} heading={Blogs[0].heading}
@@ -25,6 +25,12 @@ function BlogsPage() {
         <PageBlog inverse={true} heading={Blogs[1].heading}
           text={Blogs[1].text} image={Blogs[1].image}/>
         <PageBlog inverse={false} heading={Blogs[2].heading}
+          text={Blogs[2].text} image={Blogs[2].image}/>
+        <PageBlog inverse={true} heading={Blogs[0].heading}
+          text={Blogs[0].text} image={Blogs[0].image}/>
+        <PageBlog inverse={false} heading={Blogs[1].heading}
+          text={Blogs[1].text} image={Blogs[1].image}/>
+        <PageBlog inverse={true} heading={Blogs[2].heading}
           text={Blogs[2].text} image={Blogs[2].image}/>
       </div>
       <Footer/>

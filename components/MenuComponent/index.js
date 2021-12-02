@@ -6,7 +6,8 @@ import PropTypes from 'prop-types';
 
 function MenuComponent(props) {
   return (
-    <div className={styles.wrapper}>
+    // eslint-disable-next-line react/prop-types
+    <div className={props.className}>
 
       <div className={styles.menuFlex}>
 
