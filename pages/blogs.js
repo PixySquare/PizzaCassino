@@ -19,7 +19,7 @@ function BlogsPage() {
         <hr style={{width: '30%', display: 'block', marginRight: 'auto',
           marginLeft: 'auto', marginBottom: '20px', backgroundColor: '#F24C4C',
           borderColor: '#F24C4C'}}/>
-
+        <div style={{marginTop:50}}>
         <PageBlog inverse={false} heading={Blogs[0].heading}
           text={Blogs[0].text} image={Blogs[0].image}/>
         <PageBlog inverse={true} heading={Blogs[1].heading}
@@ -32,6 +32,7 @@ function BlogsPage() {
           text={Blogs[1].text} image={Blogs[1].image}/>
         <PageBlog inverse={true} heading={Blogs[2].heading}
           text={Blogs[2].text} image={Blogs[2].image}/>
+          </div>
       </div>
       <Footer/>
     </div>

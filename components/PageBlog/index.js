@@ -8,10 +8,10 @@ export default function PageBlog(props) {
   return (
     <div className={styles.container} style={{flexDirection: flexDirection}}>
       <div className={styles.imgContainer}
-        style={{width: '20%', height: '40%'}}>
+        style={{width: '40%', height: '40%'}}>
         <Image src={props.image} alt="image"/>
       </div>
-      <div className={styles.textContainer} style={{padding: 30, width: '40%'}}>
+      <div className={styles.textContainer} style={{padding: 30, width: '60%'}}>
         <p style={{fontSize: '20px', color: '#F2C94C'}}>{props.heading}</p>
         <p>
           {props.text}

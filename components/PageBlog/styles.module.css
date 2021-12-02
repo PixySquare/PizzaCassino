@@ -1,6 +1,7 @@
 .container{
+    /* margin-top:20px; */
     display: flex;
-    width:90%;
+    width:70%;
     margin-left:auto;
     margin-right:auto;
     margin-bottom:50px;
@@ -27,7 +28,7 @@
     }
 
     .imgContainer{
-        width:70% !important;
+        width:100% !important;
         display: block !important;
         margin-left:auto !important;
         margin-right:auto !important;
@@ -35,6 +36,12 @@
     .textContainer{
         width:100% !important;
         text-align:center !important;
+        padding: 0px !important;
+        padding-top:30px;
+    }
+
+    .textContainer p{
+        font-size:18px !important;
     }
     .buttonYellow{
         margin-left: auto !important;
