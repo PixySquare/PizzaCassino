@@ -32,11 +32,21 @@
 }
 
 @media (max-width: 1055px) {
+
+    .logoHeading {
+        display:none;
+    }
+
     .upperFooter{
         width:100% !important;
-        flex-direction: column !important;
+        flex-direction: row !important;
         margin-bottom: 0px;
+        max-height:fit-content;
     }
+
+    /* .logoDiv{
+        width:50% !important;
+    } */
 
     .info{
         margin-left: auto!important;
@@ -51,7 +61,7 @@
     }
     .bottom{
         font-size: 11px;
-        margin-top: 200px !important;
+        /* margin-top: 200px !important; */
         padding-left:15px !important;
         padding-right:15px !important;
         display:flex !important;
