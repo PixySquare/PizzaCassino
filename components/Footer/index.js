@@ -20,8 +20,8 @@ function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.upperFooter}>
-        <div className={styles.logoDiv}>
-          <Image src={Icon} height="100" width="100" alt={'Image'}/>
+        <div className={styles.logoDiv} style={{minWidth: 70}}>
+          <Image src={Icon} alt={'Image'}/>
           <h1 className={styles.logoHeading} style={{marginLeft: 30}}>
             Pizza Cassino</h1>
         </div>
