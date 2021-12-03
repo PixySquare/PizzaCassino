@@ -16,6 +16,7 @@ import chickendominatorPizza
 
 import redsaucePasta from '../public/assets/menu/red_sauce_pasta.jpg';
 import whitesaucePasta from '../public/assets/menu/white_sauce_pasta.jpg';
+import farmhousePizza2 from '../public/assets/menu/farmhousePizza.jpg';
 
 import jalapenogarlicBread
   from '../public/assets/menu/jalapeno_garlic_bread.jpg';
@@ -30,7 +31,7 @@ import Espresso from '../public/assets/espresso.jpg';
 
 import P1 from '../public/assets/teampic.png';
 
-
+import cheeseStuff from '../public/assets/blogs/cheeseStuff.jpg';
 import peppypaneerBlog from '../public/assets/blogs/peppyPaneer.jpg';
 import costycassinoBlog from '../public/assets/blogs/costyCassino.jpg';
 
@@ -41,17 +42,17 @@ export const MenuContent = {
   description: 'Explore the wide range of pizza baked in fresh dough and vegetables. Our pizza will tempt all your excitement and senses. Made with a delicate balance of everything cheesy and spicy, you will get to savour the best pizza in town.',
   SpecialMenu: [
     {
-      'image': peppypaneerPizza,
+      'image': peppypaneerBlog,
       'name': 'Peppy Paneer Pizza',
       'description': 'Peppy paneer is a spicy assortment of red paprika, crispy capsicum mingled with the soft and fresh paneer.The tandoori sauce in the base and loaded with cheese makes it a favourite of everyone.',
     },
     {
-      'image': farmhousePizza,
+      'image': farmhousePizza2,
       'name': 'Farm House Pizza',
       'description': 'Loaded with a remarkable combination of veggies, fresh tomatoes, enormous mushrooms, chopped onion and crispy capsicum. Farm house pizza will leave your mouth with a taste of the organic farm. ',
     },
     {
-      'image': cheesestuffBread,
+      'image': cheeseStuff,
       'name': 'Cheese Stuff',
       'description': 'The name itself is bait for all the cheese lovers in the town. This cheese stick is a cheesy assortment of mozzarella cheese, cheddar cheese loaded with a combination of minced fresh veggies.',
     },
@@ -72,7 +73,7 @@ export const BlogContent = {
       'name': 'Who doesn\'t love cheddar...',
     },
     {
-      'image': greatSalad,
+      'image': cheeseStuff,
       'name': 'Penne pasta loaded with...',
       'description': '',
     },
