@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import styles from './styles.module.css';
 
 function ZomatoComponent() {
@@ -13,8 +13,9 @@ function ZomatoComponent() {
   }, [text]);
   return (
     <div className={styles.wrapper}>
-      <p style={{whiteSpace:"nowrap",textAlign: 'left', width: '100%', marginRight: 20}}>
-          {text}</p>
+      <p style={{whiteSpace: 'nowrap', textAlign: 'left',
+        width: '100%', marginRight: 20}}>
+        {text}</p>
       <div style={{display: 'flex', flexDirection: 'row'}}>
         <div className={styles.zomatoButton}>
           <a href={'http://zomato.com'}>ZOMATO</a>
