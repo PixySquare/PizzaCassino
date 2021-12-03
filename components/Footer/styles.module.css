@@ -49,13 +49,14 @@
     } */
 
     .info{
-        margin-left: auto!important;
-        width:90%;
+        /* margin-right: auto !important; */
+        /* margin-left: auto!important; */
+        width:100%;
         text-align: center;
-        margin-right: auto!important;
     }
     .phoneInfo{
         margin-left: auto !important;
+        margin-right: auto !important;
         /* width:100%; */
         justify-content: space-between!important;
     }
@@ -67,6 +68,18 @@
         display:flex !important;
         justify-content: center;
         align-items: center;
+    }
+
+    .contact{
+        font-size:13px
+    }
+
+    .logoDiv{
+        margin-left: 40px !important;
+    }
+
+    .info{
+        margin-left: 40px !important;
     }
 }
 

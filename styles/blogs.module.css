@@ -22,7 +22,6 @@ padding-top:180px;
 }
 
 
-
 @media (max-width: 800px) {
 
     .h1{
@@ -36,5 +35,9 @@ padding-top:180px;
         padding: 30px;
 
     }
+
+    .mainContent{
+        padding-top:120px !important;
+        }   
 }
 

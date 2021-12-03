@@ -22,16 +22,21 @@ function BlogsPage() {
         <div style={{marginTop: 50}}>
           <PageBlog inverse={false} heading={Blogs[0].heading}
             text={Blogs[0].text} image={Blogs[0].image}/>
+
           <PageBlog inverse={true} heading={Blogs[1].heading}
             text={Blogs[1].text} image={Blogs[1].image}/>
+
           <PageBlog inverse={false} heading={Blogs[2].heading}
             text={Blogs[2].text} image={Blogs[2].image}/>
-          <PageBlog inverse={true} heading={Blogs[0].heading}
-            text={Blogs[0].text} image={Blogs[0].image}/>
-          <PageBlog inverse={false} heading={Blogs[1].heading}
-            text={Blogs[1].text} image={Blogs[1].image}/>
-          <PageBlog inverse={true} heading={Blogs[2].heading}
-            text={Blogs[2].text} image={Blogs[2].image}/>
+
+          <PageBlog inverse={true} heading={Blogs[3].heading}
+            text={Blogs[3].text} image={Blogs[3].image}/>
+
+          <PageBlog inverse={false} heading={Blogs[4].heading}
+            text={Blogs[4].text} image={Blogs[4].image}/>
+
+          <PageBlog inverse={true} heading={Blogs[5].heading}
+            text={Blogs[5].text} image={Blogs[5].image}/>
         </div>
       </div>
       <Footer/>

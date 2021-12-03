@@ -3,7 +3,7 @@ import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import {Carousel} from 'react-responsive-carousel';
 import Image from '../../common/Image';
-import {B1, B2, B3} from '../../data';
+import {B1, B2} from '../../data';
 import PropTypes from 'prop-types';
 
 function index(props) {
@@ -22,10 +22,10 @@ function index(props) {
           <Image src={B2} style={{width: '20%'}} height={height} width={width}
             alt="legend 2"/>
         </div>
-        <div>
+        {/* <div>
           <Image src={B3} style={{width: '20%'}} height={height} width={width}
             alt="legend 2"/>
-        </div>
+        </div> */}
       </Carousel>
     </div>
   );

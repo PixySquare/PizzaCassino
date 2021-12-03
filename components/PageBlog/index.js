@@ -11,11 +11,9 @@ export default function PageBlog(props) {
         style={{width: '40%', height: '40%'}}>
         <Image src={props.image} alt="image"/>
       </div>
-      <div className={styles.textContainer} style={{padding: 30, width: '60%'}}>
-        <p style={{fontSize: '20px', color: '#F2C94C'}}>{props.heading}</p>
-        <p>
-          {props.text}
-        </p>
+      <div className={styles.textContainer} style={{padding: 30, width: '80%'}}>
+        <p style={{color: '#F2C94C'}}>
+          {props.heading}</p>
         <br/>
         <div className={styles.buttonYellow}
           style={{marginLeft: '0', marginTop: 20}}>

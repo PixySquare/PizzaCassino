@@ -32,7 +32,7 @@ function Footer() {
             alignItems: 'center', justifyContent: 'center',
             fontSize: '120%', marginRight: 'auto'}}>
             <PhoneIcon fontSize="large"/>
-            <div style={{padding: 20}}>
+            <div style={{padding: 20}} className={styles.contact}>
                             +91 123-345-678
               <br/>
                             +91 987-345-678
@@ -41,7 +41,7 @@ function Footer() {
           <div style={{display: 'flex', alignItems: 'center',
             justifyContent: 'center', fontSize: '120%'}}>
             <MailIcon fontSize="large"/>
-            <div style={{padding: 20}}>
+            <div style={{padding: 20}} className={styles.contact}>
                             mail@gmail.com
             </div>
           </div>

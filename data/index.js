@@ -3,10 +3,10 @@ import pizza from '../public/assets/pizza.png';
 
 import Banner1 from '../public/assets/banners/1.jpg';
 import Banner2 from '../public/assets/banners/2.jpg';
-import Banner3 from '../public/assets/banners/wood.png';
+// import Banner3 from '../public/assets/banners/wood.png';
 export const B1 = Banner1;
 export const B2 = Banner2;
-export const B3 = Banner3;
+// export const B3 = Banner3;
 
 import farmhousePizza from '../public/assets/menu/farm_house_pizza.jpg';
 import peppypaneerPizza from '../public/assets/menu/peppy_paneer_pizza.jpg';
@@ -20,6 +20,10 @@ import farmhousePizza2 from '../public/assets/menu/farmhousePizza.jpg';
 
 import jalapenogarlicBread
   from '../public/assets/menu/jalapeno_garlic_bread.jpg';
+
+import jalapenogarlicBread2
+  from '../public/assets/menu/jalapeno_garlic_bread2.jpg';
+
 import cheesestuffBread from '../public/assets/menu/cheese_stuff_bread.jpg';
 
 import greatSalad from '../public/assets/menu/great_salad.jpg';
@@ -57,7 +61,7 @@ export const MenuContent = {
       'description': 'The name itself is bait for all the cheese lovers in the town. This cheese stick is a cheesy assortment of mozzarella cheese, cheddar cheese loaded with a combination of minced fresh veggies.',
     },
     {
-      'image': jalapenogarlicBread,
+      'image': jalapenogarlicBread2,
       'name': 'Jalapeno Garlic Bread',
       'description': 'There is no other stunning way to start your meal than garlic bread topped with grated cheese. The filling is done with garlic stick mixed with jalapeno, sweet corn and mozzarella cheese.',
     },
@@ -447,11 +451,23 @@ export const Blogs = [
     'heading': 'Completely brings you the organic farm on your plate loaded with cheese to quench your appetite. The fresh crispy vegetables will be a delight for everyone who are eyeing for a veg pizza. With the toppings at its best you will definitely fall in love with the farmhouse pizza. The succulent mushrooms and crispy capsicum are definitely an eye candy. ',
   },
   {
-    'image': greatSalad,
+    'image': costycassinoBlog,
     'heading': 'Penne pasta loaded with mozzarella cheese, cheddar cheese and white sauce with a dash of black olive is a delicate starter, to begin with. The rich creamy sauce is mouth-watering at its best. The creaminess of the pasta will fill your mouth in one bite that you will crave for more. ',
   },
   {
-    'image': bananaSmoothie,
+    'image': farmhousePizza2,
+    'heading': 'A healthy replacement of beverage for you. It nourishes you with fresh ingredients to energise your body. Banana smoothie has everything organic and rich in protein for you to get your boost of energy. ',
+  },
+  {
+    'image': jalapenogarlicBread2,
+    'heading': 'Completely brings you the organic farm on your plate loaded with cheese to quench your appetite. The fresh crispy vegetables will be a delight for everyone who are eyeing for a veg pizza. With the toppings at its best you will definitely fall in love with the farmhouse pizza. The succulent mushrooms and crispy capsicum are definitely an eye candy. ',
+  },
+  {
+    'image': cheeseStuff,
+    'heading': 'Penne pasta loaded with mozzarella cheese, cheddar cheese and white sauce with a dash of black olive is a delicate starter, to begin with. The rich creamy sauce is mouth-watering at its best. The creaminess of the pasta will fill your mouth in one bite that you will crave for more. ',
+  },
+  {
+    'image': Espresso,
     'heading': 'A healthy replacement of beverage for you. It nourishes you with fresh ingredients to energise your body. Banana smoothie has everything organic and rich in protein for you to get your boost of energy. ',
   },
 ];

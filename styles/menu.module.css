@@ -27,7 +27,7 @@
 
 
 .mainContent{
-    padding-top:170px;
+    padding-top:200px;
 }
 
 
@@ -45,5 +45,10 @@
         height:120px;
 
     }
+
+    .mainContent{
+        padding-top:140px;
+        }
+    
 }
 
