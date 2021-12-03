@@ -1,9 +1,9 @@
 .container{
     width: 100vw;
     background-size: cover;
-    height:170px;
+    height:150px;
     /* background-Image style={{borderRadius:20}}:linear-gradient(to bottom, rgba(31, 31, 31, 0.10), rgba(0, 0, 0, 1.0)),url("../public/assets/wood.png"); */
-    padding:30px;
+    padding:00px;
     text-align: center;
     background-color: #000;
     color:#fff;
@@ -23,12 +23,14 @@ padding-top:180px;
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 
     .h1{
         font-size:22px;
         padding-bottom:0px;
         margin-bottom:0px;
+        margin-top:0px;
+        padding-top: 0px;
     }
 }
 
