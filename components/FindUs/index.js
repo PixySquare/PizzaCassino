@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
-import PhoneIcon from '@mui/icons-material/Phone';
-import RoomIcon from '@mui/icons-material/Room';
+// import PhoneIcon from '@mui/icons-material/Phone';
+// import RoomIcon from '@mui/icons-material/Room';
 import {FindUsContent} from '../../data';
 
 function FindUs() {
