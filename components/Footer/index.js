@@ -33,9 +33,9 @@ function Footer() {
             fontSize: '120%', marginRight: 'auto'}}>
             <PhoneIcon fontSize="large"/>
             <div style={{padding: 20}} className={styles.contact}>
-                            +91 123-345-678
+                            8587809303
               <br/>
-                            +91 987-345-678
+                            8059075105
             </div>
           </div>
           <div style={{display: 'flex', alignItems: 'center',
