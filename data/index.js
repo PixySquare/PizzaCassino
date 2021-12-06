@@ -96,7 +96,7 @@ export const FindUsContent = {
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     locationtext: 'lorem Ipsum',
     contact: '0987654321',
-    location: '<https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d333.844588623942!2d76.96837167245856!3d28.60957816458644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb03359405a7f74c9!2zMjjCsDM2JzM0LjQiTiA3NsKwNTgnMDYuNyJF!5e0!3m2!1sen!2sin!4v1638710714943!5m2!1sen!2sin',
+    location: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d333.844588623942!2d76.96837167245856!3d28.60957816458644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb03359405a7f74c9!2zMjjCsDM2JzM0LjQiTiA3NsKwNTgnMDYuNyJF!5e0!3m2!1sen!2sin!4v1638710714943!5m2!1sen!2sin',
 
   },
 
