@@ -25,7 +25,7 @@ function FindUs() {
         </div>
 
         <div className={styles.leftContainer}>
-          <iframe src={FindUsContent.location1.location} width="100%"
+          <iframe src={FindUsContent.location2.location} width="100%"
             height="450" style={{border: 0}} allowFullScreen=""
             loading="lazy"></iframe>
         </div>
