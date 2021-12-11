@@ -55,7 +55,7 @@ function Header() {
           }
         }}>
           <div className={styles.brand} >
-                        PizzaCassino
+                        CassinoCafe
           </div>
         </Link>
       </div>
