@@ -42,7 +42,7 @@ function Footer() {
             justifyContent: 'center', fontSize: '120%'}}>
             <MailIcon fontSize="large"/>
             <div style={{padding: 20}} className={styles.contact}>
-                            mail@gmail.com
+                            cassinocafe@gmail.com
             </div>
           </div>
         </div>
