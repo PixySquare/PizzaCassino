@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 import PhoneIcon from '@mui/icons-material/Phone';
 import MailIcon from '@mui/icons-material/Mail';
 // import ShareIcon from '@mui/icons-material/Share';
-import Icon from '../../public/assets/Icon.svg';
+import Icon from '../../public/assets/Header_Icon.png';
 import Image from 'next/image';
 function Footer() {
   const [text, setText] =
