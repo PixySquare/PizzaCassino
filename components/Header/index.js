@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.css';
 import Link from 'next/link';
 import {useEffect, useState} from 'react';
-import Icon from '../../public/assets/Icon.svg';
+import Icon from '../../public/assets/Header_Icon.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {
   faInstagram,
