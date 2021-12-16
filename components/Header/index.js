@@ -2,13 +2,11 @@ import React from 'react';
 import styles from './styles.module.css';
 import Link from 'next/link';
 import {useEffect, useState} from 'react';
-import Image from '../../common/Image';
-import Icon from '../../public/assets/Header_Icon.png';
+import Icon from '../../public/assets/Icon.svg';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {
   faInstagram,
   faFacebook,
-  faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -43,8 +41,8 @@ function Header() {
     <div className={styles.header} >
       <div className={styles.logoDiv} style={{display: 'flex',
         flexDirection: 'row', alignItems: 'center', flex: 0.3}}>
-        <div style={{minWidth: 30}}>
-          <Image className={styles.image} src={Icon} alt={'title'} />
+        <div style={{minWidth: 50}}>
+          <img className={styles.image} src={Icon} alt={'title'} />
         </div>
         <Link href='/' passHref onClick={(e) => {
           e.preventDefault();
@@ -209,21 +207,21 @@ function Header() {
 
 
             <div className={styles.socials}>
-              <Link href={'https://www.instagram.com'}>
+              <Link href={'https://www.instagram.com/cassino.cafe/'}>
                 <a target="_blank" className={styles.nav_item}>
                   <FontAwesomeIcon icon={faInstagram} size="lg"/>
                 </a>
               </Link>
-              <Link href={'https://www.facebook.com'}>
+              <Link href={'https://www.facebook.com/cassinocafe.FB'}>
                 <a target="_blank" >
                   <FontAwesomeIcon icon={faFacebook} size="lg"/>
                 </a>
               </Link>
-              <Link href={'https://www.whatsapp.com'}>
+              {/* <Link href={'https://www.whatsapp.com'}>
                 <a target="_blank" className={styles.nav_item}>
                   <FontAwesomeIcon icon={faWhatsapp} size="lg"/>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         )}

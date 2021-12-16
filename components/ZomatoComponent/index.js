@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 function ZomatoComponent() {
   const [text, setText] =
-  useState('We Are Available At');
+  useState('');
   useEffect(()=> {
     if (process.browser) {
       if (window.innerWidth < 800) {
@@ -18,12 +18,12 @@ function ZomatoComponent() {
         {text}</p>
       <div style={{display: 'flex', flexDirection: 'row'}}>
         <div className={styles.zomatoButton}>
-          <a href={'http://zomato.com'}>ZOMATO</a>
+          <a target="_blank" href={'https://www.zomato.com/ncr/pizza-cassino-sector-14-dwarka-new-delhi/order'} rel="noreferrer">ZOMATO</a>
 
         </div>
-        <div className={styles.swiggyButton}>
-          <a href={'http://swiggy.com'}>SWIGGY</a>
-        </div>
+        {/* <div className={styles.swiggyButton}>
+          <a target="_blank" href={'http://swiggy.com'} rel="noreferrer">SWIGGY</a>
+        </div> */}
       </div>
     </div>
   );

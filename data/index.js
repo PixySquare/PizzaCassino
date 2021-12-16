@@ -8,6 +8,11 @@ export const B1 = Banner1;
 export const B2 = Banner2;
 // export const B3 = Banner3;
 
+
+import Americano from '../public/assets/menu/Americano.jpg';
+import blueLatte from '../public/assets/menu/blueLatte.jpg';
+import leamonSouffle from '../public/assets/menu/leamonSouffle.jpg';
+import mudCake from '../public/assets/menu/mudCake.jpg';
 import farmhousePizza from '../public/assets/menu/farm_house_pizza.jpg';
 import peppypaneerPizza from '../public/assets/menu/peppy_paneer_pizza.jpg';
 import costycassinoPizza from '../public/assets/menu/costy_cassino_pizza.jpg';
@@ -39,11 +44,11 @@ import cheeseStuff from '../public/assets/blogs/cheeseStuff.jpg';
 import peppypaneerBlog from '../public/assets/blogs/peppyPaneer.jpg';
 import costycassinoBlog from '../public/assets/blogs/costyCassino.jpg';
 
-export const aboutusContent = ' As our tagline says \' Get closer to what you love \' here at Pizza cassino we promise to savour your soul. We take you one step closer to the phrase \'heaven in the mouth\'. We deliver the awesomeness of food on your plates with a delicate touch of love. We are not only a place to drop inand get your morning cup of coffee but also to sit down and enjoy the mouth-watering dishes. We offer a delicious variety of everything spicy and sweet. We look forward to serving you our best menu in town! Pizza Cassino also takes great care of hygiene.';
+export const aboutusContent = '“Bringing you closer to what you love” being our motto, we try our best to bring the best food right at your table, A chic Café with a waltz between white walls and brown hardwood, we have set you a vibe for some fun time with family and friends. From the rise of the bread to the grilling of cheese, from the smell of fresh coffee to the inventive shakes, at Cassino Café we have you covered for every mood you have, any day of the week. Keeping utmost Care of food safety and hygiene, we focus all our love and skills to bring the biggest smiles on our customers’ faces.';
 
 export const MenuContent = {
   heading: 'OUR SPECIALITIES',
-  description: 'Explore the wide range of pizza baked in fresh dough and vegetables. Our pizza will tempt all your excitement and senses. Made with a delicate balance of everything cheesy and spicy, you will get to savour the best pizza in town.',
+  description: 'Explore the wide range of a la carte dishes from pizzas to coffee, from pastas to burgers, from iced teas to frappes and much more. Made from fresh vegetables, handcrafted dough and an amazing blend of herbs and spices, you will savor some of the best meals in town.',
   SpecialMenu: [
     {
       'image': peppypaneerBlog,
@@ -70,7 +75,7 @@ export const MenuContent = {
 
 export const BlogContent = {
   heading: 'CRAVING FOR MORE?',
-  description: 'Everyone craves for more when they love it, read more about your favourite Pizza place and feel delighted if not already to be a part of our valued customer community.',
+  description: 'We understand you, and with a wide range of choices to choose from, we do everything to make sure your cravings are fulfilled every single time you visit the Cassino café. ',
   Blogs: [
     {
       'image': peppypaneerBlog,
@@ -91,7 +96,7 @@ export const BlogContent = {
 
 export const FindUsContent = {
   heading: 'FIND US HERE',
-  text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+  text: 'With two Primes outlets in Najafgarh and Dwarka, Cassino Café is on our mission to give the best food and ambience to foodies and become your happy place.',
   location1: {
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
     locationtext: 'lorem Ipsum',
@@ -172,6 +177,12 @@ export const AllMenu =
     'description': 'Ground French roasted coffee beans are used induced in milk and a sugar for how much you would like it. Let’s dig deeper into the world of espresso!',
   },
   {
+    'image': Americano,
+    'name': 'Americano',
+    'price': '3',
+    'description': 'If you’re looking for a way to class-up your typical morning-drip but aren’t interested in a bunch of milk and sugar, an Americano is a great drink to add to your go-to’s. Tthis is a simple, classic drink that’s not going to let you down.',
+  },
+  {
     'image': bananaSmoothie,
     'name': 'Banana Smoothie',
     'price': '3',
@@ -183,6 +194,25 @@ export const AllMenu =
     'price': '3',
     'description': 'Comes fresh from the hills to satisfy your tea bud. Masala chai is made with saunf, ginger powder, cinnamon, nutmeg, clove, black pepper, cardamom, pinch of salt, sugar, tea leaf and fresh milk. A cup of it will freshen your soul. ',
   },
+  {
+    'image': blueLatte,
+    'name': 'Blue Latte',
+    'price': '3',
+    'description': 'This ‘Blue Moon’ Latte it’s not only enticing but also full of health benefits for our bodies. It’s a perfect way to end your day with a caffeine-free cup of latte. The special tea that is used to make this lovely latte is the butterfly pea tea.',
+  },
+  {
+    'image': mudCake,
+    'name': 'Ultimate Chocolate Mud Cake',
+    'price': '3',
+    'description': 'Made with uttermost love and the finest chocolate found... ',
+  },
+  {
+    'image': leamonSouffle,
+    'name': 'Leamon Souffle',
+    'price': '3',
+    'description': ' Baked with intentions to be pleasing to the craving that will develop as you will see this magnificent Souffle with leamon flavouring ',
+  },
+
 ];
 
 export const StartersMenu =
@@ -448,7 +478,7 @@ export const TeamList = [
 export const Blogs = [
   {
     'image': peppypaneerBlog,
-    'heading': 'Completely brings you the organic farm on your plate loaded with cheese to quench your appetite. The fresh crispy vegetables will be a delight for everyone who are eyeing for a veg pizza. With the toppings at its best you will definitely fall in love with the farmhouse pizza. The succulent mushrooms and crispy capsicum are definitely an eye candy. ',
+    'heading': 'A classic Pizza in the Indian vegetarian household, Peppy Paneer holds a special place in all of our hearts, and why wouldn’t it? With a thick bread crust baked to a crispy perfect golden brown temperature matches up with a beautiful layer of cheese and sauce only to be topped on with grilled and marinated tandoori paneer, Peppy paneer sounds like the dream love story of an Italian girl and an Indian boy, simple, beautiful and one we would watch a million more times.',
   },
   {
     'image': costycassinoBlog,
@@ -456,7 +486,7 @@ export const Blogs = [
   },
   {
     'image': farmhousePizza2,
-    'heading': 'A healthy replacement of beverage for you. It nourishes you with fresh ingredients to energise your body. Banana smoothie has everything organic and rich in protein for you to get your boost of energy. ',
+    'heading': 'Loaded with a remarkable combination of veggies, fresh tomatoes, enormous mushrooms, chopped onion and crispy capsicum. Farm house pizza will leave your mouth with a taste of the organic farm. If you weren’t already a fan of veggies on top of pizzas, the blend of these two beautiful things with the in-house sauce of Cassino café is a sure shot bet that this is going on your repeat orders for the time to come. The classic and the best in our menu, farmhouse is the no brainer choice for every pizza lover and you will never be disappointed to try it out for yourself. ',
   },
   {
     'image': jalapenogarlicBread2,
@@ -464,10 +494,10 @@ export const Blogs = [
   },
   {
     'image': cheeseStuff,
-    'heading': 'Penne pasta loaded with mozzarella cheese, cheddar cheese and white sauce with a dash of black olive is a delicate starter, to begin with. The rich creamy sauce is mouth-watering at its best. The creaminess of the pasta will fill your mouth in one bite that you will crave for more. ',
+    'heading': 'Make it because you’re sad and you need to do some emotional eating. The garlic-y perfectly crisp bread-y outsides with a molten melty cheese core will bring you so much joy. Or make it because you’re having a great day and you want to make it even better. Or make it because you want to celebrate nothing in particular and you deserve a savoury meal. Whatever your reason, you need Garlic Bread in your life. Because you deserve it. With the juicy and spicy and flavourful Jalapeño to complement it, who in this world can actually deny their heart the perfect Garlic bread. ',
   },
   {
     'image': Espresso,
-    'heading': 'A healthy replacement of beverage for you. It nourishes you with fresh ingredients to energise your body. Banana smoothie has everything organic and rich in protein for you to get your boost of energy. ',
+    'heading': 'Since you’re here, you probably already know what espresso tastes like—at least, you know that it’s a potent swallow of coffee, brewed hot and fast under pressure. It is luxuriously creamy, with a kiss of foamy crema and a lingering aftertaste. Ground French roasted coffee beans are used induced in milk and a sugar for how much you would like it. Let’s dig deeper into the world of espresso!',
   },
 ];
