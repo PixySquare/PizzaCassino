@@ -9,7 +9,7 @@ export const B2 = Banner2;
 // export const B3 = Banner3;
 
 
-import Americano from '../public/assets/menu/Americano.jpg';
+import Americano from '../public/assets/menu/americano.jpg';
 import blueLatte from '../public/assets/menu/blueLatte.jpg';
 import leamonSouffle from '../public/assets/menu/leamonSouffle.jpg';
 import mudCake from '../public/assets/menu/mudCake.jpg';
