@@ -4,6 +4,8 @@ import Link from 'next/link';
 import {useEffect, useState} from 'react';
 import Icon from '../../public/assets/Header_Icon.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import Image from 'next/image';
+
 import {
   faInstagram,
   faFacebook,
@@ -42,7 +44,8 @@ function Header() {
       <div className={styles.logoDiv} style={{display: 'flex',
         flexDirection: 'row', alignItems: 'center', flex: 0.3}}>
         <div style={{minWidth: 50}}>
-          <img className={styles.image} src={Icon} alt={'title'} />
+          <Image className={styles.image} src={Icon} alt={'Image'}/>
+
         </div>
         <Link href='/' passHref onClick={(e) => {
           e.preventDefault();

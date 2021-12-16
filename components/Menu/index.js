@@ -17,10 +17,13 @@ function Menu() {
       <br />
       <MenuComponent data={MenuContent.SpecialMenu}
         className={styles.wrapper2}/>
-      <div className="buttonYellow">
-        <Link href="/menu" passHref><p style={{textAlign: 'center'}}>
-            View More</p></Link>
-      </div>
+      <Link href="/menu" passHref>
+        <div className="buttonYellow">
+          <p style={{textAlign: 'center'}}>
+            View More
+          </p>
+        </div>
+      </Link>
     </div>
   );
 }

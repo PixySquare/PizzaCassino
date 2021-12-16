@@ -28,10 +28,13 @@ function BlogsComponent() {
           })
           }
         </div>
-        <div className="buttonYellow">
-          <Link href="/blogs" passHref><p style={{textAlign: 'center'}}>
-            View More</p></Link>
-        </div>
+        <Link href="/blogs" passHref>
+          <div className="buttonYellow">
+            <p style={{textAlign: 'center'}}>
+            View More
+            </p>
+          </div>
+        </Link>
         <br />
       </div>
     </div>
