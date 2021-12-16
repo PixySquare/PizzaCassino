@@ -7,8 +7,8 @@ import Banner2 from '../public/assets/banners/2.jpg';
 export const B1 = Banner1;
 export const B2 = Banner2;
 // export const B3 = Banner3;
-
-
+import aboutUs from '../public/assets/aboutus.jpg';
+export const aboutUS = aboutUs;
 import Americano from '../public/assets/menu/americano.jpg';
 import blueLatte from '../public/assets/menu/blueLatte.jpg';
 import leamonSouffle from '../public/assets/menu/leamonSouffle.jpg';
@@ -79,16 +79,16 @@ export const BlogContent = {
   Blogs: [
     {
       'image': peppypaneerBlog,
-      'name': 'Who doesn\'t love cheddar...',
+      'name': 'A classic Pizza in the Indian vegetarian household...',
     },
     {
       'image': cheeseStuff,
-      'name': 'Penne pasta loaded with...',
+      'name': 'Make it because you’re...',
       'description': '',
     },
     {
       'image': costycassinoBlog,
-      'name': 'A healthy replacement of beverage...',
+      'name': 'Penne pasta loaded with mozzarella cheese...',
       'description': '',
     },
   ],

@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 import dough from '../../public/assets/dough.png';
 import Image from '../../common/Image';
 import {aboutusContent} from '../../data';
-
+import {aboutUS} from '../../data';
 
 function AboutUs() {
   return (
@@ -22,7 +22,7 @@ function AboutUs() {
             backgroundColor: '#F24C4C', borderColor: '#F24C4C'}}/>
       </div>
       <div className={styles.rightContainer}>
-        <Image src={dough} alt={dough} width={325} height={275}/>
+        <Image src={aboutUS} alt={dough} width={450} height={300}/>
       </div>
     </div>
   );
