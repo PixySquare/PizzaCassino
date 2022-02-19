@@ -5,7 +5,7 @@ import {useEffect, useState} from 'react';
 import Icon from '../../public/assets/Header_Icon.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Image from 'next/image';
-
+import zomato from  "../../public/assets/logos/zomato2.png"
 import {
   faInstagram,
   faFacebook,
@@ -13,6 +13,7 @@ import {
 
 
 function Header() {
+  
   const [open, setOpen] = useState(true);
   useEffect(()=> {
     if (process.browser) {
@@ -20,6 +21,7 @@ function Header() {
         setOpen(false);
       }
     }
+    console.log(open);
   }, []);
 
   useEffect(() => {
@@ -97,7 +99,7 @@ function Header() {
                 }
               }}
             >
-              <div className={styles.nav_item}>
+              <div className={styles.nav_item} >
                             MENU
               </div>
             </a>
@@ -118,7 +120,7 @@ function Header() {
                 }
               }}
             >
-              <div className={styles.nav_item}>
+              <div className={styles.nav_item} >
                             ABOUT US
               </div>
             </a>
@@ -140,7 +142,7 @@ function Header() {
                 }
               }}
             >
-              <div className={styles.nav_item}>
+              <div className={styles.nav_item} >
                             BLOGS
               </div>
             </a>
@@ -183,7 +185,7 @@ function Header() {
                 }
               }}
             >
-              <div className={styles.nav_item}>
+              <div className={styles.nav_item} >
                             OUR TEAM
               </div>
             </a>
@@ -203,7 +205,7 @@ function Header() {
                 }
               }}
             >
-              <div className={styles.nav_item}>
+              <div className={styles.nav_item} >
                             TESTIMONY
               </div>
             </a>
@@ -211,13 +213,19 @@ function Header() {
 
             <div className={styles.socials}>
               <Link href={'https://www.instagram.com/cassino.cafe/'}>
-                <a target="_blank" className={styles.nav_item}>
+                <a target="_blank" className={styles.socialicons}>
                   <FontAwesomeIcon icon={faInstagram} size="lg"/>
                 </a>
               </Link>
               <Link href={'https://www.facebook.com/cassinocafe.FB'}>
-                <a target="_blank" >
+                <a target="_blank" className={styles.socialicons}>
                   <FontAwesomeIcon icon={faFacebook} size="lg"/>
+                </a>
+              </Link>
+              
+              <Link href={'https://www.zomato.com/ncr/pizza-cassino-1-sector-15-dwarka-new-delhi/order'}>
+                <a target="_blank" className={styles.socialicons}>
+                 <Image src={zomato} width={"28px"} height={'28px'}/>
                 </a>
               </Link>
               {/* <Link href={'https://www.whatsapp.com'}>

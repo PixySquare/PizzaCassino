@@ -44,8 +44,8 @@
   display: flex !important;
   justify-content: center;
   min-width: 120px;
-  align-items:center;
-  margin-left:auto;
+  /* align-items:center; */
+  margin-left:5vw;
 }
 
 .nav_item {
@@ -54,7 +54,9 @@
   cursor: pointer;
   width: fit-content;
 }
-
+.socialicons{
+  margin: 0 auto;
+}
 .nav_item::after {
   position: absolute;
   bottom: -6px;
@@ -148,7 +150,11 @@
     width: 100%;
     text-align: center;
   }
-
+  .nav_items {
+    margin: 1rem auto;
+    width: 100%;
+    text-align: center;
+  }
   .menu {
     position: absolute;
     display: block;
