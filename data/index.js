@@ -182,36 +182,36 @@ export const AllMenu =
     'price': '3',
     'description': 'If you’re looking for a way to class-up your typical morning-drip but aren’t interested in a bunch of milk and sugar, an Americano is a great drink to add to your go-to’s. Tthis is a simple, classic drink that’s not going to let you down.',
   },
-  {
-    'image': bananaSmoothie,
-    'name': 'Banana Smoothie',
-    'price': '3',
-    'description': 'It is healthy and a flavourful  beverage option. sliced bananas, cinnamon powder, walnuts, curd and jaggery is grounded together and nourishes you with fresh ingredients to energise your body.',
-  },
-  {
-    'image': masalaChai,
-    'name': 'Masala Chai',
-    'price': '3',
-    'description': 'Comes fresh from the hills to satisfy your tea bud. Masala chai is made with saunf, ginger powder, cinnamon, nutmeg, clove, black pepper, cardamom, pinch of salt, sugar, tea leaf and fresh milk. A cup of it will freshen your soul. ',
-  },
+  // {
+  //   'image': bananaSmoothie,
+  //   'name': 'Banana Smoothie',
+  //   'price': '3',
+  //   'description': 'It is healthy and a flavourful  beverage option. sliced bananas, cinnamon powder, walnuts, curd and jaggery is grounded together and nourishes you with fresh ingredients to energise your body.',
+  // },
+  // {
+  //   'image': masalaChai,
+  //   'name': 'Masala Chai',
+  //   'price': '3',
+  //   'description': 'Comes fresh from the hills to satisfy your tea bud. Masala chai is made with saunf, ginger powder, cinnamon, nutmeg, clove, black pepper, cardamom, pinch of salt, sugar, tea leaf and fresh milk. A cup of it will freshen your soul. ',
+  // },
   {
     'image': blueLatte,
     'name': 'Blue Latte',
     'price': '3',
     'description': 'This ‘Blue Moon’ Latte it’s not only enticing but also full of health benefits for our bodies. It’s a perfect way to end your day with a caffeine-free cup of latte. The special tea that is used to make this lovely latte is the butterfly pea tea.',
   },
-  {
-    'image': mudCake,
-    'name': 'Ultimate Chocolate Mud Cake',
-    'price': '3',
-    'description': 'Made with uttermost love and the finest chocolate found... ',
-  },
-  {
-    'image': leamonSouffle,
-    'name': 'Leamon Souffle',
-    'price': '3',
-    'description': ' Baked with intentions to be pleasing to the craving that will develop as you will see this magnificent Souffle with leamon flavouring ',
-  },
+  // {
+  //   'image': mudCake,
+  //   'name': 'Ultimate Chocolate Mud Cake',
+  //   'price': '3',
+  //   'description': 'Made with uttermost love and the finest chocolate found... ',
+  // },
+  // {
+  //   'image': leamonSouffle,
+  //   'name': 'Leamon Souffle',
+  //   'price': '3',
+  //   'description': ' Baked with intentions to be pleasing to the craving that will develop as you will see this magnificent Souffle with leamon flavouring ',
+  // },
 
 ];
 

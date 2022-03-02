@@ -7,12 +7,12 @@ import Icon from '../../public/assets/Header_Icon.png';
 import Image from 'next/image';
 function Footer() {
   const [text, setText] =
-  useState('CassinoCafe © 2021 || Designed and Developed by PixySquare');
+  useState('CassinoCafe © 2022 || Designed and Developed by PixySquare');
   const [text2, setText2] = useState('');
   useEffect(()=> {
     if (process.browser) {
       if (window.innerWidth < 800) {
-        setText('CassinoCafe © 2021 || ');
+        setText('CassinoCafe © 2022 || ');
         setText2('Designed and Developed by PixySquare');
       }
     }
@@ -33,9 +33,9 @@ function Footer() {
             fontSize: '120%', marginRight: 'auto'}}>
             <PhoneIcon fontSize="large"/>
             <div style={{padding: 20}} className={styles.contact}>
-                            8587809303
+                            9311313010
               <br/>
-                            8059075105
+                            9311227069
             </div>
           </div>
           <div style={{display: 'flex', alignItems: 'center',
